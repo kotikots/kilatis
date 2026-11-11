@@ -1,0 +1,203 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary">
+    <ion-title>
+      <div class="header-title">
+        <span>⚖️ KILATIS</span>
+        <small>"Saan Mas Mura?" Paghahambing</small>
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="compare-content ion-padding">
+
+  <!-- Market Slot Selection Card -->
+  <ion-card class="app-card markets-selection-card">
+    <ion-card-header>
+      <ion-card-subtitle class="card-subtitle-bold">
+        <ion-icon name="storefront-outline"></ion-icon> Pumili ng Palengke na Paghahambingin
+      </ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <div *ngFor="let slot of slotIndices" class="market-slot-row">
+        <div class="slot-header">
+          <span class="slot-badge" [class.slot-active]="selectedMarkets[slot]">
+            Palengke {{ slot + 1 }}
+          </span>
+          <span *ngIf="selectedMarkets[slot]" class="selected-market-name">
+            {{ selectedMarkets[slot]?.name }}
+          </span>
+          <span *ngIf="!selectedMarkets[slot]" class="unselected-slot-hint" style="font-size: 0.78rem; color: #888; font-style: italic;">
+            (Pumili ng palengke sa ibaba)
+          </span>
+        </div>
+
+        <ion-searchbar
+          [(ngModel)]="marketSearches[slot]"
+          (ionInput)="onMarketSearch(slot, $event)"
+          [placeholder]="'Maghanap ng Palengke ' + (slot + 1)"
+          [debounce]="150"
+          show-clear-button="focus"
+          (ionClear)="clearMarket(slot)">
+        </ion-searchbar>
+
+        <ion-list *ngIf="showMarketResultsList[slot] && marketResultsList[slot].length > 0" class="dropdown-list">
+          <ion-item *ngFor="let m of marketResultsList[slot]" (click)="selectMarket(slot, m)" button detail="false">
+            <ion-icon name="storefront-outline" slot="start" color="primary"></ion-icon>
+            <ion-label>
+              <h3>{{ m.name }}</h3>
+              <p>{{ m.address }}</p>
+            </ion-label>
+          </ion-item>
+        </ion-list>
+      </div>
+
+      <!-- Add more market button -->
+      <div class="add-market-row" *ngIf="numSlots < 5">
+        <ion-button fill="outline" color="primary" (click)="addSlot()">
+          <ion-icon slot="start" name="add-circle-outline"></ion-icon>
+          Dagdag na Palengke
+        </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Items Management Card -->
+  <ion-card class="app-card">
+    <ion-card-header>
+      <ion-card-subtitle class="card-subtitle-bold">
+        <ion-icon name="cart-outline"></ion-icon> Mga Panindang Ikukumpara
+      </ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <div class="load-basket-row">
+        <ion-button fill="outline" color="primary" expand="block" (click)="loadFromBasket()">
+          <ion-icon name="arrow-down-circle-outline" slot="start"></ion-icon>
+          I-load ang Paninda mula sa Basket
+        </ion-button>
+      </div>
+
+      <ion-searchbar
+        [(ngModel)]="itemSearch"
+        (ionInput)="onItemSearch($event)"
+        (search)="onItemSearchEnter()"
+        (keyup.enter)="onItemSearchEnter()"
+        (ionClear)="clearItemSearch()"
+        placeholder="Magdagdag ng paninda (hal. Tilapia, Baboy, Manok)"
+        [debounce]="100"
+        show-clear-button="focus">
+      </ion-searchbar>
+
+      <!-- Quick 1-Tap Suggestions for common staples -->
+      <div class="quick-staples-container">
+        <span class="quick-staples-label">Mabilis na idagdag:</span>
+        <div class="quick-staples-scroll">
+          <ion-chip
+            *ngFor="let staple of quickSuggestions"
+            (click)="addQuickStaple(staple)"
+            color="primary"
+            [outline]="true"
+            class="quick-staple-chip">
+            <ion-icon name="add-circle-outline"></ion-icon>
+            <ion-label>{{ staple.split('(')[0].trim() }}</ion-label>
+          </ion-chip>
+        </div>
+      </div>
+
+      <ion-list *ngIf="showItemResults && itemResults.length > 0" class="dropdown-list">
+        <ion-item *ngFor="let c of itemResults" (click)="addItem(c)" button detail="false">
+          <ion-icon [name]="c.icon" slot="start" color="primary"></ion-icon>
+          <ion-label>
+            <h3>{{ c.name }}</h3>
+            <p>{{ c.category }} · bawat {{ c.unit }}</p>
+          </ion-label>
+          <ion-note slot="end" color="success" style="font-weight: 700;">₱{{ c.suggestedRetailPrice | number:'1.2-2' }}</ion-note>
+        </ion-item>
+      </ion-list>
+
+      <!-- Active chips -->
+      <div class="active-item-chips" *ngIf="compareItems.length > 0">
+        <ion-chip *ngFor="let item of compareItems; let i = index" color="primary" [outline]="true">
+          <ion-label><strong>{{ item.commodityName }}</strong> ({{ item.quantity }} {{ item.unit }})</ion-label>
+          <ion-icon name="close-circle" (click)="removeItem(i)"></ion-icon>
+        </ion-chip>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Winner Highlight Banner -->
+  <div *ngIf="winningMarket" class="winner-banner">
+    <div class="winner-trophy">🏆</div>
+    <div class="winner-details">
+      <div class="winner-headline">PINAKAMURA SA:</div>
+      <div class="winner-name">{{ winningMarket.name }}</div>
+      <div class="winner-total">
+        Kabuuang Halaga: <strong>₱{{ winningTotal | number:'1.2-2' }}</strong>
+      </div>
+    </div>
+    <ion-button fill="solid" color="light" class="winner-map-btn" (click)="goToMarketOnMap(winningMarket!)">
+      <ion-icon name="navigate-outline" slot="start"></ion-icon>
+      Tingnan sa Mapa
+    </ion-button>
+  </div>
+
+  <!-- Comparison Side-by-Side Table -->
+  <div *ngIf="compareRows.length > 0 && getActiveMarkets().length > 0" class="table-container-card">
+    <ion-card class="app-card">
+      <ion-card-header>
+        <ion-card-title class="table-title">Talahanayan ng Presyo</ion-card-title>
+      </ion-card-header>
+      <ion-card-content class="no-padding">
+        <div class="responsive-compare-table">
+          <!-- Table Header -->
+          <div class="table-row head-row">
+            <div class="cell col-item">Paninda / Dami</div>
+            <div
+              *ngFor="let m of getActiveMarkets(); let mi = index"
+              class="cell col-market"
+              [class.col-cheapest-head]="mi === cheapestMarketIndex">
+              <div class="market-col-name">{{ m.name }}</div>
+              <ion-badge *ngIf="mi === cheapestMarketIndex" color="success" class="cheapest-badge">
+                Pinakamura
+              </ion-badge>
+            </div>
+          </div>
+
+          <!-- Table Rows -->
+          <div *ngFor="let row of compareRows" class="table-row body-row">
+            <div class="cell col-item">
+              <div class="c-name">{{ row.commodityName }}</div>
+              <div class="c-sub">{{ row.quantity }} {{ row.unit }}</div>
+            </div>
+            <div
+              *ngFor="let p of row.prices; let mi = index"
+              class="cell col-market"
+              [class.col-cheapest-cell]="mi === row.cheapestIndex">
+              <span *ngIf="p !== null" class="cell-price">₱{{ (p * row.quantity) | number:'1.2-2' }}</span>
+              <span *ngIf="p === null" class="cell-na">—</span>
+            </div>
+          </div>
+
+          <!-- Table Totals -->
+          <div class="table-row footer-row">
+            <div class="cell col-item total-col-label">KABUUAN</div>
+            <div
+              *ngFor="let total of marketTotals; let mi = index"
+              class="cell col-market total-cell"
+              [class.col-cheapest-total]="mi === cheapestMarketIndex">
+              ₱{{ total | number:'1.2-2' }}
+            </div>
+          </div>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <!-- Empty state -->
+  <div *ngIf="getActiveMarkets().length === 0 || compareRows.length === 0" class="empty-compare">
+    <ion-icon name="git-compare-outline" class="empty-icon"></ion-icon>
+    <h3>Pumili ng Palengke at Paninda</h3>
+    <p>Pumili ng hindi bababa sa 1 o 2 palengke at magdagdag ng mga bibilhin upang makita kung saang palengke higit na makakatipid.</p>
+  </div>
+
+</ion-content>

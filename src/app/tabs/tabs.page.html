@@ -1,0 +1,100 @@
+<!-- ============================================================
+  src/app/tabs/tabs.page.html
+  Root container for the tab-based navigation layout.
+  ion-tabs manages the routing between our three main pages.
+  ion-tab-bar defines the bottom navigation bar the user taps.
+============================================================ -->
+<ion-tabs>
+
+  <!-- Bottom navigation bar -->
+  <ion-tab-bar slot="bottom">
+
+    <!-- TAB 1: Dashboard - shows commodity price list -->
+    <ion-tab-button tab="dashboard">
+      <ion-icon name="pricetag-outline"></ion-icon>
+      <ion-label>Presyo</ion-label>
+    </ion-tab-button>
+
+    <!-- TAB 2: Basket - Budget & shopping calculator -->
+    <ion-tab-button tab="basket">
+      <ion-icon name="cart-outline"></ion-icon>
+      <ion-label>Basket</ion-label>
+    </ion-tab-button>
+
+    <!-- TAB 3: Recipes - Ulam budget planner -->
+    <ion-tab-button tab="recipes">
+      <ion-icon name="restaurant-outline"></ion-icon>
+      <ion-label>Ulam</ion-label>
+    </ion-tab-button>
+
+    <!-- TAB 4: Compare - Saan mas mura tool -->
+    <ion-tab-button tab="compare">
+      <ion-icon name="git-compare-outline"></ion-icon>
+      <ion-label>Compare</ion-label>
+    </ion-tab-button>
+
+    <!-- TAB 5: Map - shows market locations via Leaflet -->
+    <ion-tab-button tab="map">
+      <ion-icon name="map-outline"></ion-icon>
+      <ion-label>Palengke</ion-label>
+    </ion-tab-button>
+
+    <!-- TAB 6: Watchlist - shows user-saved price items -->
+    <ion-tab-button tab="watchlist">
+      <ion-icon name="bookmark-outline"></ion-icon>
+      <ion-label>Bantay</ion-label>
+    </ion-tab-button>
+
+    <!-- TAB 7: Database (Admin only) / Lock Tab -->
+    <ion-tab-button tab="database" *ngIf="isAdmin">
+      <ion-icon name="cloud-upload-outline"></ion-icon>
+      <ion-label>Admin</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="database" *ngIf="!isAdmin">
+      <ion-icon name="lock-closed-outline"></ion-icon>
+      <ion-label>Admin</ion-label>
+    </ion-tab-button>
+
+  </ion-tab-bar>
+</ion-tabs>
+
+<!-- POPUP CONTAINER FOR ADMIN LOGIN -->
+<div class="admin-modal-backdrop" *ngIf="adminService.showLoginModal">
+  <div class="admin-modal-card">
+    <div class="modal-icon-badge">
+      <ion-icon name="shield-checkmark"></ion-icon>
+    </div>
+
+    <h2 class="modal-title">Admin Access</h2>
+    <p class="modal-subtitle">Para sa mga awtorisadong opisyal lamang. Ilagay ang inyong security PIN.</p>
+
+    <div class="input-wrapper">
+      <ion-input
+        type="password"
+        [(ngModel)]="adminService.pinInput"
+        placeholder="••••"
+        maxlength="10"
+        inputmode="numeric"
+        (keyup.enter)="adminService.submitPin()"
+        class="custom-pin-input"
+        autofocus>
+      </ion-input>
+    </div>
+
+    <div class="error-msg" *ngIf="adminService.errorMessage">
+      <ion-icon name="alert-circle-outline"></ion-icon>
+      <span>{{ adminService.errorMessage }}</span>
+    </div>
+
+    <div class="modal-actions">
+      <ion-button fill="clear" color="medium" (click)="adminService.cancelLogin()">
+        Kanselahin
+      </ion-button>
+      <ion-button fill="solid" color="primary" (click)="adminService.submitPin()">
+        I-verify
+      </ion-button>
+    </div>
+  </div>
+</div>
+

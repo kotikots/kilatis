@@ -1,0 +1,201 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary">
+    <ion-title>🗄️ Database — Admin</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="confirmReset()" title="Reset to official baseline">
+        <ion-icon slot="icon-only" name="refresh-outline"></ion-icon>
+      </ion-button>
+      <ion-button (click)="logout()" title="Mag-logout bilang admin">
+        <ion-icon slot="icon-only" name="log-out-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="database-content">
+  <div class="database-container">
+
+    <!-- STATUS CARD -->
+    <ion-card class="status-card">
+      <ion-card-header>
+        <div class="status-header">
+          <ion-icon name="server-outline" class="status-icon"></ion-icon>
+          <div>
+            <ion-card-subtitle>ACTIVE DATA SOURCE</ion-card-subtitle>
+            <ion-card-title class="status-title">
+              {{ isCustom ? 'Custom Uploaded Database' : 'Official DA / DTI Bantay Presyo' }}
+            </ion-card-title>
+          </div>
+          <ion-badge [color]="isCustom ? 'secondary' : 'success'" class="status-badge">
+            {{ isCustom ? 'Custom' : 'Official' }}
+          </ion-badge>
+        </div>
+      </ion-card-header>
+      <ion-card-content>
+        <div class="metrics-grid">
+          <div class="metric-item">
+            <span class="metric-val">{{ commodities.length }}</span>
+            <span class="metric-lbl">Commodities</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-val">{{ markets.length }}</span>
+            <span class="metric-lbl">Markets</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-val">{{ getTotalPricePoints() }}</span>
+            <span class="metric-lbl">Price Points</span>
+          </div>
+        </div>
+      </ion-card-content>
+    </ion-card>
+
+    <!-- ONLINE WEB SYNC CARD -->
+    <ion-card class="action-card">
+      <ion-card-header>
+        <ion-card-title>
+          <ion-icon name="globe-outline" color="primary"></ion-icon>
+          Online Web Sync (DA Bantay Presyo)
+        </ion-card-title>
+        <ion-card-subtitle>Acquire live price bulletins from the web</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        <p class="instruction-text">
+          Fetch the latest government price monitoring data or online cloud API feed directly into your app.
+        </p>
+
+        <ion-item lines="none" class="sync-input-item" style="--background: rgba(255,255,255,0.06); border-radius: 8px; margin-bottom: 12px;">
+          <ion-input
+            [(ngModel)]="onlineFeedUrl"
+            label="Feed URL"
+            labelPlacement="floating"
+            placeholder="assets/data/commodities.json (or remote https:// URL)">
+          </ion-input>
+        </ion-item>
+
+        <ion-button expand="block" fill="solid" color="primary" (click)="syncFromWeb()" [disabled]="isSyncing">
+          <ion-spinner *ngIf="isSyncing" name="crescent" slot="start"></ion-spinner>
+          <ion-icon *ngIf="!isSyncing" slot="start" name="cloud-download-outline"></ion-icon>
+          {{ isSyncing ? 'Syncing...' : 'Fetch & Sync Online Feed' }}
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+
+    <!-- UPLOAD CARD -->
+    <ion-card class="action-card">
+      <ion-card-header>
+        <ion-card-title>
+          <ion-icon name="cloud-upload-outline" color="primary"></ion-icon>
+          Upload / Import Database
+        </ion-card-title>
+        <ion-card-subtitle>Upload a spreadsheet (.csv) or JSON dataset</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        <p class="instruction-text">
+          Select a <strong>.csv</strong> or <strong>.json</strong> file from your computer to update market commodity prices across the entire system.
+        </p>
+
+        <div class="file-drop-area">
+          <input
+            #fileInput
+            type="file"
+            accept=".csv, .json"
+            (change)="onFileSelected($event)"
+            style="display: none" />
+
+          <ion-button expand="block" fill="outline" color="primary" (click)="fileInput.click()">
+            <ion-icon slot="start" name="document-attach-outline"></ion-icon>
+            Choose CSV or JSON File
+          </ion-button>
+
+          @if (importFileName) {
+            <div class="selected-file-pill">
+              <ion-icon name="document-text-outline"></ion-icon>
+              <span>{{ importFileName }}</span>
+            </div>
+          }
+        </div>
+
+        @if (importErrorMessage) {
+          <div class="error-banner">
+            <ion-icon name="alert-circle-outline"></ion-icon>
+            <span>{{ importErrorMessage }}</span>
+          </div>
+        }
+
+        @if (stagedCommodities) {
+          <div class="staged-preview-box">
+            <h4>Ready to Apply!</h4>
+            <p>Found <strong>{{ stagedCommodities.length }}</strong> valid commodity items ready to update.</p>
+            <ion-button expand="block" color="success" (click)="applyStagedData()">
+              <ion-icon slot="start" name="checkmark-circle-outline"></ion-icon>
+              Save &amp; Update System Database
+            </ion-button>
+          </div>
+        }
+
+        <div class="format-guide">
+          <small>
+            <strong>CSV Column Format:</strong><br />
+            <code>Commodity Name, Category, Unit, SRP, Market ID, Price, Last Updated</code>
+          </small>
+        </div>
+      </ion-card-content>
+    </ion-card>
+
+    <!-- EXPORT & BACKUP CARD -->
+    <ion-card class="action-card">
+      <ion-card-header>
+        <ion-card-title>
+          <ion-icon name="download-outline" color="secondary"></ion-icon>
+          Export &amp; Template
+        </ion-card-title>
+        <ion-card-subtitle>Download current data as spreadsheet or backup</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        <div class="export-buttons">
+          <ion-button expand="block" fill="solid" color="secondary" (click)="downloadCSV()">
+            <ion-icon slot="start" name="grid-outline"></ion-icon>
+            Download CSV (Excel)
+          </ion-button>
+          <ion-button expand="block" fill="outline" color="medium" (click)="downloadJSON()">
+            <ion-icon slot="start" name="code-download-outline"></ion-icon>
+            Export JSON Backup
+          </ion-button>
+        </div>
+      </ion-card-content>
+    </ion-card>
+
+    <!-- RESET TO BASELINE -->
+    @if (isCustom) {
+      <div class="reset-wrapper">
+        <ion-button expand="block" fill="clear" color="danger" (click)="confirmReset()">
+          <ion-icon slot="start" name="refresh-outline"></ion-icon>
+          Revert to Official DA/DTI Baseline Data
+        </ion-button>
+      </div>
+    }
+
+    <!-- PREVIEW OF ACTIVE DATABASE -->
+    <div class="active-list-header">
+      <h3>Active Commodities ({{ commodities.length }})</h3>
+    </div>
+
+    <ion-list class="commodities-list">
+      @for (item of commodities; track item.id) {
+        <ion-item>
+          <ion-icon [name]="item.icon" slot="start" color="primary"></ion-icon>
+          <ion-label>
+            <h2>{{ item.name }}</h2>
+            <p>{{ item.category }} &bull; per {{ item.unit }} &bull; {{ item.prices.length }} markets</p>
+          </ion-label>
+          <div slot="end" class="price-pill">
+            <span class="srp-lbl">SRP</span>
+            <span class="srp-val">₱{{ item.suggestedRetailPrice.toFixed(2) }}</span>
+          </div>
+        </ion-item>
+      }
+    </ion-list>
+
+  </div>
+</ion-content>
+

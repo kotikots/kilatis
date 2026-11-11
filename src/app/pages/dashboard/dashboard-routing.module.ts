@@ -1,0 +1,22 @@
+// ============================================================
+// src/app/pages/dashboard/dashboard-routing.module.ts
+// Routing configuration for the Dashboard page.
+// ============================================================
+
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { DashboardPage } from './dashboard.page';
+
+const routes: Routes = [
+  {
+    path: '',
+    component: DashboardPage
+  }
+];
+
+@NgModule({
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule],
+})
+export class DashboardRoutingModule {}
+

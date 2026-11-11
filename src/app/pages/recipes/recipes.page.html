@@ -1,0 +1,180 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary">
+    <ion-title>
+      <div class="header-title">
+        <span>🍲 KILATIS</span>
+        <small>"Ulam Budget" Planner</small>
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="recipes-content ion-padding">
+
+  <!-- Market Selector Card -->
+  <ion-card class="app-card market-card">
+    <ion-card-header>
+      <ion-card-subtitle class="card-subtitle-bold">
+        <ion-icon name="storefront-outline"></ion-icon> Piliin ang Palengke para sa Presyo ng Sangkap
+      </ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-searchbar
+        [(ngModel)]="marketSearch"
+        (ionInput)="onMarketSearch()"
+        placeholder="Maghanap ng palengke (hal. San Jose, Cabanatuan, Gapan)"
+        [debounce]="250">
+      </ion-searchbar>
+
+      <ion-chip *ngIf="selectedMarket" color="success">
+        <ion-icon name="location-outline"></ion-icon>
+        <ion-label>{{ selectedMarket.name }}</ion-label>
+        <ion-icon name="close-circle" (click)="clearMarket()"></ion-icon>
+      </ion-chip>
+
+      <ion-list *ngIf="showMarketResults && marketResults.length > 0" class="dropdown-list">
+        <ion-item *ngFor="let m of marketResults" (click)="selectMarket(m)" button detail="false">
+          <ion-icon name="storefront-outline" slot="start" color="primary"></ion-icon>
+          <ion-label>
+            <h3>{{ m.name }}</h3>
+            <p>{{ m.address }}</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Category Filter Pills -->
+  <div class="category-scroll">
+    <ion-chip
+      *ngFor="let cat of categories"
+      [color]="filterCategory === cat ? 'primary' : 'medium'"
+      [outline]="filterCategory !== cat"
+      (click)="filterCategory = cat">
+      {{ cat }}
+    </ion-chip>
+  </div>
+
+  <!-- Search Bar -->
+  <ion-searchbar
+    [(ngModel)]="searchQuery"
+    placeholder="Maghanap ng ulam o combo (hal. Munggo + Tilapia, Batutay, Sinigang)"
+    [debounce]="200"
+    class="recipe-searchbar">
+  </ion-searchbar>
+
+  <!-- Recipe Grid (List View) -->
+  <div class="recipe-grid" *ngIf="!selectedRecipe">
+    <ion-card
+      *ngFor="let recipe of filteredRecipes"
+      (click)="selectRecipe(recipe)"
+      class="recipe-card"
+      button>
+      <ion-card-content>
+        <div class="recipe-emoji">{{ recipe.image }}</div>
+        <h3 class="recipe-name">{{ recipe.name }}</h3>
+        <p class="recipe-desc">{{ recipe.description }}</p>
+
+        <div class="recipe-tags-row">
+          <ion-badge color="light" class="cat-badge">{{ recipe.category }}</ion-badge>
+          <span class="servings-badge">👥 {{ recipe.servings }} katao</span>
+        </div>
+
+        <div class="price-box" *ngIf="allCommodities.length > 0">
+          <div class="cost-row">
+            <span class="label">Tantiya sa Palengke:</span>
+            <span class="cost-val">₱{{ getRecipeTotalCost(recipe) | number:'1.0-0' }}</span>
+          </div>
+          <div class="per-serving">
+            ₱{{ getCostPerServing(recipe) | number:'1.0-0' }} / plato
+          </div>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <!-- Recipe Detail View -->
+  <div *ngIf="selectedRecipe" class="recipe-detail-view">
+    <ion-card class="detail-card">
+      <ion-card-header>
+        <div class="detail-top-row">
+          <div class="detail-emoji-box">{{ selectedRecipe.image }}</div>
+          <div class="detail-title-box">
+            <ion-card-title>{{ selectedRecipe.name }}</ion-card-title>
+            <ion-card-subtitle>{{ selectedRecipe.description }}</ion-card-subtitle>
+          </div>
+        </div>
+      </ion-card-header>
+
+      <ion-card-content>
+        <!-- Servings Multiplier -->
+        <div class="servings-selector">
+          <span class="servings-label">
+            <strong>Dami ng Plato (Servings):</strong> {{ (selectedRecipe.servings || 4) * servingsMultiplier }} tao
+          </span>
+          <div class="multiplier-btn-group">
+            <ion-button size="small" [fill]="servingsMultiplier === 1 ? 'solid' : 'outline'" color="primary" (click)="servingsMultiplier = 1">
+              1x ({{ selectedRecipe.servings }})
+            </ion-button>
+            <ion-button size="small" [fill]="servingsMultiplier === 2 ? 'solid' : 'outline'" color="primary" (click)="servingsMultiplier = 2">
+              2x ({{ (selectedRecipe.servings || 4) * 2 }})
+            </ion-button>
+            <ion-button size="small" [fill]="servingsMultiplier === 3 ? 'solid' : 'outline'" color="primary" (click)="servingsMultiplier = 3">
+              3x ({{ (selectedRecipe.servings || 4) * 3 }})
+            </ion-button>
+          </div>
+        </div>
+
+        <!-- Market pricing note -->
+        <div class="market-status-note" [class.market-active]="selectedMarket">
+          <ion-icon [name]="selectedMarket ? 'checkmark-circle-outline' : 'information-circle-outline'"></ion-icon>
+          <span *ngIf="selectedMarket">Aktuwal na presyo mula sa <strong>{{ selectedMarket.name }}</strong></span>
+          <span *ngIf="!selectedMarket">Presyo ay batay sa DA Suggested Retail Price (SRP)</span>
+        </div>
+
+        <!-- Ingredients Breakdown -->
+        <div class="ingredients-list-section">
+          <h4 class="ing-header">Listahan ng Sangkap mula sa Palengke</h4>
+          <ion-list lines="inset" class="ing-ion-list">
+            <ion-item *ngFor="let ing of selectedRecipe.ingredients">
+              <ion-label>
+                <h3>{{ ing.commodityName }}</h3>
+                <p>{{ +(ing.quantity * servingsMultiplier).toFixed(2) }} {{ ing.unit }}</p>
+              </ion-label>
+              <ion-note slot="end" color="success" class="ing-price-note">
+                ₱{{ getIngredientTotal(ing.quantity, ing.commodityName) | number:'1.2-2' }}
+              </ion-note>
+            </ion-item>
+          </ion-list>
+        </div>
+
+        <!-- Recipe Total Summary -->
+        <div class="recipe-total-card" *ngIf="selectedRecipe">
+          <div class="recipe-total-flex">
+            <div>
+              <span class="rt-label">Kabuuang Badyet sa Ulam</span>
+              <div class="rt-serving-sub">₱{{ getCostPerServing(selectedRecipe) | number:'1.2-2' }} bawat plato</div>
+            </div>
+            <div class="rt-amount">
+              ₱{{ getRecipeTotalCost(selectedRecipe) | number:'1.2-2' }}
+            </div>
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="action-buttons-stack" *ngIf="selectedRecipe">
+          <ion-button expand="block" color="primary" (click)="addAllToBasket(selectedRecipe)" class="add-basket-btn">
+            <ion-icon name="cart-outline" slot="start"></ion-icon>
+            Ilagay Lahat sa Basket Calculator
+          </ion-button>
+
+          <ion-button expand="block" fill="outline" color="medium" (click)="closeRecipe()">
+            <ion-icon name="arrow-back-outline" slot="start"></ion-icon>
+            Bumalik sa Listahan ng Ulam
+          </ion-button>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+</ion-content>

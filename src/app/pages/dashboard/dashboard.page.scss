@@ -1,0 +1,1058 @@
+/* ============================================================
+   src/app/pages/dashboard/dashboard.page.scss
+   Styles for the Dashboard / Prices page.
+   Uses CSS custom properties for consistent theming.
+============================================================ */
+
+.dashboard-content {
+  --background: #f8faf8;
+}
+
+/* ---- Header title layout ---- */
+.header-title {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+
+  small {
+    font-size: 0.65rem;
+    opacity: 0.85;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
+}
+
+/* ---- Search Toolbar ---- */
+.search-toolbar {
+  --background: var(--ion-color-primary);
+  --padding-top: 0;
+  --padding-bottom: 6px;
+  --padding-start: 10px;
+  --padding-end: 10px;
+  min-height: 48px;
+
+  ion-searchbar {
+    --background: #ffffff;
+    --color: #1a1a1a;
+    --placeholder-color: #666666;
+    --icon-color: #2e7d32;
+    --clear-button-color: #666666;
+    --border-radius: 24px;
+    --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 24px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Force rounded styling and white background into Ionic shadow DOM */
+  ::ng-deep ion-searchbar {
+    --background: #ffffff !important;
+    --color: #1a1a1a !important;
+    --placeholder-color: #666666 !important;
+    --icon-color: #2e7d32 !important;
+    --clear-button-color: #666666 !important;
+    --border-radius: 24px !important;
+    border-radius: 24px !important;
+  }
+
+  ::ng-deep ion-searchbar .searchbar-input-container {
+    border-radius: 24px !important;
+    overflow: hidden !important;
+    background: #ffffff !important;
+  }
+
+  ::ng-deep ion-searchbar input.searchbar-input {
+    background: #ffffff !important;
+    color: #1a1a1a !important;
+    border-radius: 24px !important;
+  }
+}
+
+/* ---- Category Chip Scroll Container ---- */
+.chip-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;    /* Allows horizontal scrolling on small screens */
+  padding: 10px 12px 4px;
+  gap: 6px;
+
+  /* Hide the scrollbar for a cleaner look */
+  scrollbar-width: none;
+  &::-webkit-scrollbar { display: none; }
+
+  ion-chip {
+    flex-shrink: 0;    /* Prevent chips from shrinking */
+    font-size: 0.8rem;
+  }
+}
+
+/* ---- Results count label ---- */
+.results-count {
+  font-size: 0.75rem;
+  color: var(--ion-color-medium);
+  padding: 0 16px;
+  margin: 0 0 4px;
+}
+
+/* ---- Commodity Card Base Style ---- */
+.commodity-card {
+  margin: 8px 12px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.15s ease;
+
+  ion-card-title {
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  ion-card-subtitle {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 2px;
+  }
+}
+
+/* ---- Hybrid Near Me (GPS) & Aking Palengke Location Hub Bar ---- */
+.location-hub-bar {
+  background: #1b5e20;
+  padding: 6px 12px 8px;
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+
+  .location-hub-top {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .loc-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 6px 10px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:active {
+      background: rgba(255, 255, 255, 0.3);
+      transform: scale(0.98);
+    }
+
+    ion-icon {
+      font-size: 1rem;
+      color: #a7f3d0;
+    }
+  }
+
+  .near-me-btn {
+    flex-shrink: 0;
+    background: #166534;
+    border-color: #34d399;
+
+    .spin {
+      animation: spinAnim 1s linear infinite;
+    }
+  }
+
+  .home-market-btn {
+    flex: 1;
+    min-width: 0;
+    text-align: left;
+    justify-content: space-between;
+
+    .market-label-box {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      line-height: 1.15;
+
+      small {
+        font-size: 0.62rem;
+        opacity: 0.85;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+      }
+
+      strong {
+        font-size: 0.82rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: #f0fdf4;
+      }
+    }
+
+    .chevron-icon {
+      font-size: 0.85rem;
+      opacity: 0.7;
+      margin-left: 4px;
+    }
+  }
+
+  .clear-loc-btn {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.75);
+    padding: 4px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover, &:active {
+      color: #ffffff;
+    }
+  }
+
+  /* Quick City Chips Scroll */
+  .quick-locations-scroll {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    &::-webkit-scrollbar { display: none; }
+
+    .quick-loc-label {
+      font-size: 0.68rem;
+      opacity: 0.8;
+      white-space: nowrap;
+      margin-right: 2px;
+    }
+
+    .quick-loc-chip {
+      flex-shrink: 0;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #ffffff;
+      border-radius: 12px;
+      padding: 3px 8px;
+      font-size: 0.72rem;
+      font-weight: 500;
+      cursor: pointer;
+      white-space: nowrap;
+
+      &.active-loc {
+        background: #ffffff;
+        color: #166534;
+        font-weight: 700;
+        border-color: #ffffff;
+      }
+
+      &:active {
+        background: rgba(255, 255, 255, 0.25);
+      }
+    }
+  }
+}
+
+@keyframes spinAnim {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* ---- Commodity Card Market Row Enhancements ---- */
+.market-name-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+
+  .market-icon {
+    font-size: 1rem;
+    flex-shrink: 0;
+  }
+
+  .market-name-text {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #1f2937;
+  }
+
+  .distance-pill {
+    font-size: 0.7rem;
+    font-weight: 700;
+    background: #f1f5f9;
+    color: #475569;
+    padding: 2px 6px;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+
+    &.is-home-pill {
+      background: #ecfdf5;
+      color: #065f46;
+      border-color: #a7f3d0;
+    }
+  }
+}
+
+.expand-markets-wrap {
+  text-align: center;
+  padding: 4px 0 2px;
+
+  .expand-markets-btn {
+    background: none;
+    border: none;
+    color: #2e7d32;
+    font-size: 0.78rem;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+
+    &:active {
+      opacity: 0.7;
+    }
+
+    ion-icon {
+      font-size: 0.95rem;
+    }
+  }
+}
+
+/* ---- Market Picker Modal Styles ---- */
+.market-picker-modal {
+  --border-radius: 16px 16px 0 0;
+
+  .market-picker-helper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 14px;
+    background: #ecfdf5;
+    border-left: 4px solid #10b981;
+    color: #065f46;
+    font-size: 0.8rem;
+    margin: 8px 12px;
+    border-radius: 6px;
+
+    ion-icon {
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+  }
+
+  .market-picker-item {
+    --padding-start: 12px;
+    --padding-end: 12px;
+
+    h2 {
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: #111827;
+      margin-bottom: 2px;
+    }
+
+    p {
+      font-size: 0.76rem;
+      color: #6b7280;
+    }
+  }
+}
+
+.price-block.target-market {
+  .price-label {
+    color: #2e7d32;
+    font-weight: 700;
+    max-width: 110px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .target-val {
+    color: #2e7d32;
+    font-size: 1.15rem;
+    font-weight: 800;
+  }
+}
+
+.market-price-item.highlighted-market {
+  --background: rgba(46, 125, 50, 0.08);
+  border-radius: 8px;
+  margin: 2px 0;
+
+  .market-id {
+    color: #2e7d32;
+    font-weight: 700;
+  }
+
+  .highlighted-val {
+    color: #2e7d32;
+    font-size: 1.05rem;
+    font-weight: 800;
+  }
+}
+
+/* ---- Red left border if the item exceeds SRP ---- */
+.commodity-card.over-srp {
+  border-left: 4px solid var(--ion-color-danger);
+}
+
+/* ---- Price Range Row ---- */
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0 10px;
+}
+
+.price-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .price-label {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    color: var(--ion-color-medium);
+    margin-bottom: 2px;
+  }
+
+  .price-value {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--ion-color-dark);
+  }
+
+  .price-value.muted {
+    color: var(--ion-color-medium);
+    font-size: 1rem;
+  }
+
+  .price-value.srp-val {
+    color: var(--ion-color-warning);
+    font-size: 1rem;
+  }
+}
+
+/* ---- SRP Warning Badge ---- */
+.srp-badge {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 8px;
+  font-size: 0.75rem;
+  padding: 4px 8px;
+}
+
+/* ---- Market Price Sub-list ---- */
+.market-prices-header {
+  --padding-start: 0;
+  --padding-top: 4px;
+  --padding-bottom: 0;
+  font-size: 0.85rem;
+}
+
+.market-price-item {
+  --padding-start: 0;
+  --inner-padding-end: 0;
+  font-size: 0.85rem;
+
+  .market-id {
+    display: block;
+    font-weight: 500;
+  }
+
+  .updated-date {
+    color: var(--ion-color-medium);
+    font-size: 0.7rem;
+  }
+
+  .market-price-val {
+    font-weight: 600;
+    color: var(--ion-color-primary);
+  }
+}
+
+/* ---- Card Footer Actions (Bookmark & Report Price) ---- */
+.card-footer {
+  padding: 4px 10px;
+  border-top: 1px solid #edf2ed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+
+  ion-button {
+    font-size: 0.78rem;
+    font-weight: 600;
+    margin: 0;
+  }
+}
+
+/* ---- Empty State ---- */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  color: var(--ion-color-medium);
+
+  ion-icon {
+    font-size: 3rem;
+    margin-bottom: 12px;
+  }
+
+  p {
+    font-size: 0.95rem;
+    text-align: center;
+  }
+}
+
+/* ---- Bagsakan & Trading Phase Banner ---- */
+.bagsakan-banner {
+  margin: 12px 14px 6px;
+  border-radius: 12px;
+  padding: 10px 14px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+
+  &.phase-bagsakan {
+    background: #fffbeb;
+    border: 1px solid #fde68a;
+  }
+
+  &.phase-regular {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+  }
+
+  &.phase-tawad {
+    background: #fdf4ff;
+    border: 1px solid #f5d0fe;
+  }
+
+  &.phase-closed {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+  }
+
+  .banner-main-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .banner-title-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+
+    .banner-headline {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: #1e293b;
+    }
+
+    .banner-badge {
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 3px 6px;
+    }
+  }
+
+  .banner-info-btn {
+    --padding-start: 4px;
+    --padding-end: 4px;
+    margin: 0;
+    height: 28px;
+    color: #64748b;
+  }
+
+  .banner-details {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px dashed rgba(0, 0, 0, 0.08);
+
+    .banner-desc {
+      margin: 0 0 6px;
+      font-size: 0.8rem;
+      color: #475569;
+    }
+
+    .banner-tip {
+      display: flex;
+      align-items: flex-start;
+      gap: 6px;
+      font-size: 0.78rem;
+      color: #166534;
+      background: rgba(255, 255, 255, 0.7);
+      padding: 6px 10px;
+      border-radius: 6px;
+
+      ion-icon {
+        font-size: 1rem;
+        color: #eab308;
+        flex-shrink: 0;
+      }
+    }
+  }
+}
+
+.subtitle-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.overprice-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  border-radius: 6px;
+  padding: 2px 6px;
+}
+
+/* ============================================================
+   BANTAY OVERPRICING & CAMERA EVIDENCE REPORT MODAL
+============================================================ */
+.report-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background: rgba(15, 23, 42, 0.72);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  animation: modalFadeIn 0.2s ease-out;
+}
+
+.report-modal-card {
+  width: 100%;
+  max-width: 440px;
+  max-height: 90vh;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: modalScaleUp 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.report-modal-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 18px 14px;
+  background: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
+
+  .report-icon-badge {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    background: #ecfdf5;
+    color: #15803d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    flex-shrink: 0;
+  }
+
+  .report-header-text {
+    flex: 1;
+
+    .report-modal-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #0f172a;
+      margin: 0;
+      line-height: 1.2;
+    }
+
+    .report-modal-sub {
+      font-size: 0.75rem;
+      color: #64748b;
+    }
+  }
+
+  .modal-close-icon-btn {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: #94a3b8;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      color: #475569;
+      background: #f1f5f9;
+    }
+  }
+}
+
+.report-modal-body {
+  padding: 16px 18px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.target-commodity-box {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 12px;
+  padding: 10px 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .tc-name {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #14532d;
+  }
+
+  .tc-srp {
+    font-size: 0.8rem;
+    color: #166534;
+
+    strong {
+      color: #15803d;
+    }
+  }
+}
+
+/* CAMERA / EVIDENCE CARD */
+.camera-section {
+  background: #fafaf9;
+  border: 1.5px dashed #cbd5e1;
+  border-radius: 14px;
+  padding: 12px 14px;
+
+  .camera-section-title {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #334155;
+    margin-bottom: 8px;
+
+    ion-icon {
+      font-size: 1.1rem;
+      color: #2563eb;
+    }
+  }
+
+  .camera-empty-state {
+    text-align: center;
+
+    .camera-desc {
+      font-size: 0.78rem;
+      color: #64748b;
+      margin: 0 0 10px 0;
+      line-height: 1.35;
+    }
+
+    .camera-actions-row {
+      display: flex;
+      gap: 8px;
+
+      .camera-btn {
+        flex: 1;
+        padding: 9px 12px;
+        border-radius: 10px;
+        font-size: 0.82rem;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        cursor: pointer;
+        transition: all 0.15s ease;
+        border: none;
+
+        ion-icon {
+          font-size: 1.1rem;
+        }
+
+        &.primary-camera-btn {
+          background: #15803d;
+          color: #ffffff;
+          box-shadow: 0 2px 6px rgba(21, 128, 61, 0.25);
+
+          &:hover {
+            background: #166534;
+          }
+        }
+
+        &.gallery-btn {
+          background: #ffffff;
+          color: #334155;
+          border: 1px solid #cbd5e1;
+
+          &:hover {
+            background: #f1f5f9;
+          }
+        }
+      }
+    }
+  }
+
+  .camera-captured-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    .photo-container {
+      position: relative;
+      width: 100%;
+      max-height: 180px;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+      .captured-preview-img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        display: block;
+      }
+
+      .evidence-pill {
+        position: absolute;
+        bottom: 8px;
+        left: 8px;
+        background: rgba(22, 101, 52, 0.9);
+        color: #ffffff;
+        backdrop-filter: blur(4px);
+        font-size: 0.72rem;
+        font-weight: 700;
+        padding: 4px 8px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+
+        ion-icon {
+          font-size: 0.85rem;
+          color: #4ade80;
+        }
+      }
+    }
+
+    .photo-controls {
+      display: flex;
+      gap: 10px;
+      width: 100%;
+
+      .control-btn {
+        flex: 1;
+        padding: 6px 10px;
+        border-radius: 8px;
+        font-size: 0.78rem;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        cursor: pointer;
+
+        &.retake-btn {
+          background: #f1f5f9;
+          border: 1px solid #cbd5e1;
+          color: #334155;
+        }
+
+        &.delete-btn {
+          background: #fee2e2;
+          border: 1px solid #fca5a5;
+          color: #b91c1c;
+        }
+      }
+    }
+  }
+}
+
+/* FORM FIELDS */
+.report-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  .form-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #334155;
+  }
+
+  .input-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    padding: 8px 12px;
+    transition: all 0.15s ease;
+
+    &:focus-within {
+      border-color: #15803d;
+      background: #ffffff;
+      box-shadow: 0 0 0 3px rgba(21, 128, 61, 0.12);
+    }
+
+    ion-icon {
+      font-size: 1.1rem;
+      color: #64748b;
+    }
+
+    .currency-tag {
+      font-weight: 700;
+      color: #15803d;
+      font-size: 1rem;
+    }
+
+    .field-input {
+      flex: 1;
+      border: none;
+      outline: none;
+      background: transparent;
+      font-size: 0.92rem;
+      color: #0f172a;
+
+      &::placeholder {
+        color: #94a3b8;
+      }
+    }
+  }
+}
+
+/* OVERPRICING LIVE INDICATOR */
+.overprice-calc-indicator {
+  .calc-tag {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 0.78rem;
+
+    ion-icon {
+      font-size: 1.25rem;
+      flex-shrink: 0;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+    }
+
+    &.warning-tag {
+      background: #fef2f2;
+      border: 1px solid #fecaca;
+      color: #991b1b;
+
+      ion-icon {
+        color: #dc2626;
+      }
+
+      strong {
+        font-weight: 800;
+        color: #b91c1c;
+      }
+    }
+
+    &.fair-tag {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      color: #166534;
+
+      ion-icon {
+        color: #16a34a;
+      }
+    }
+  }
+}
+
+/* FOOTER */
+.report-modal-footer {
+  display: flex;
+  gap: 10px;
+  padding: 12px 18px 16px;
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+
+  .footer-btn {
+    flex: 1;
+    padding: 11px 16px;
+    border-radius: 10px;
+    font-size: 0.88rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.15s ease;
+
+    &.cancel-btn {
+      background: #e2e8f0;
+      color: #475569;
+
+      &:hover {
+        background: #cbd5e1;
+      }
+    }
+
+    &.submit-btn {
+      background: #15803d;
+      color: #ffffff;
+      box-shadow: 0 2px 6px rgba(21, 128, 61, 0.25);
+
+      &:hover {
+        background: #166534;
+      }
+    }
+  }
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes modalScaleUp {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+

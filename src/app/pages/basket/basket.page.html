@@ -1,0 +1,176 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary">
+    <ion-title>
+      <div class="header-title">
+        <span>🛒 KILATIS</span>
+        <small>Palengke Budget & Basket</small>
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="basket-content ion-padding">
+
+  <!-- Market Selector Card -->
+  <ion-card class="app-card market-card">
+    <ion-card-header>
+      <ion-card-subtitle class="card-subtitle-bold">
+        <ion-icon name="storefront-outline"></ion-icon> Piliin ang Palengke
+      </ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-searchbar
+        [(ngModel)]="marketSearch"
+        (ionInput)="onMarketSearch()"
+        placeholder="Maghanap ng palengke (hal. Cabanatuan, Gapan)"
+        [debounce]="250"
+        show-clear-button="focus">
+      </ion-searchbar>
+
+      <ion-chip *ngIf="selectedMarket" color="success" class="selected-chip">
+        <ion-icon name="location-outline"></ion-icon>
+        <ion-label>{{ selectedMarket.name }}</ion-label>
+        <ion-icon name="close-circle" (click)="clearMarket()"></ion-icon>
+      </ion-chip>
+
+      <ion-list *ngIf="showMarketResults && marketResults.length > 0" class="dropdown-list">
+        <ion-item *ngFor="let m of marketResults" (click)="selectMarket(m)" button detail="false">
+          <ion-icon name="storefront-outline" slot="start" color="primary"></ion-icon>
+          <ion-label>
+            <h3>{{ m.name }}</h3>
+            <p>{{ m.address }}</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+
+      <p *ngIf="!selectedMarket" class="hint-text">
+        <ion-icon name="information-circle-outline"></ion-icon>
+        Walang napiling palengke — batay sa DA Suggested Retail Price (SRP) ang kalkulasyon.
+      </p>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Commodity Search Card -->
+  <ion-card class="app-card">
+    <ion-card-header>
+      <ion-card-subtitle class="card-subtitle-bold">
+        <ion-icon name="add-circle-outline"></ion-icon> Magdagdag ng Bibilhin
+      </ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-searchbar
+        [(ngModel)]="searchQuery"
+        (ionInput)="onCommoditySearch()"
+        placeholder="Maghanap ng paninda (hal. bigas, manok, baboy, sibuyas)"
+        [debounce]="250">
+      </ion-searchbar>
+
+      <ion-list *ngIf="showSearchResults && searchResults.length > 0" class="dropdown-list">
+        <ion-item *ngFor="let c of searchResults" (click)="addToBasket(c)" button detail="false">
+          <ion-icon [name]="c.icon" slot="start" color="primary"></ion-icon>
+          <ion-label>
+            <h3>{{ c.name }}</h3>
+            <p>{{ c.category }} · bawat {{ c.unit }}</p>
+          </ion-label>
+          <ion-note slot="end" color="success" class="price-pill">
+            ₱{{ c.suggestedRetailPrice | number:'1.2-2' }}
+          </ion-note>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Budget Planner Card -->
+  <ion-card class="app-card budget-card">
+    <ion-card-content>
+      <ion-item lines="none" class="budget-item">
+        <ion-icon name="wallet-outline" slot="start" color="warning"></ion-icon>
+        <ion-label>
+          <h2>Aking Badyet</h2>
+          <p>Limit sa pamamalengke</p>
+        </ion-label>
+        <ion-input
+          type="number"
+          [(ngModel)]="budgetInput"
+          (ionInput)="onBudgetChange()"
+          placeholder="₱ 0.00"
+          slot="end"
+          class="budget-input">
+        </ion-input>
+      </ion-item>
+
+      <div *ngIf="budget > 0" class="budget-status" [class.over-budget]="getBudgetDiff() < 0" [class.under-budget]="getBudgetDiff() >= 0">
+        <div *ngIf="getBudgetDiff() >= 0" class="budget-msg">
+          <ion-icon name="checkmark-circle-outline"></ion-icon>
+          <span>Pasok sa badyet! May matitira pang <strong>₱{{ getBudgetDiff() | number:'1.2-2' }}</strong></span>
+        </div>
+        <div *ngIf="getBudgetDiff() < 0" class="budget-msg">
+          <ion-icon name="alert-circle-outline"></ion-icon>
+          <span>Lampas sa badyet ng <strong>₱{{ (getBudgetDiff() * -1) | number:'1.2-2' }}</strong></span>
+        </div>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Empty Basket State -->
+  <div *ngIf="basket.length === 0" class="empty-basket">
+    <ion-icon name="cart-outline" class="empty-icon"></ion-icon>
+    <h3>Walang laman ang basket</h3>
+    <p>Gamitin ang search bar sa itaas para maglagay ng mga bibilhin sa palengke o magdagdag mula sa Ulam Planner.</p>
+  </div>
+
+  <!-- Basket Items List -->
+  <div *ngIf="basket.length > 0" class="basket-items-section">
+    <div class="section-title">
+      <h3>Mga Bibilhin ({{ basket.length }})</h3>
+      <ion-button fill="clear" color="danger" size="small" (click)="clearBasket()">
+        <ion-icon name="trash-outline" slot="start"></ion-icon>
+        Linisin
+      </ion-button>
+    </div>
+
+    <ion-card *ngFor="let item of basket; let i = index" class="basket-item-card">
+      <ion-card-content>
+        <div class="item-row">
+          <div class="item-icon-box">
+            <ion-icon [name]="item.icon" color="primary"></ion-icon>
+          </div>
+          <div class="item-info">
+            <h4 class="item-name">{{ item.commodityName }}</h4>
+            <p class="item-rate">₱{{ item.pricePerUnit | number:'1.2-2' }} / {{ item.unit }}</p>
+          </div>
+          <div class="item-stepper">
+            <ion-button fill="clear" size="small" (click)="updateQuantity(item, -0.25)" class="step-btn">
+              <ion-icon name="remove-outline"></ion-icon>
+            </ion-button>
+            <span class="qty-badge">{{ item.quantity }} {{ item.unit }}</span>
+            <ion-button fill="clear" size="small" (click)="updateQuantity(item, 0.25)" class="step-btn">
+              <ion-icon name="add-outline"></ion-icon>
+            </ion-button>
+          </div>
+          <div class="item-subtotal">
+            ₱{{ getItemTotal(item) | number:'1.2-2' }}
+          </div>
+          <ion-button fill="clear" color="medium" size="small" (click)="removeItem(i)" class="remove-btn">
+            <ion-icon name="close-circle-outline"></ion-icon>
+          </ion-button>
+        </div>
+      </ion-card-content>
+    </ion-card>
+
+    <!-- Total Summary Card -->
+    <div class="total-banner-card">
+      <div class="total-flex">
+        <div>
+          <div class="total-sub">Kabuuang Halaga</div>
+          <div class="market-sub-label" *ngIf="selectedMarket">Presyo sa: {{ selectedMarket.name }}</div>
+          <div class="market-sub-label" *ngIf="!selectedMarket">Batay sa DA SRP</div>
+        </div>
+        <div class="grand-total-amount">
+          ₱{{ getGrandTotal() | number:'1.2-2' }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</ion-content>

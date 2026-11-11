@@ -1,0 +1,211 @@
+// Database Manager & Upload Page Styles
+
+.database-content {
+  --background: #f7f9f7;
+}
+
+.database-container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 16px 16px 40px;
+}
+
+.status-card {
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  margin-bottom: 16px;
+
+  .status-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    .status-icon {
+      font-size: 2rem;
+      color: #2e7d32;
+    }
+
+    .status-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      line-height: 1.2;
+    }
+
+    .status-badge {
+      margin-left: auto;
+      font-size: 0.75rem;
+      padding: 4px 8px;
+    }
+  }
+
+  .metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    background: #f0f7f0;
+    border-radius: 12px;
+    padding: 12px 8px;
+    text-align: center;
+    margin-top: 10px;
+
+    .metric-val {
+      display: block;
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: #2e7d32;
+    }
+
+    .metric-lbl {
+      font-size: 0.72rem;
+      color: #616161;
+      font-weight: 600;
+    }
+  }
+}
+
+.action-card {
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  margin-bottom: 16px;
+
+  ion-card-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  .instruction-text {
+    font-size: 0.88rem;
+    color: #555;
+    margin-top: 0;
+    line-height: 1.4;
+  }
+
+  .file-drop-area {
+    margin: 14px 0;
+
+    .selected-file-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #e8f5e9;
+      color: #2e7d32;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      margin-top: 8px;
+    }
+  }
+
+  .error-banner {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #ffebee;
+    color: #c62828;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-size: 0.84rem;
+    margin-bottom: 12px;
+  }
+
+  .staged-preview-box {
+    background: #e8f5e9;
+    border: 1px solid #c8e6c9;
+    border-radius: 12px;
+    padding: 14px;
+    margin: 12px 0;
+    text-align: center;
+
+    h4 {
+      margin: 0 0 4px;
+      color: #2e7d32;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 0 0 12px;
+      font-size: 0.86rem;
+      color: #424242;
+    }
+  }
+
+  .format-guide {
+    background: #fbfbfb;
+    border: 1px dashed #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 14px;
+    color: #616161;
+
+    code {
+      display: block;
+      margin-top: 4px;
+      font-size: 0.76rem;
+      color: #2e7d32;
+      word-break: break-all;
+    }
+  }
+
+  .export-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.reset-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.active-list-header {
+  margin: 24px 0 10px;
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+  }
+}
+
+.commodities-list {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+
+  ion-item {
+    --padding-start: 14px;
+    --padding-end: 14px;
+
+    h2 {
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 0.78rem;
+    }
+
+    .price-pill {
+      text-align: right;
+
+      .srp-lbl {
+        display: block;
+        font-size: 0.65rem;
+        color: #757575;
+      }
+
+      .srp-val {
+        font-weight: 700;
+        font-size: 0.95rem;
+        color: #2e7d32;
+      }
+    }
+  }
+}
+

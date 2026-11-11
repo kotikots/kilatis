@@ -1,0 +1,124 @@
+<!-- ============================================================
+  src/app/pages/watchlist/watchlist.page.html
+  Template for the Watchlist tab.
+
+  Layout:
+  1. ion-header  - Title + Clear All button
+  2. ion-content - List of WatchlistItem cards, or empty state
+============================================================ -->
+<ion-header [translucent]="true" class="ion-no-border">
+  <ion-toolbar color="primary">
+    <ion-title>
+      <div class="header-title">
+        <span>🔖 KILATIS</span>
+        <small>Watchlist & Presyo Alert</small>
+      </div>
+    </ion-title>
+    <!-- Clear All button: only visible when list has items -->
+    <ion-buttons slot="end" *ngIf="watchlist.length > 0">
+      <ion-button (click)="clearAll()" title="Linisin ang Watchlist">
+        <ion-icon slot="icon-only" name="trash-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="watchlist-content">
+
+  <!-- ============================================================
+    EMPTY STATE: Shown when no items have been saved yet.
+    Guides the user to the Dashboard to add their first item.
+  ============================================================ -->
+  <div *ngIf="watchlist.length === 0" class="empty-state">
+    <ion-icon name="bookmark-outline"></ion-icon>
+    <h3>Your Watchlist is Empty</h3>
+    <p>Go to the <strong>Prices</strong> tab and tap the bookmark icon on any commodity to track its price.</p>
+    <!-- Router link navigates the user to the Dashboard tab -->
+    <ion-button routerLink="/tabs/dashboard" color="primary">
+      <ion-icon slot="start" name="pricetag-outline"></ion-icon>
+      Browse Prices
+    </ion-button>
+  </div>
+
+  <!-- ============================================================
+    WATCHLIST ITEMS: Rendered when there are saved items.
+    *ngFor iterates over the watchlist array loaded from localStorage.
+  ============================================================ -->
+  <div *ngIf="watchlist.length > 0">
+
+    <!-- Summary banner -->
+    <ion-item color="light" lines="none" class="summary-bar">
+      <ion-label>
+        <strong>{{ watchlist.length }}</strong> item{{ watchlist.length !== 1 ? 's' : '' }} tracked
+      </ion-label>
+    </ion-item>
+
+    <!-- One card per watchlist item -->
+    <ion-card
+      *ngFor="let item of watchlist"
+      class="watchlist-card"
+      [ngClass]="{'deal-found': hasDeal(item)}">
+
+      <ion-card-header>
+        <!-- "Deal Found!" banner if current price <= user's target price -->
+        <div *ngIf="hasDeal(item)" class="deal-banner">
+          🎉 Deal Found! Price is at or below your target.
+        </div>
+        <ion-card-title>
+          <ion-icon [name]="item.commodity.icon" color="primary"></ion-icon>
+          {{ item.commodity.name }}
+        </ion-card-title>
+        <ion-card-subtitle>{{ item.commodity.category }} &bull; per {{ item.commodity.unit }}</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+
+        <!-- Price Comparison Row -->
+        <div class="price-comparison">
+          <div class="price-col">
+            <span class="col-label">Your Target</span>
+            <span class="col-value target">₱{{ item.targetPrice | number:'1.2-2' }}</span>
+          </div>
+          <ion-icon name="arrow-forward-outline" class="arrow-icon"></ion-icon>
+          <div class="price-col">
+            <span class="col-label">Best Now</span>
+            <!-- Color green if at/below target, red if above -->
+            <span class="col-value" [ngClass]="hasDeal(item) ? 'good-price' : 'bad-price'">
+              ₱{{ getBestCurrentPrice(item) | number:'1.2-2' }}
+            </span>
+          </div>
+        </div>
+
+        <!-- Individual Market Prices -->
+        <ion-label class="market-label"><small>Presyo sa mga Palengke:</small></ion-label>
+        <div class="market-price-list">
+          <span
+            *ngFor="let p of item.commodity.prices"
+            class="market-price-pill"
+            [ngClass]="{'below-target': p.price <= item.targetPrice}">
+            <ion-icon name="storefront-outline"></ion-icon>
+            {{ getMarketName(p.marketId) }}: ₱{{ p.price | number:'1.2-2' }}
+          </span>
+        </div>
+
+        <!-- Saved date -->
+        <p class="saved-date">
+          <ion-icon name="calendar-outline"></ion-icon>
+          Saved: {{ item.savedAt | date:'mediumDate' }}
+        </p>
+
+      </ion-card-content>
+
+      <!-- Remove Button Footer -->
+      <div class="card-footer">
+        <ion-button fill="clear" color="danger" size="small" (click)="confirmRemove(item)">
+          <ion-icon slot="start" name="trash-outline"></ion-icon>
+          Remove
+        </ion-button>
+      </div>
+
+    </ion-card>
+  </div>
+
+</ion-content>
+

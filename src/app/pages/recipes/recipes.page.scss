@@ -1,0 +1,318 @@
+.recipes-content {
+  --background: #f8fafc;
+}
+
+.app-card {
+  margin: 0 0 16px 0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  background: #ffffff;
+}
+
+.card-subtitle-bold {
+  font-weight: 700;
+  color: #1e293b;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  ion-icon {
+    font-size: 18px;
+    color: var(--ion-color-primary);
+  }
+}
+
+.dropdown-list {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  margin-top: 6px;
+  max-height: 220px;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  ion-item {
+    --background: #ffffff;
+    --color: #0f172a;
+
+    h3 {
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    p {
+      font-size: 12px;
+      color: #64748b;
+    }
+  }
+}
+
+.category-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 6px;
+  margin-bottom: 12px;
+  padding-bottom: 4px;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  ion-chip {
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: 13px;
+  }
+}
+
+.recipe-searchbar {
+  --background: #ffffff;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+}
+
+.recipe-card {
+  margin: 0;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  background: #ffffff;
+  transition: transform 0.15s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+
+  .recipe-emoji {
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  .recipe-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0f172a;
+    margin: 0 0 4px 0;
+    text-align: center;
+  }
+
+  .recipe-desc {
+    font-size: 12px;
+    color: #64748b;
+    line-height: 1.4;
+    margin: 0 0 10px 0;
+    text-align: center;
+    min-height: 34px;
+  }
+
+  .recipe-tags-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+
+    .cat-badge {
+      font-size: 11px;
+      font-weight: 600;
+    }
+
+    .servings-badge {
+      font-size: 12px;
+      color: #64748b;
+    }
+  }
+
+  .price-box {
+    background: #f1f5f9;
+    border-radius: 8px;
+    padding: 8px 12px;
+
+    .cost-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .label {
+        font-size: 12px;
+        color: #475569;
+        font-weight: 500;
+      }
+
+      .cost-val {
+        font-size: 16px;
+        font-weight: 800;
+        color: #15803d;
+      }
+    }
+
+    .per-serving {
+      font-size: 11px;
+      color: #64748b;
+      text-align: right;
+      margin-top: 2px;
+    }
+  }
+}
+
+// Detail View
+.recipe-detail-view {
+  .detail-card {
+    margin: 0;
+    border-radius: 14px;
+    background: #ffffff;
+  }
+
+  .detail-top-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+
+    .detail-emoji-box {
+      font-size: 48px;
+      line-height: 1;
+    }
+
+    .detail-title-box {
+      flex: 1;
+
+      ion-card-title {
+        font-size: 20px;
+        font-weight: 800;
+        color: #0f172a;
+      }
+
+      ion-card-subtitle {
+        font-size: 13px;
+        color: #64748b;
+        margin-top: 4px;
+      }
+    }
+  }
+
+  .servings-selector {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 12px;
+
+    .servings-label {
+      display: block;
+      font-size: 13px;
+      color: #1e293b;
+      margin-bottom: 8px;
+    }
+
+    .multiplier-btn-group {
+      display: flex;
+      gap: 6px;
+    }
+  }
+
+  .market-status-note {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    background: #f1f5f9;
+    color: #475569;
+    margin-bottom: 16px;
+
+    ion-icon {
+      font-size: 18px;
+    }
+
+    &.market-active {
+      background: #ecfdf5;
+      color: #065f46;
+      border: 1px solid #a7f3d0;
+    }
+  }
+
+  .ing-header {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1e293b;
+    margin: 0 0 8px 0;
+  }
+
+  .ing-ion-list {
+    background: transparent;
+    padding: 0;
+    margin-bottom: 16px;
+
+    ion-item {
+      --background: #ffffff;
+      --padding-start: 0;
+
+      h3 {
+        font-size: 14px;
+        font-weight: 600;
+        color: #0f172a;
+      }
+
+      p {
+        font-size: 12px;
+        color: #64748b;
+      }
+    }
+
+    .ing-price-note {
+      font-size: 14px;
+      font-weight: 700;
+    }
+  }
+
+  .recipe-total-card {
+    background: linear-gradient(135deg, #1b5e20, #2e7d32);
+    border-radius: 12px;
+    padding: 14px 16px;
+    color: #ffffff;
+    margin-bottom: 16px;
+
+    .recipe-total-flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .rt-label {
+      font-size: 14px;
+      color: #e2e8f0;
+      font-weight: 500;
+    }
+
+    .rt-serving-sub {
+      font-size: 12px;
+      color: #bbf7d0;
+      margin-top: 2px;
+    }
+
+    .rt-amount {
+      font-size: 26px;
+      font-weight: 800;
+      color: #ffffff;
+    }
+  }
+
+  .action-buttons-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .add-basket-btn {
+      font-weight: 700;
+    }
+  }
+}
+

@@ -1,0 +1,9362 @@
+[
+  {
+    "id": 1,
+    "name": "Well-Milled Local Rice (Sinandomeng)",
+    "category": "Grains",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 50,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 51,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 49.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 52,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 53,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 50.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 52.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 51,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 51.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 52,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 52,
+    "icon": "leaf-outline"
+  },
+  {
+    "id": 2,
+    "name": "Regular-Milled Local Rice",
+    "category": "Grains",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 46,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 47,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 45.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 48,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 49,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 46.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 48.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 47,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 47.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 48,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 48,
+    "icon": "leaf-outline"
+  },
+  {
+    "id": 3,
+    "name": "Premium Local Rice (Dinorado)",
+    "category": "Grains",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 55.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 57,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 55,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 58,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 59,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 56.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 58.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 57,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 57.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 58,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 58,
+    "icon": "sparkles-outline"
+  },
+  {
+    "id": 4,
+    "name": "Special Local Rice (Jasmine / Milagrosa)",
+    "category": "Grains",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 61.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 62.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 61,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 64,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 65.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 62,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 64.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 62.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 63.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 64,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 64,
+    "icon": "ribbon-outline"
+  },
+  {
+    "id": 5,
+    "name": "Imported Well-Milled Rice",
+    "category": "Grains",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 50,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 51,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 49.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 52,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 53,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 50.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 52.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 51,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 51.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 52,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 52,
+    "icon": "globe-outline"
+  },
+  {
+    "id": 6,
+    "name": "Imported Regular-Milled Rice",
+    "category": "Grains",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 46,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 47,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 45.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 48,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 49,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 46.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 48.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 47,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 47.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 48,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 48,
+    "icon": "globe-outline"
+  },
+  {
+    "id": 7,
+    "name": "Imported Premium Rice",
+    "category": "Grains",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 54,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 55,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 53,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 56,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 57,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 54.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 56.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 55,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 55.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 56,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 56,
+    "icon": "globe-outline"
+  },
+  {
+    "id": 8,
+    "name": "Imported Special Rice",
+    "category": "Grains",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 59.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 61,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 59,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 62,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 63,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 60,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 62.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 61,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 61.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 62,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 62,
+    "icon": "globe-outline"
+  },
+  {
+    "id": 9,
+    "name": "Brown Rice (Pinawa Unpolished)",
+    "category": "Grains",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 62.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 63.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 62,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 65,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 66.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 63,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 65.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 63.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 64.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 65,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 65,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 10,
+    "name": "Red Rice (Organic Highland)",
+    "category": "Grains",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 67,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 68.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 66.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 70,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 71.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 68,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 70.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 68.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 69.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 70,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 70,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 11,
+    "name": "Black Rice (Organic)",
+    "category": "Grains",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 81.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 83.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 81,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 85,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 86.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 82.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 86,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 83.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 84,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 85,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 85,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 12,
+    "name": "Glutinous Rice (Malagkit Puti)",
+    "category": "Grains",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 72,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 73.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 71.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 75,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 76.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 73,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 76,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 73.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 74.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 75,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 75,
+    "icon": "leaf-outline"
+  },
+  {
+    "id": 13,
+    "name": "Glutinous Rice (Malagkit Itim / Pirurutong)",
+    "category": "Grains",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 81.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 83.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 81,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 85,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 86.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 82.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 86,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 83.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 84,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 85,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 85,
+    "icon": "leaf-outline"
+  },
+  {
+    "id": 14,
+    "name": "Corn Grits (Bigas Mais)",
+    "category": "Grains",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 43,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 44,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 43,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 45,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 46,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 43.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 45.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 44,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 44.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 45,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 45,
+    "icon": "grid-outline"
+  },
+  {
+    "id": 15,
+    "name": "Pork Liempo (Pork Belly)",
+    "category": "Meat",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 365,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 372.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 361,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 380,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 387.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 368.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 384,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 372.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 376,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 380,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 380,
+    "icon": "restaurant-outline"
+  },
+  {
+    "id": 16,
+    "name": "Pork Kasim (Shoulder)",
+    "category": "Meat",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 317,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 323.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 313.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 330,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 336.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 320,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 333.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 323.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 326.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 330,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 330,
+    "icon": "restaurant-outline"
+  },
+  {
+    "id": 17,
+    "name": "Pork Pigue (Ham Leg)",
+    "category": "Meat",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 317,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 323.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 313.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 330,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 336.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 320,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 333.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 323.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 326.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 330,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 330,
+    "icon": "restaurant-outline"
+  },
+  {
+    "id": 18,
+    "name": "Pork Chop",
+    "category": "Meat",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 326.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 333,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 323,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 340,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 347,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 330,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 343.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 333,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 336.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 340,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 340,
+    "icon": "restaurant-outline"
+  },
+  {
+    "id": 19,
+    "name": "Pork Spareribs (Kostilyas)",
+    "category": "Meat",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 345.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 353,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 342,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 360,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 367,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 349,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 363.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 353,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 356.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 360,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 360,
+    "icon": "restaurant-outline"
+  },
+  {
+    "id": 20,
+    "name": "Pork Giniling (Ground Pork)",
+    "category": "Meat",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 307,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 313.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 304,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 320,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 326.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 310.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 323,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 313.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 317,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 320,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 320,
+    "icon": "restaurant-outline"
+  },
+  {
+    "id": 21,
+    "name": "Pork Pata (Pork Hock / Knuckle)",
+    "category": "Meat",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 278.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 284,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 275.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 290,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 296,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 281.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 293,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 284,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 287,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 290,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 290,
+    "icon": "restaurant-outline"
+  },
+  {
+    "id": 22,
+    "name": "Pork Maskara & Tenga (For Sisig)",
+    "category": "Meat",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 211,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 215.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 209,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 220,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 224.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 213.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 222,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 215.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 218,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 220,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 220,
+    "icon": "restaurant-outline"
+  },
+  {
+    "id": 23,
+    "name": "Beef Rump (Tapadera)",
+    "category": "Meat",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 432,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 441,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 427.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 450,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 459,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 436.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 454.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 441,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 445.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 450,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 450,
+    "icon": "restaurant-outline"
+  },
+  {
+    "id": 24,
+    "name": "Beef Brisket (Punta y Pecho)",
+    "category": "Meat",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 374.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 382,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 370.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 390,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 398,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 378.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 394,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 382,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 386,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 390,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 390,
+    "icon": "restaurant-outline"
+  },
+  {
+    "id": 25,
+    "name": "Beef Shank (Bulalo Bone-in)",
+    "category": "Meat",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 403,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 411.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 399,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 420,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 428.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 407.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 424,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 411.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 416,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 420,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 420,
+    "icon": "restaurant-outline"
+  },
+  {
+    "id": 26,
+    "name": "Beef Giniling (Ground Beef)",
+    "category": "Meat",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 365,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 372.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 361,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 380,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 387.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 368.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 384,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 372.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 376,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 380,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 380,
+    "icon": "restaurant-outline"
+  },
+  {
+    "id": 27,
+    "name": "Beef Short Ribs (Tadyang)",
+    "category": "Meat",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 393.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 402,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 389.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 410,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 418,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 397.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 414,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 402,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 406,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 410,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 410,
+    "icon": "restaurant-outline"
+  },
+  {
+    "id": 28,
+    "name": "Beef Sirloin (Lomo)",
+    "category": "Meat",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 461,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 470.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 456,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 480,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 489.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 465.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 485,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 470.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 475,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 480,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 480,
+    "icon": "restaurant-outline"
+  },
+  {
+    "id": 29,
+    "name": "Beef Tripe (Tuwalya)",
+    "category": "Meat",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 288,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 294,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 285,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 300,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 306,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 291,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 303,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 294,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 297,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 300,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 300,
+    "icon": "restaurant-outline"
+  },
+  {
+    "id": 30,
+    "name": "Whole Dressed Chicken",
+    "category": "Poultry",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 182.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 186,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 180.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 190,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 194,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 184.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 192,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 186,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 188,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 190,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 190,
+    "icon": "egg-outline"
+  },
+  {
+    "id": 31,
+    "name": "Chicken Breast (Fillet)",
+    "category": "Poultry",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 211,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 215.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 209,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 220,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 224.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 213.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 222,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 215.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 218,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 220,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 220,
+    "icon": "egg-outline"
+  },
+  {
+    "id": 32,
+    "name": "Chicken Leg Quarter",
+    "category": "Poultry",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 192,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 196,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 190,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 200,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 204,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 194,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 202,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 196,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 198,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 200,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 200,
+    "icon": "egg-outline"
+  },
+  {
+    "id": 33,
+    "name": "Chicken Thigh",
+    "category": "Poultry",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 201.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 206,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 199.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 210,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 214,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 203.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 212,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 206,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 208,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 210,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 210,
+    "icon": "egg-outline"
+  },
+  {
+    "id": 34,
+    "name": "Chicken Wings",
+    "category": "Poultry",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 211,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 215.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 209,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 220,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 224.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 213.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 222,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 215.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 218,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 220,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 220,
+    "icon": "egg-outline"
+  },
+  {
+    "id": 35,
+    "name": "Chicken Drumstick",
+    "category": "Poultry",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 201.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 206,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 199.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 210,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 214,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 203.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 212,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 206,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 208,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 210,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 210,
+    "icon": "egg-outline"
+  },
+  {
+    "id": 36,
+    "name": "Chicken Liver & Gizzard (Atay at Balunbalunan)",
+    "category": "Poultry",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 230.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 235,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 228,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 240,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 245,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 233,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 242.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 235,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 237.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 240,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 240,
+    "icon": "egg-outline"
+  },
+  {
+    "id": 37,
+    "name": "Chicken Neck & Feet (Adidas)",
+    "category": "Poultry",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 115,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 117.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 114,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 120,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 122.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 116.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 121,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 117.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 119,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 120,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 120,
+    "icon": "egg-outline"
+  },
+  {
+    "id": 38,
+    "name": "Chicken Egg (Medium)",
+    "category": "Poultry",
+    "unit": "pc",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 8,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 8.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 8,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 8.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 8.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 8,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 8.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 8.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 8.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 8.5,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 8.5,
+    "icon": "egg-outline"
+  },
+  {
+    "id": 39,
+    "name": "Chicken Egg (Large)",
+    "category": "Poultry",
+    "unit": "pc",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 8.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 9,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 8.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 9,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 9,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 8.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 9,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 9,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 9,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 9,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 9,
+    "icon": "egg-outline"
+  },
+  {
+    "id": 40,
+    "name": "Chicken Egg (Extra Large)",
+    "category": "Poultry",
+    "unit": "pc",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 9,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 9.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 9,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 9.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 9.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 9,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 9.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 9.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 9.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 9.5,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 9.5,
+    "icon": "egg-outline"
+  },
+  {
+    "id": 41,
+    "name": "Chicken Egg (Tray / 30 pcs Medium)",
+    "category": "Poultry",
+    "unit": "tray",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 230.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 235,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 228,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 240,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 245,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 233,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 242.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 235,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 237.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 240,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 240,
+    "icon": "grid-outline"
+  },
+  {
+    "id": 42,
+    "name": "Salted Duck Egg (Itlog na Maalat)",
+    "category": "Poultry",
+    "unit": "pc",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 14.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 14.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 14.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 15,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 15.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 14.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 15,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 14.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 15,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 15,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 15,
+    "icon": "ellipse-outline"
+  },
+  {
+    "id": 43,
+    "name": "Quail Eggs (Itlog ng Pugo - 24 pcs)",
+    "category": "Poultry",
+    "unit": "pack",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 43,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 44,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 43,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 45,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 46,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 43.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 45.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 44,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 44.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 45,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 45,
+    "icon": "ellipse-outline"
+  },
+  {
+    "id": 44,
+    "name": "Bangus (Milkfish - Medium 2-3 pcs/kg)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 192,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 196,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 190,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 200,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 204,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 194,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 202,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 196,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 198,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 200,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 200,
+    "icon": "fish-outline"
+  },
+  {
+    "id": 45,
+    "name": "Bangus (Milkfish - Large Dagupan)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 230.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 235,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 228,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 240,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 245,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 233,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 242.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 235,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 237.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 240,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 240,
+    "icon": "fish-outline"
+  },
+  {
+    "id": 46,
+    "name": "Tilapia (Freshwater Live/Chilled)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 134.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 137,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 133,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 140,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 143,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 136,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 141.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 137,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 138.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 140,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 140,
+    "icon": "fish-outline"
+  },
+  {
+    "id": 47,
+    "name": "Galunggong (Round Scad - Local)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 192,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 196,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 190,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 200,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 204,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 194,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 202,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 196,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 198,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 200,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 200,
+    "icon": "fish-outline"
+  },
+  {
+    "id": 48,
+    "name": "Galunggong (Round Scad - Imported)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 173,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 176.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 171,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 180,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 183.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 174.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 182,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 176.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 178,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 180,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 180,
+    "icon": "fish-outline"
+  },
+  {
+    "id": 49,
+    "name": "Alumahan (Indian Mackerel)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 269,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 274.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 266,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 280,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 285.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 271.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 283,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 274.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 277,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 280,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 280,
+    "icon": "fish-outline"
+  },
+  {
+    "id": 50,
+    "name": "Dalagang Bukid (Yellowtail Fusilier)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 307,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 313.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 304,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 320,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 326.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 310.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 323,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 313.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 317,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 320,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 320,
+    "icon": "fish-outline"
+  },
+  {
+    "id": 51,
+    "name": "Tamban (Fresh Sardinella)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 115,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 117.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 114,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 120,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 122.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 116.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 121,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 117.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 119,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 120,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 120,
+    "icon": "fish-outline"
+  },
+  {
+    "id": 52,
+    "name": "Tanigue (Spanish Mackerel - Steaks)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 528,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 539,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 522.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 550,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 561,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 533.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 555.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 539,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 544.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 550,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 550,
+    "icon": "fish-outline"
+  },
+  {
+    "id": 53,
+    "name": "Maya-Maya (Red Snapper)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 432,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 441,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 427.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 450,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 459,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 436.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 454.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 441,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 445.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 450,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 450,
+    "icon": "fish-outline"
+  },
+  {
+    "id": 54,
+    "name": "Bisugo (Threadfin Bream)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 336,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 343,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 332.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 350,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 357,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 339.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 353.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 343,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 346.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 350,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 350,
+    "icon": "fish-outline"
+  },
+  {
+    "id": 55,
+    "name": "Hasa-Hasa (Short-Bodied Mackerel)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 307,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 313.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 304,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 320,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 326.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 310.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 323,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 313.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 317,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 320,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 320,
+    "icon": "fish-outline"
+  },
+  {
+    "id": 56,
+    "name": "Yellowfin Tuna / Tambakol (Sliced)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 365,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 372.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 361,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 380,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 387.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 368.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 384,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 372.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 376,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 380,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 380,
+    "icon": "fish-outline"
+  },
+  {
+    "id": 57,
+    "name": "Matangbaka (Bigeye Scad)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 249.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 255,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 247,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 260,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 265,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 252,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 262.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 255,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 257.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 260,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 260,
+    "icon": "fish-outline"
+  },
+  {
+    "id": 58,
+    "name": "Fresh Squid (Pusit Lumot / Kalay)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 365,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 372.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 361,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 380,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 387.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 368.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 384,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 372.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 376,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 380,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 380,
+    "icon": "water-outline"
+  },
+  {
+    "id": 59,
+    "name": "Small Squid (Pusit Palos / Pang-adobo)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 269,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 274.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 266,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 280,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 285.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 271.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 283,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 274.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 277,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 280,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 280,
+    "icon": "water-outline"
+  },
+  {
+    "id": 60,
+    "name": "Fresh White Shrimps (Suwahe / Hipon)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 365,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 372.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 361,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 380,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 387.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 368.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 384,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 372.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 376,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 380,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 380,
+    "icon": "water-outline"
+  },
+  {
+    "id": 61,
+    "name": "Tiger Prawns (Sugpo)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 624,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 637,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 617.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 650,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 663,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 630.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 656.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 637,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 643.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 650,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 650,
+    "icon": "water-outline"
+  },
+  {
+    "id": 62,
+    "name": "Mud Crab (Alimango)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 624,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 637,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 617.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 650,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 663,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 630.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 656.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 637,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 643.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 650,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 650,
+    "icon": "water-outline"
+  },
+  {
+    "id": 63,
+    "name": "Blue Swimming Crab (Alimasag)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 432,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 441,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 427.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 450,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 459,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 436.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 454.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 441,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 445.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 450,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 450,
+    "icon": "water-outline"
+  },
+  {
+    "id": 64,
+    "name": "Tahong (Green Mussels)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 86.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 88,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 85.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 90,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 92,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 87.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 91,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 88,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 89,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 90,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 90,
+    "icon": "water-outline"
+  },
+  {
+    "id": 65,
+    "name": "Talaba (Oysters in Shell)",
+    "category": "Seafood",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 77,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 78.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 76,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 80,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 81.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 77.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 81,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 78.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 79,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 80,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 80,
+    "icon": "water-outline"
+  },
+  {
+    "id": 66,
+    "name": "Ampalaya (Bitter Gourd)",
+    "category": "Vegetables",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 105.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 108,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 104.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 110,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 112,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 106.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 111,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 108,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 109,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 97,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 110,
+    "icon": "leaf-outline"
+  },
+  {
+    "id": 67,
+    "name": "String Beans (Sitaw)",
+    "category": "Vegetables",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 86.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 88,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 85.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 90,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 92,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 87.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 91,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 88,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 89,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 79,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 90,
+    "icon": "leaf-outline"
+  },
+  {
+    "id": 68,
+    "name": "Pechay Tagalog (Native Bok Choy)",
+    "category": "Vegetables",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 67,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 68.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 66.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 70,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 71.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 68,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 70.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 68.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 69.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 61.5,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 70,
+    "icon": "leaf-outline"
+  },
+  {
+    "id": 69,
+    "name": "Pechay Baguio (Wombok / Chinese Cabbage)",
+    "category": "Vegetables",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 81.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 83.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 81,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 85,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 86.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 82.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 86,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 83.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 84,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 75,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 85,
+    "icon": "leaf-outline"
+  },
+  {
+    "id": 70,
+    "name": "Kangkong (Water Spinach)",
+    "category": "Vegetables",
+    "unit": "bundle",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 38.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 39,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 38,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 40,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 41,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 39,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 40.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 39,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 39.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 35,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 40,
+    "icon": "leaf-outline"
+  },
+  {
+    "id": 71,
+    "name": "Cabbage (Repolyo - Scorpio)",
+    "category": "Vegetables",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 86.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 88,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 85.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 90,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 92,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 87.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 91,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 88,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 89,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 79,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 90,
+    "icon": "leaf-outline"
+  },
+  {
+    "id": 72,
+    "name": "Carrots (Baguio)",
+    "category": "Vegetables",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 115,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 117.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 114,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 120,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 122.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 116.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 121,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 117.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 119,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 105.5,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 120,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 73,
+    "name": "Baguio Beans (Habichuelas)",
+    "category": "Vegetables",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 96,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 98,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 95,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 100,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 102,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 97,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 101,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 98,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 99,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 88,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 100,
+    "icon": "leaf-outline"
+  },
+  {
+    "id": 74,
+    "name": "White Potato (Patatas)",
+    "category": "Vegetables",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 105.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 108,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 104.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 110,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 112,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 106.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 111,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 108,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 109,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 97,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 110,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 75,
+    "name": "Eggplant (Talong)",
+    "category": "Vegetables",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 86.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 88,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 85.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 90,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 92,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 87.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 91,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 88,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 89,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 79,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 90,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 76,
+    "name": "Sayote (Chayote)",
+    "category": "Vegetables",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 48,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 49,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 47.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 50,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 51,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 48.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 50.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 49,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 49.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 44,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 50,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 77,
+    "name": "Kalabasa (Squash)",
+    "category": "Vegetables",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 48,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 49,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 47.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 50,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 51,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 48.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 50.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 49,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 49.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 44,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 50,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 78,
+    "name": "Okra",
+    "category": "Vegetables",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 77,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 78.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 76,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 80,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 81.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 77.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 81,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 78.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 79,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 70.5,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 80,
+    "icon": "leaf-outline"
+  },
+  {
+    "id": 79,
+    "name": "Upo (Bottle Gourd)",
+    "category": "Vegetables",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 48,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 49,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 47.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 50,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 51,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 48.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 50.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 49,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 49.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 44,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 50,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 80,
+    "name": "Patola (Sponge Gourd)",
+    "category": "Vegetables",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 67,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 68.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 66.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 70,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 71.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 68,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 70.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 68.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 69.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 61.5,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 70,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 81,
+    "name": "Labanos (White Radish)",
+    "category": "Vegetables",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 57.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 59,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 57,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 60,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 61,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 58,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 60.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 59,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 59.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 53,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 60,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 82,
+    "name": "Sigarilyas (Winged Beans)",
+    "category": "Vegetables",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 96,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 98,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 95,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 100,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 102,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 97,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 101,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 98,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 99,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 88,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 100,
+    "icon": "leaf-outline"
+  },
+  {
+    "id": 83,
+    "name": "Singkamas (Jicama)",
+    "category": "Vegetables",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 67,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 68.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 66.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 70,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 71.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 68,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 70.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 68.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 69.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 61.5,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 70,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 84,
+    "name": "Gabi (Taro Root)",
+    "category": "Vegetables",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 77,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 78.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 76,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 80,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 81.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 77.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 81,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 78.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 79,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 70.5,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 80,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 85,
+    "name": "Kamote (Sweet Potato)",
+    "category": "Vegetables",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 57.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 59,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 57,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 60,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 61,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 58,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 60.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 59,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 59.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 53,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 60,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 86,
+    "name": "Kamoteng Kahoy (Cassava)",
+    "category": "Vegetables",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 43,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 44,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 43,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 45,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 46,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 43.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 45.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 44,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 44.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 39.5,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 45,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 87,
+    "name": "Malunggay Leaves",
+    "category": "Vegetables",
+    "unit": "bundle",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 19,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 19.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 19,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 20,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 20.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 19.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 20,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 19.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 20,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 17.5,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 20,
+    "icon": "leaf-outline"
+  },
+  {
+    "id": 88,
+    "name": "Saluyot Leaves",
+    "category": "Vegetables",
+    "unit": "bundle",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 24,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 24.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 24,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 25,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 25.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 24.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 25.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 24.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 25,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 22,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 25,
+    "icon": "leaf-outline"
+  },
+  {
+    "id": 89,
+    "name": "Dahon ng Sili (Chili Leaves)",
+    "category": "Vegetables",
+    "unit": "bundle",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 24,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 24.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 24,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 25,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 25.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 24.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 25.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 24.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 25,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 22,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 25,
+    "icon": "leaf-outline"
+  },
+  {
+    "id": 90,
+    "name": "Talbos ng Kamote",
+    "category": "Vegetables",
+    "unit": "bundle",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 24,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 24.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 24,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 25,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 25.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 24.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 25.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 24.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 25,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 22,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 25,
+    "icon": "leaf-outline"
+  },
+  {
+    "id": 91,
+    "name": "Red Onion (Sibuyas Pula - Local)",
+    "category": "Spices",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 134.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 137,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 133,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 140,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 143,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 136,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 141.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 137,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 138.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 140,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 140,
+    "icon": "ellipse-outline"
+  },
+  {
+    "id": 92,
+    "name": "White Onion (Sibuyas Puti - Imported)",
+    "category": "Spices",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 125,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 127.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 123.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 130,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 132.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 126,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 131.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 127.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 128.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 130,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 130,
+    "icon": "ellipse-outline"
+  },
+  {
+    "id": 93,
+    "name": "Garlic (Bawang - Local Native)",
+    "category": "Spices",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 173,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 176.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 171,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 180,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 183.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 174.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 182,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 176.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 178,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 180,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 180,
+    "icon": "ellipse-outline"
+  },
+  {
+    "id": 94,
+    "name": "Garlic (Bawang - Imported)",
+    "category": "Spices",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 134.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 137,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 133,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 140,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 143,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 136,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 141.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 137,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 138.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 140,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 140,
+    "icon": "ellipse-outline"
+  },
+  {
+    "id": 95,
+    "name": "Ginger (Luya - Local)",
+    "category": "Spices",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 115,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 117.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 114,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 120,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 122.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 116.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 121,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 117.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 119,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 120,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 120,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 96,
+    "name": "Tomatoes (Kamatis - Fresh)",
+    "category": "Spices",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 77,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 78.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 76,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 80,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 81.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 77.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 81,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 78.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 79,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 80,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 80,
+    "icon": "ellipse-outline"
+  },
+  {
+    "id": 97,
+    "name": "Siling Labuyo (Bird's Eye Chili)",
+    "category": "Spices",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 269,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 274.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 266,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 280,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 285.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 271.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 283,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 274.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 277,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 280,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 280,
+    "icon": "flame-outline"
+  },
+  {
+    "id": 98,
+    "name": "Siling Haba / Green Chili (Pang-sigang)",
+    "category": "Spices",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 115,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 117.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 114,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 120,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 122.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 116.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 121,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 117.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 119,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 120,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 120,
+    "icon": "flame-outline"
+  },
+  {
+    "id": 99,
+    "name": "Bell Pepper (Sili Parihaba - Red & Green)",
+    "category": "Spices",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 173,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 176.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 171,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 180,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 183.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 174.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 182,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 176.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 178,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 180,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 180,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 100,
+    "name": "Whole Black Pepper (Pamintang Buo)",
+    "category": "Spices",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 336,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 343,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 332.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 350,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 357,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 339.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 353.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 343,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 346.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 350,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 350,
+    "icon": "radio-button-on-outline"
+  },
+  {
+    "id": 101,
+    "name": "Ground Black Pepper (Pamintang Durog)",
+    "category": "Spices",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 365,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 372.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 361,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 380,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 387.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 368.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 384,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 372.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 376,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 380,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 380,
+    "icon": "radio-button-on-outline"
+  },
+  {
+    "id": 102,
+    "name": "Bay Leaves (Dahon ng Laurel)",
+    "category": "Spices",
+    "unit": "pack",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 38.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 39,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 38,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 40,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 41,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 39,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 40.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 39,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 39.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 40,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 40,
+    "icon": "leaf-outline"
+  },
+  {
+    "id": 103,
+    "name": "Lemongrass (Tanglad)",
+    "category": "Spices",
+    "unit": "bundle",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 29,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 29.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 28.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 30,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 30.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 29,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 30.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 29.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 29.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 30,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 30,
+    "icon": "leaf-outline"
+  },
+  {
+    "id": 104,
+    "name": "Pandan Leaves",
+    "category": "Spices",
+    "unit": "bundle",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 19,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 19.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 19,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 20,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 20.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 19.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 20,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 19.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 20,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 20,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 20,
+    "icon": "leaf-outline"
+  },
+  {
+    "id": 105,
+    "name": "Calamansi",
+    "category": "Fruits",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 77,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 78.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 76,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 80,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 81.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 77.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 81,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 78.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 79,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 80,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 80,
+    "icon": "ellipse-outline"
+  },
+  {
+    "id": 106,
+    "name": "Banana Lakatan",
+    "category": "Fruits",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 81.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 83.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 81,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 85,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 86.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 82.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 86,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 83.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 84,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 85,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 85,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 107,
+    "name": "Banana Latundan",
+    "category": "Fruits",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 57.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 59,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 57,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 60,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 61,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 58,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 60.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 59,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 59.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 60,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 60,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 108,
+    "name": "Banana Saba (Cardaba - Cooking Banana)",
+    "category": "Fruits",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 43,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 44,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 43,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 45,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 46,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 43.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 45.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 44,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 44.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 45,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 45,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 109,
+    "name": "Carabao Mango (Manggang Hinog)",
+    "category": "Fruits",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 153.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 157,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 152,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 160,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 163,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 155,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 161.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 157,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 158.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 160,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 160,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 110,
+    "name": "Green Mango (Manggang Hilaw / Indian Mango)",
+    "category": "Fruits",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 86.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 88,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 85.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 90,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 92,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 87.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 91,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 88,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 89,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 90,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 90,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 111,
+    "name": "Papaya (Solo / Native Sweet)",
+    "category": "Fruits",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 53,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 54,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 52.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 55,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 56,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 53.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 55.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 54,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 54.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 55,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 55,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 112,
+    "name": "Pineapple (Pinya Formosa)",
+    "category": "Fruits",
+    "unit": "pc",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 67,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 68.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 66.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 70,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 71.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 68,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 70.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 68.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 69.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 70,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 70,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 113,
+    "name": "Watermelon (Pakwan)",
+    "category": "Fruits",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 48,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 49,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 47.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 50,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 51,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 48.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 50.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 49,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 49.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 50,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 50,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 114,
+    "name": "Melon (Cantaloupe)",
+    "category": "Fruits",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 62.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 63.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 62,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 65,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 66.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 63,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 65.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 63.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 64.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 65,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 65,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 115,
+    "name": "Avocado (Local Hass/Semil)",
+    "category": "Fruits",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 115,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 117.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 114,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 120,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 122.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 116.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 121,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 117.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 119,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 120,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 120,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 116,
+    "name": "Davao Pomelo (Suha)",
+    "category": "Fruits",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 134.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 137,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 133,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 140,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 143,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 136,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 141.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 137,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 138.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 140,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 140,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 117,
+    "name": "Guyabano (Soursop)",
+    "category": "Fruits",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 86.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 88,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 85.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 90,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 92,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 87.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 91,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 88,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 89,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 90,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 90,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 118,
+    "name": "Fuji Apples",
+    "category": "Fruits",
+    "unit": "pc",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 29,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 29.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 28.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 30,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 30.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 29,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 30.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 29.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 29.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 30,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 30,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 119,
+    "name": "Sweet Orange (Kiat-Kiat / Ponkan)",
+    "category": "Fruits",
+    "unit": "pc",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 24,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 24.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 24,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 25,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 25.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 24.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 25.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 24.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 25,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 25,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 25,
+    "icon": "nutrition-outline"
+  },
+  {
+    "id": 120,
+    "name": "Refined Sugar (Asukal Puti)",
+    "category": "Dry Goods",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 81.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 83.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 81,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 85,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 86.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 82.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 86,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 83.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 84,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 85,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 85,
+    "icon": "cube-outline"
+  },
+  {
+    "id": 121,
+    "name": "Washed Sugar (Asukal Segunda)",
+    "category": "Dry Goods",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 77,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 78.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 76,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 80,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 81.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 77.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 81,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 78.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 79,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 80,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 80,
+    "icon": "cube-outline"
+  },
+  {
+    "id": 122,
+    "name": "Brown Sugar (Asukal Pula / Muscovado)",
+    "category": "Dry Goods",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 72,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 73.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 71.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 75,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 76.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 73,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 76,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 73.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 74.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 75,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 75,
+    "icon": "cube-outline"
+  },
+  {
+    "id": 123,
+    "name": "Cooking Oil (Mantika Palm - 1L Bottle)",
+    "category": "Dry Goods",
+    "unit": "bottle",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 72,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 73.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 71.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 75,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 76.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 73,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 76,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 73.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 74.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 75,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 75,
+    "icon": "beaker-outline"
+  },
+  {
+    "id": 124,
+    "name": "Cooking Oil (Mantika Coconut - 1L Bottle)",
+    "category": "Dry Goods",
+    "unit": "bottle",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 91,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 93,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 90.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 95,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 97,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 92,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 96,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 93,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 94,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 95,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 95,
+    "icon": "beaker-outline"
+  },
+  {
+    "id": 125,
+    "name": "Cooking Oil (Tingi - 350ml Lapad)",
+    "category": "Dry Goods",
+    "unit": "bottle",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 29,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 29.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 28.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 30,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 30.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 29,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 30.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 29.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 29.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 30,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 30,
+    "icon": "beaker-outline"
+  },
+  {
+    "id": 126,
+    "name": "Iodized Table Salt (Asin 1kg)",
+    "category": "Dry Goods",
+    "unit": "pack",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 29,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 29.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 28.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 30,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 30.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 29,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 30.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 29.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 29.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 30,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 30,
+    "icon": "cube-outline"
+  },
+  {
+    "id": 127,
+    "name": "Rock Salt (Asin Magaspang 1kg)",
+    "category": "Dry Goods",
+    "unit": "pack",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 19,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 19.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 19,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 20,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 20.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 19.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 20,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 19.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 20,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 20,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 20,
+    "icon": "cube-outline"
+  },
+  {
+    "id": 128,
+    "name": "Soy Sauce (Toyo - 1L Pouch/Bottle)",
+    "category": "Dry Goods",
+    "unit": "bottle",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 40.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 41,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 40,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 42,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 43,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 40.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 42.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 41,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 41.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 42,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 42,
+    "icon": "beaker-outline"
+  },
+  {
+    "id": 129,
+    "name": "Cane Vinegar (Suka - 1L Pouch/Bottle)",
+    "category": "Dry Goods",
+    "unit": "bottle",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 36.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 37,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 36,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 38,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 39,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 37,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 38.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 37,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 37.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 38,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 38,
+    "icon": "beaker-outline"
+  },
+  {
+    "id": 130,
+    "name": "Fish Sauce (Patis - 1L Bottle)",
+    "category": "Dry Goods",
+    "unit": "bottle",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 53,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 54,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 52.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 55,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 56,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 53.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 55.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 54,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 54.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 55,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 55,
+    "icon": "beaker-outline"
+  },
+  {
+    "id": 131,
+    "name": "Bagoong Alamang (Shrimp Paste 250g)",
+    "category": "Dry Goods",
+    "unit": "jar",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 57.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 59,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 57,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 60,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 61,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 58,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 60.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 59,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 59.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 60,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 60,
+    "icon": "beaker-outline"
+  },
+  {
+    "id": 132,
+    "name": "Bagoong Isda (Fish Paste 350ml)",
+    "category": "Dry Goods",
+    "unit": "bottle",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 48,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 49,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 47.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 50,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 51,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 48.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 50.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 49,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 49.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 50,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 50,
+    "icon": "beaker-outline"
+  },
+  {
+    "id": 133,
+    "name": "Dried Fish (Tuyo - Salinyasi 100g)",
+    "category": "Dry Goods",
+    "unit": "pack",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 38.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 39,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 38,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 40,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 41,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 39,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 40.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 39,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 39.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 40,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 40,
+    "icon": "fish-outline"
+  },
+  {
+    "id": 134,
+    "name": "Dried Fish (Daing na Bangus)",
+    "category": "Dry Goods",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 249.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 255,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 247,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 260,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 265,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 252,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 262.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 255,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 257.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 260,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 260,
+    "icon": "fish-outline"
+  },
+  {
+    "id": 135,
+    "name": "Smoked Fish (Tinapang Salinas)",
+    "category": "Dry Goods",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 230.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 235,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 228,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 240,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 245,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 233,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 242.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 235,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 237.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 240,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 240,
+    "icon": "fish-outline"
+  },
+  {
+    "id": 136,
+    "name": "Cebu Danggit (Dried Rabbitfish 100g)",
+    "category": "Dry Goods",
+    "unit": "pack",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 91,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 93,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 90.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 95,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 97,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 92,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 96,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 93,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 94,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 95,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 95,
+    "icon": "fish-outline"
+  },
+  {
+    "id": 137,
+    "name": "Mung Beans (Munggo Green 500g)",
+    "category": "Dry Goods",
+    "unit": "pack",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 53,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 54,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 52.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 55,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 56,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 53.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 55.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 54,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 54.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 55,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 55,
+    "icon": "grid-outline"
+  },
+  {
+    "id": 138,
+    "name": "All-Purpose Flour (Harina 1kg)",
+    "category": "Dry Goods",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 55.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 57,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 55,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 58,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 59,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 56.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 58.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 57,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 57.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 58,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 58,
+    "icon": "cube-outline"
+  },
+  {
+    "id": 139,
+    "name": "Cornstarch (1kg)",
+    "category": "Dry Goods",
+    "unit": "kg",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 53,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 54,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 52.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 55,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 56,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 53.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 55.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 54,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 54.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 55,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 55,
+    "icon": "cube-outline"
+  },
+  {
+    "id": 140,
+    "name": "Pancit Bihon Noodles (500g)",
+    "category": "Dry Goods",
+    "unit": "pack",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 43,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 44,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 43,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 45,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 46,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 43.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 45.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 44,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 44.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 45,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 45,
+    "icon": "restaurant-outline"
+  },
+  {
+    "id": 141,
+    "name": "Pancit Canton Noodles (500g)",
+    "category": "Dry Goods",
+    "unit": "pack",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 53,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 54,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 52.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 55,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 56,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 53.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 55.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 54,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 54.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 55,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 55,
+    "icon": "restaurant-outline"
+  },
+  {
+    "id": 142,
+    "name": "Sotanghon (Vermicelli Noodles 250g)",
+    "category": "Dry Goods",
+    "unit": "pack",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 48,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 49,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 47.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 50,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 51,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 48.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 50.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 49,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 49.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 50,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 50,
+    "icon": "restaurant-outline"
+  },
+  {
+    "id": 143,
+    "name": "Canned Sardines in Tomato Sauce (155g)",
+    "category": "Other Basic Commodities",
+    "unit": "can",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 21,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 21.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 21,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 22,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 22.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 21.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 22,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 21.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 22,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 22,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 22,
+    "icon": "archive-outline"
+  },
+  {
+    "id": 144,
+    "name": "Canned Tuna Flakes in Oil (155g)",
+    "category": "Other Basic Commodities",
+    "unit": "can",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 36.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 37,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 36,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 38,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 39,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 37,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 38.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 37,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 37.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 38,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 38,
+    "icon": "archive-outline"
+  },
+  {
+    "id": 145,
+    "name": "Canned Corned Beef (150g)",
+    "category": "Other Basic Commodities",
+    "unit": "can",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 40.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 41,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 40,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 42,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 43,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 40.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 42.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 41,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 41.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 42,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 42,
+    "icon": "archive-outline"
+  },
+  {
+    "id": 146,
+    "name": "Canned Meat Loaf (150g)",
+    "category": "Other Basic Commodities",
+    "unit": "can",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 25,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 25.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 24.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 26,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 26.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 25,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 26.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 25.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 25.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 26,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 26,
+    "icon": "archive-outline"
+  },
+  {
+    "id": 147,
+    "name": "Instant Noodles (Pancit Canton / Mami 55g)",
+    "category": "Other Basic Commodities",
+    "unit": "pack",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 13.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 13.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 13.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 14,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 14.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 13.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 14,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 13.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 14,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 14,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 14,
+    "icon": "restaurant-outline"
+  },
+  {
+    "id": 148,
+    "name": "Evaporated Milk (Can 370ml)",
+    "category": "Other Basic Commodities",
+    "unit": "can",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 32.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 33.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 32.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 34,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 34.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 33,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 34.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 33.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 33.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 34,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 34,
+    "icon": "beaker-outline"
+  },
+  {
+    "id": 149,
+    "name": "Condensed Milk (Can 300ml)",
+    "category": "Other Basic Commodities",
+    "unit": "can",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 42,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 43,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 42,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 44,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 45,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 42.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 44.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 43,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 43.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 44,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 44,
+    "icon": "beaker-outline"
+  },
+  {
+    "id": 150,
+    "name": "Powdered Milk (Fortified 150g)",
+    "category": "Other Basic Commodities",
+    "unit": "pack",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 50,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 51,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 49.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 52,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 53,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 50.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 52.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 51,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 51.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 52,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 52,
+    "icon": "cube-outline"
+  },
+  {
+    "id": 151,
+    "name": "Instant Coffee 3-in-1 (Single Sachet)",
+    "category": "Other Basic Commodities",
+    "unit": "pc",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 8.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 9,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 8.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 9,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 9,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 8.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 9,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 9,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 9,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 9,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 9,
+    "icon": "cafe-outline"
+  },
+  {
+    "id": 152,
+    "name": "Instant Coffee (Granules 50g Refill)",
+    "category": "Other Basic Commodities",
+    "unit": "pack",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 43,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 44,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 43,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 45,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 46,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 43.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 45.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 44,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 44.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 45,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 45,
+    "icon": "cafe-outline"
+  },
+  {
+    "id": 153,
+    "name": "Pinoy Tasty (Loaf Bread 450g)",
+    "category": "Other Basic Commodities",
+    "unit": "pack",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 38.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 39,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 38,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 40,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 41,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 39,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 40.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 39,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 39.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 40,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 40,
+    "icon": "restaurant-outline"
+  },
+  {
+    "id": 154,
+    "name": "Pinoy Pan de Sal (10 pcs pack)",
+    "category": "Other Basic Commodities",
+    "unit": "pack",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 24,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 24.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 24,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 25,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 25.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 24.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 25.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 24.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 25,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 25,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 25,
+    "icon": "restaurant-outline"
+  },
+  {
+    "id": 155,
+    "name": "Bath Soap (Regular 90g bar)",
+    "category": "Other Basic Commodities",
+    "unit": "bar",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 24,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 24.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 24,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 25,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 25.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 24.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 25.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 24.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 25,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 25,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 25,
+    "icon": "water-outline"
+  },
+  {
+    "id": 156,
+    "name": "Laundry Bar Soap (Panlaba 380g bar)",
+    "category": "Other Basic Commodities",
+    "unit": "bar",
+    "prices": [
+      {
+        "marketId": 1,
+        "price": 27,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 2,
+        "price": 27.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 3,
+        "price": 26.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 4,
+        "price": 28,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 5,
+        "price": 28.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 6,
+        "price": 27,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 7,
+        "price": 28.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 8,
+        "price": 27.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 9,
+        "price": 27.5,
+        "lastUpdated": "2026-11-09"
+      },
+      {
+        "marketId": 10,
+        "price": 28,
+        "lastUpdated": "2026-11-09"
+      }
+    ],
+    "suggestedRetailPrice": 28,
+    "icon": "water-outline"
+  }
+]

@@ -1,0 +1,197 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary">
+    <ion-title>
+      <div class="header-title">
+        <span>🗺️ KILATIS</span>
+        <small>Nueva Ecija Markets Map</small>
+      </div>
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="openTimbanganGuide()" title="Timbangan ng Bayan Guide">
+        <ion-icon slot="icon-only" name="scale-outline"></ion-icon>
+      </ion-button>
+      <ion-button (click)="locateMe()" title="Locate Me">
+        <ion-icon slot="icon-only" name="locate-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+  <!-- SMART SEARCH BAR -->
+  <ion-toolbar color="primary" class="search-toolbar">
+    <ion-searchbar
+      [(ngModel)]="searchQuery"
+      placeholder="Search Nueva Ecija palengke (e.g. Gapan, Cabanatuan, Muñoz)"
+      [debounce]="200"
+      (ionInput)="onSearchChange($event)"
+      (ionClear)="onClearSearch()"
+      [animated]="false">
+    </ion-searchbar>
+  </ion-toolbar>
+
+  <!-- QUICK NUEVA ECIJA CHIPS -->
+  <div class="quick-chips-bar">
+    <ion-chip [color]="selectedRegion === '' ? 'secondary' : 'light'" (click)="filterByRegion('')" class="market-chip">
+      <ion-icon name="pin-outline"></ion-icon>
+      <ion-label>All Nueva Ecija</ion-label>
+    </ion-chip>
+    <ion-chip [color]="selectedRegion === 'Gapan' ? 'secondary' : 'light'" (click)="filterByRegion('Gapan')" class="market-chip">
+      <ion-label>Gapan</ion-label>
+    </ion-chip>
+    <ion-chip [color]="selectedRegion === 'Cabanatuan' ? 'secondary' : 'light'" (click)="filterByRegion('Cabanatuan')" class="market-chip">
+      <ion-label>Cabanatuan</ion-label>
+    </ion-chip>
+    <ion-chip [color]="selectedRegion === 'San Jose' ? 'secondary' : 'light'" (click)="filterByRegion('San Jose')" class="market-chip">
+      <ion-label>San Jose City</ion-label>
+    </ion-chip>
+    <ion-chip [color]="selectedRegion === 'Muñoz' ? 'secondary' : 'light'" (click)="filterByRegion('Muñoz')" class="market-chip">
+      <ion-label>Science City of Muñoz</ion-label>
+    </ion-chip>
+    <ion-chip [color]="selectedRegion === 'Talavera' ? 'secondary' : 'light'" (click)="filterByRegion('Talavera')" class="market-chip">
+      <ion-label>Talavera</ion-label>
+    </ion-chip>
+    <ion-chip [color]="selectedRegion === 'Guimba' ? 'secondary' : 'light'" (click)="filterByRegion('Guimba')" class="market-chip">
+      <ion-label>Guimba</ion-label>
+    </ion-chip>
+    <ion-chip [color]="selectedRegion === 'San Leonardo' ? 'secondary' : 'light'" (click)="filterByRegion('San Leonardo')" class="market-chip">
+      <ion-label>San Leonardo</ion-label>
+    </ion-chip>
+    <ion-chip [color]="selectedRegion === 'Santa Rosa' ? 'secondary' : 'light'" (click)="filterByRegion('Santa Rosa')" class="market-chip">
+      <ion-label>Santa Rosa</ion-label>
+    </ion-chip>
+    <ion-chip [color]="selectedRegion === 'Bongabon' ? 'secondary' : 'light'" (click)="filterByRegion('Bongabon')" class="market-chip">
+      <ion-label>Bongabon</ion-label>
+    </ion-chip>
+    <ion-chip [color]="selectedRegion === 'Zaragoza' ? 'secondary' : 'light'" (click)="filterByRegion('Zaragoza')" class="market-chip">
+      <ion-label>Zaragoza</ion-label>
+    </ion-chip>
+    <ion-chip [color]="selectedRegion === 'Jaen' ? 'secondary' : 'light'" (click)="filterByRegion('Jaen')" class="market-chip">
+      <ion-label>Jaen</ion-label>
+    </ion-chip>
+    <ion-chip [color]="selectedRegion === 'San Isidro' ? 'secondary' : 'light'" (click)="filterByRegion('San Isidro')" class="market-chip">
+      <ion-label>San Isidro</ion-label>
+    </ion-chip>
+    <ion-chip [color]="selectedRegion === 'San Antonio' ? 'secondary' : 'light'" (click)="filterByRegion('San Antonio')" class="market-chip">
+      <ion-label>San Antonio</ion-label>
+    </ion-chip>
+    <ion-chip [color]="selectedRegion === 'Cabiao' ? 'secondary' : 'light'" (click)="filterByRegion('Cabiao')" class="market-chip">
+      <ion-label>Cabiao</ion-label>
+    </ion-chip>
+  </div>
+</ion-header>
+
+<ion-content [scrollY]="false" class="map-page-content">
+
+  <!-- MAP CANVAS -->
+  <div #mapContainer id="map-container"></div>
+
+  <!-- FLOATING QUICK LEGEND (Top Left) -->
+  <div class="map-legend-floating">
+    <span class="dot open"></span> Open: {{ getOpenCount() }}
+    <span class="dot-divider">&bull;</span>
+    <span class="dot closed"></span> Closed: {{ getClosedCount() }}
+  </div>
+
+  <!-- SEARCH STATUS BADGE -->
+  @if (isSearching) {
+    <div class="search-status-floating">
+      <ion-spinner name="dots" color="primary"></ion-spinner>
+      <span>Searching...</span>
+    </div>
+  }
+
+  <!-- GEOCODE RESULT BADGE -->
+  @if (geocodeResult) {
+    <div class="geocode-result-floating">
+      <ion-icon name="location-outline" color="primary"></ion-icon>
+      <span>Showing markets near <strong>{{ geocodeResult }}</strong></span>
+      <ion-button size="small" fill="clear" color="dark" (click)="onClearSearch()">
+        <ion-icon name="close-outline"></ion-icon>
+      </ion-button>
+    </div>
+  }
+
+  <!-- DEDICATED FLOATING ZOOM & VIEW CONTROLS -->
+  <div class="map-zoom-controls">
+    <ion-button fill="solid" color="light" class="map-btn" (click)="zoomIn($event)" title="Zoom In">
+      <ion-icon slot="icon-only" name="add-outline"></ion-icon>
+    </ion-button>
+    <ion-button fill="solid" color="light" class="map-btn" (click)="zoomOut($event)" title="Zoom Out">
+      <ion-icon slot="icon-only" name="remove-outline"></ion-icon>
+    </ion-button>
+    <ion-button fill="solid" color="light" class="map-btn" (click)="fitAllMarkers($event)" title="Show Whole Philippines">
+      <ion-icon slot="icon-only" name="scan-outline"></ion-icon>
+    </ion-button>
+    <ion-button fill="solid" color="light" class="map-btn" (click)="locateMe()" title="Find My Location">
+      <ion-icon slot="icon-only" name="navigate-outline"></ion-icon>
+    </ion-button>
+  </div>
+
+  <!-- EMPTY RESULTS BADGE -->
+  @if (filteredMarkets.length === 0 && searchQuery && !isSearching) {
+    <div class="no-results-floating">
+      <ion-icon name="alert-circle-outline"></ion-icon>
+      <span>No markets found for "{{ searchQuery }}"</span>
+      <ion-button size="small" fill="outline" color="dark" (click)="onClearSearch()">Show All</ion-button>
+    </div>
+  }
+
+  <!-- SLIDABLE HORIZONTAL MARKET CAROUSEL TRAY -->
+  <div class="slidable-tray-container" [class.collapsed]="isTrayCollapsed">
+    <!-- Tray Header / Handle -->
+    <div class="tray-handle-row" (click)="toggleTray()">
+      <div class="handle-bar"></div>
+      <div class="handle-title">
+        <span>{{ filteredMarkets.length }} Palengke ({{ carouselMarkets.length }} malapit) &bull; {{ isTrayCollapsed ? 'I-angat ang mga Card' : 'I-slide Pakaliwa / Pakanan' }}</span>
+        <ion-icon [name]="isTrayCollapsed ? 'chevron-up-outline' : 'chevron-down-outline'"></ion-icon>
+      </div>
+    </div>
+
+    <!-- Slidable Cards Track (Swipeable left & right) -->
+    @if (carouselMarkets.length > 0) {
+      <div class="slidable-cards-track" #cardsTrack>
+        @for (market of carouselMarkets; track market.id) {
+          <div
+            class="slidable-market-card"
+            [class.selected]="selectedMarket?.id === market.id"
+            (click)="selectMarket(market, true)">
+
+            <div class="card-top">
+              <span class="market-name">{{ market.name }}</span>
+              <ion-badge [color]="market.isOpen ? 'success' : 'danger'" class="market-status-badge">
+                {{ market.isOpen ? 'Open Now' : 'Closed' }}
+              </ion-badge>
+            </div>
+
+            <div class="card-address">
+              <ion-icon name="location-outline"></ion-icon>
+              <span>{{ market.address }}</span>
+            </div>
+
+            <div class="card-hours">
+              <ion-icon name="time-outline"></ion-icon>
+              <span>{{ market.operatingHours || '5:00 AM - 7:00 PM' }}</span>
+            </div>
+
+            <div class="card-tags" *ngIf="hasTimbangan(market)">
+              <span class="timbangan-tag" (click)="openTimbanganGuide(); $event.stopPropagation()">
+                ⚖️ Timbangan ng Bayan
+              </span>
+            </div>
+
+            <div class="card-actions">
+              <ion-button size="small" fill="solid" color="primary" (click)="viewPrices(market); $event.stopPropagation()">
+                <ion-icon slot="start" name="pricetag-outline"></ion-icon>
+                View Prices
+              </ion-button>
+              <ion-button size="small" fill="outline" color="medium" (click)="selectMarket(market, true); $event.stopPropagation()">
+                <ion-icon slot="start" name="navigate-outline"></ion-icon>
+                Go
+              </ion-button>
+            </div>
+          </div>
+        }
+      </div>
+    }
+  </div>
+
+</ion-content>

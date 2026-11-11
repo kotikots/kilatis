@@ -1,0 +1,2654 @@
+[
+  {
+    "id": 1,
+    "name": "Sinigang na Baboy",
+    "category": "Soup",
+    "servings": 4,
+    "image": "🍲",
+    "description": "Classic Filipino sour tamarind soup with tender pork and crisp native greens.",
+    "tags": [
+      "Soup",
+      "Pork",
+      "Classic"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Pork Liempo",
+        "quantity": 0.5,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sitaw (String Beans)",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Labanos (Radish)",
+        "quantity": 0.2,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kangkong",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "commodityName": "Kamatis (Tomato)",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Tinolang Manok",
+    "category": "Soup",
+    "servings": 4,
+    "image": "🍗",
+    "description": "Hearty ginger-infused chicken soup with fresh green papaya and chili leaves.",
+    "tags": [
+      "Soup",
+      "Chicken",
+      "Healthy"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Whole Dressed Chicken",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Papaya (Green)",
+        "quantity": 0.3,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Luya (Ginger)",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang (Garlic)",
+        "quantity": 0.03,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Adobong Baboy",
+    "category": "Main Dish",
+    "servings": 4,
+    "image": "🥩",
+    "description": "Savory, garlicky pork simmered in native cane vinegar and soy sauce.",
+    "tags": [
+      "Main Dish",
+      "Pork",
+      "Classic"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Pork Liempo",
+        "quantity": 0.5,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang (Garlic)",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Ginisang Munggo",
+    "category": "Main Dish",
+    "servings": 4,
+    "image": "🫘",
+    "description": "Nutritious sautéed mung beans with pork bits and fresh greens — the Friday palengke staple!",
+    "tags": [
+      "Main Dish",
+      "Vegetables",
+      "Budget"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Monggo (Mung Beans)",
+        "quantity": 0.25,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Pork Kasim",
+        "quantity": 0.2,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang (Garlic)",
+        "quantity": 0.03,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kamatis (Tomato)",
+        "quantity": 0.1,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Pinakbet",
+    "category": "Vegetables",
+    "servings": 4,
+    "image": "🥦",
+    "description": "Traditional Ilocano medley of fresh ampalaya, sitaw, talong, and kalabasa.",
+    "tags": [
+      "Vegetables",
+      "Healthy",
+      "Regional"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Ampalaya (Bitter Gourd)",
+        "quantity": 0.2,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sitaw (String Beans)",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Talong (Eggplant)",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kalabasa (Squash)",
+        "quantity": 0.2,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kamatis (Tomato)",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Pork Kasim",
+        "quantity": 0.15,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Beef Nilaga",
+    "category": "Soup",
+    "servings": 4,
+    "image": "🥣",
+    "description": "Comforting slow-boiled beef brisket soup with fresh cabbage and potatoes.",
+    "tags": [
+      "Soup",
+      "Beef",
+      "Comfort Food"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Beef Brisket/Camto",
+        "quantity": 0.5,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Patatas (Potato)",
+        "quantity": 0.3,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Repolyo (Cabbage)",
+        "quantity": 0.2,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Pechay Tagalog",
+        "quantity": 1,
+        "unit": "bundle"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Arroz Caldo",
+    "category": "Rice Dish",
+    "servings": 4,
+    "image": "🍚",
+    "description": "Warm ginger chicken rice porridge topped with toasted garlic — rainy day favorite.",
+    "tags": [
+      "Rice Dish",
+      "Chicken",
+      "Comfort Food"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Whole Dressed Chicken",
+        "quantity": 0.5,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Well-Milled Local Rice (Sinandomeng)",
+        "quantity": 0.25,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Luya (Ginger)",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang (Garlic)",
+        "quantity": 0.03,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Paksiw na Bangus",
+    "category": "Seafood",
+    "servings": 4,
+    "image": "🐟",
+    "description": "Fresh milkfish simmered in native vinegar, fresh ginger, and ampalaya.",
+    "tags": [
+      "Seafood",
+      "Fish",
+      "Quick"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Bangus (Milkfish)",
+        "quantity": 0.5,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Luya (Ginger)",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Ampalaya (Bitter Gourd)",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang (Garlic)",
+        "quantity": 0.03,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Ginataang Kalabasa at Sitaw",
+    "category": "Vegetables",
+    "servings": 4,
+    "image": "🎃",
+    "description": "Creamy rich kalabasa and tender string beans cooked in fresh gata (coconut milk).",
+    "tags": [
+      "Vegetables",
+      "Creamy",
+      "Quick"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Kalabasa (Squash)",
+        "quantity": 0.4,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sitaw (String Beans)",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Pork Kasim",
+        "quantity": 0.2,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang (Garlic)",
+        "quantity": 0.03,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Tortang Talong",
+    "category": "Egg Dish",
+    "servings": 2,
+    "image": "🍳",
+    "description": "Smoky charred eggplant pan-fried in egg batter. Budget-friendly and delicious!",
+    "tags": [
+      "Egg Dish",
+      "Vegetables",
+      "Budget"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Talong (Eggplant)",
+        "quantity": 0.25,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Chicken Egg (Medium)",
+        "quantity": 2,
+        "unit": "piece"
+      },
+      {
+        "commodityName": "Bawang (Garlic)",
+        "quantity": 0.02,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.03,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Chopsuey",
+    "category": "Vegetables",
+    "servings": 4,
+    "image": "🥗",
+    "description": "Colorful medley of crisp Baguio vegetables stir-fried with chicken.",
+    "tags": [
+      "Vegetables",
+      "Healthy",
+      "Stir-Fry"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Repolyo (Cabbage)",
+        "quantity": 0.2,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Baguio Beans",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Carrot",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kamatis (Tomato)",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang (Garlic)",
+        "quantity": 0.03,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Sinigang na Hipon",
+    "category": "Soup",
+    "servings": 4,
+    "image": "🦐",
+    "description": "Tangy, savory tamarind soup made with fresh ocean shrimp and kangkong.",
+    "tags": [
+      "Soup",
+      "Seafood",
+      "Special"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Suahe / White Shrimp",
+        "quantity": 0.4,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sitaw (String Beans)",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Labanos (Radish)",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kangkong",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "commodityName": "Kamatis (Tomato)",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Chicken Adobo",
+    "category": "Main Dish",
+    "servings": 4,
+    "image": "🍗",
+    "description": "The quintessential Filipino dish — chicken braised in vinegar, soy sauce, garlic, and cracked pepper.",
+    "tags": [
+      "Main Dish",
+      "Chicken",
+      "Classic"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Whole Dressed Chicken",
+        "quantity": 0.8,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang (Garlic)",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Kare-Kare",
+    "category": "Main Dish",
+    "servings": 5,
+    "image": "🥘",
+    "description": "Rich and savory peanut stew with tender pork, eggplant, sitaw, and pechay served with bagoong.",
+    "tags": [
+      "Main Dish",
+      "Pork",
+      "Celebration"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Pork Kasim",
+        "quantity": 0.5,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Talong (Eggplant)",
+        "quantity": 0.2,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sitaw (String Beans)",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Pechay Tagalog",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "commodityName": "Bawang (Garlic)",
+        "quantity": 0.03,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Bulalo (Beef Shank Soup)",
+    "category": "Soup",
+    "servings": 4,
+    "image": "🍲",
+    "description": "Hearty Batangas-style beef shank soup slow-simmered with cabbage, sweet corn, and pechay.",
+    "tags": [
+      "Soup",
+      "Beef",
+      "Comfort Food"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Beef Shank (Bulalo)",
+        "quantity": 0.6,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Repolyo (Cabbage)",
+        "quantity": 0.25,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Pechay Tagalog",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Pork Menudo",
+    "category": "Main Dish",
+    "servings": 4,
+    "image": "🍛",
+    "description": "Festive stew of cubed pork, potatoes, carrots, and sweet tomato sauce — a Sunday family favorite.",
+    "tags": [
+      "Main Dish",
+      "Pork",
+      "Fiesta"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Pork Kasim",
+        "quantity": 0.4,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Patatas (Potato)",
+        "quantity": 0.2,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Carrot",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kamatis (Tomato)",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang (Garlic)",
+        "quantity": 0.03,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Sinigang na Bangus sa Kamatis",
+    "category": "Soup",
+    "servings": 4,
+    "image": "🐟",
+    "description": "Fresh Dagupan milkfish simmered with sweet ripe tomatoes, radish, and native kangkong.",
+    "tags": [
+      "Soup",
+      "Seafood",
+      "Healthy"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Bangus (Milkfish)",
+        "quantity": 0.5,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kamatis (Tomato)",
+        "quantity": 0.2,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kangkong",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "commodityName": "Labanos (Radish)",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sitaw (String Beans)",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Ginisang Sayote na may Giniling",
+    "category": "Vegetables",
+    "servings": 3,
+    "image": "🥒",
+    "description": "Crisp chayote sautéed with ground pork and fresh tomatoes. Quick, healthy, and budget-friendly.",
+    "tags": [
+      "Vegetables",
+      "Quick",
+      "Budget"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Sayote",
+        "quantity": 0.4,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Ground Pork",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kamatis (Tomato)",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang (Garlic)",
+        "quantity": 0.03,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Escabechang Tilapia",
+    "category": "Seafood",
+    "servings": 4,
+    "image": "🐠",
+    "description": "Crispy fried fresh tilapia drenched in sweet-and-sour ginger bell pepper sauce.",
+    "tags": [
+      "Seafood",
+      "Fish",
+      "Special"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Tilapia",
+        "quantity": 0.5,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Luya (Ginger)",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Carrot",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang (Garlic)",
+        "quantity": 0.03,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Siling Haba (Green Chili)",
+        "quantity": 0.03,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Bicol Express",
+    "category": "Main Dish",
+    "servings": 4,
+    "image": "🌶️",
+    "description": "Spicy pork stew simmered in rich coconut milk with lots of green chilies and shrimp paste.",
+    "tags": [
+      "Main Dish",
+      "Pork",
+      "Spicy"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Pork Liempo",
+        "quantity": 0.4,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Siling Haba (Green Chili)",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Siling Labuyo (Red Chili)",
+        "quantity": 0.02,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang (Garlic)",
+        "quantity": 0.03,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Luya (Ginger)",
+        "quantity": 0.03,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Pritong Liempo with Ensalada",
+    "category": "Main Dish",
+    "servings": 4,
+    "image": "🥓",
+    "description": "Crispy golden pork belly paired with grilled eggplant, fresh red tomatoes, and onions.",
+    "tags": [
+      "Main Dish",
+      "Pork",
+      "Comfort Food"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Pork Liempo",
+        "quantity": 0.5,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Talong (Eggplant)",
+        "quantity": 0.2,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kamatis (Tomato)",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Ginisang Ampalaya with Egg",
+    "category": "Egg Dish",
+    "servings": 3,
+    "image": "🍳",
+    "description": "Sliced bitter melon sauteed with garlic, ripe tomatoes, and gently folded with scrambled eggs.",
+    "tags": [
+      "Egg Dish",
+      "Vegetables",
+      "Healthy"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Ampalaya (Bitter Gourd)",
+        "quantity": 0.3,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Chicken Egg (Medium)",
+        "quantity": 2,
+        "unit": "piece"
+      },
+      {
+        "commodityName": "Kamatis (Tomato)",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang (Garlic)",
+        "quantity": 0.02,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.03,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Paksiw na Galunggong",
+    "category": "Seafood",
+    "servings": 4,
+    "image": "🐟",
+    "description": "Budget-friendly round scad simmered with vinegar, ginger, garlic, and bitter gourd slices.",
+    "tags": [
+      "Seafood",
+      "Fish",
+      "Budget"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Galunggong (Round Scad)",
+        "quantity": 0.5,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Luya (Ginger)",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Ampalaya (Bitter Gourd)",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang (Garlic)",
+        "quantity": 0.03,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Siling Haba (Green Chili)",
+        "quantity": 0.02,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Pinoy Chicken Curry",
+    "category": "Main Dish",
+    "servings": 4,
+    "image": "🍛",
+    "description": "Savory chicken, potatoes, and carrots simmered in mild curry spices and creamy coconut milk.",
+    "tags": [
+      "Main Dish",
+      "Chicken",
+      "Comfort Food"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Whole Dressed Chicken",
+        "quantity": 0.6,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Patatas (Potato)",
+        "quantity": 0.25,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Carrot",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang (Garlic)",
+        "quantity": 0.03,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Luya (Ginger)",
+        "quantity": 0.03,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Pork Afritada",
+    "category": "Main Dish",
+    "servings": 4,
+    "image": "🥘",
+    "description": "Rich tomato stew with pork tenderloin, pan-fried potatoes, and sweet red carrots.",
+    "tags": [
+      "Main Dish",
+      "Pork",
+      "Classic"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Pork Kasim",
+        "quantity": 0.4,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Patatas (Potato)",
+        "quantity": 0.2,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Carrot",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kamatis (Tomato)",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang (Garlic)",
+        "quantity": 0.03,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Sinampalukang Manok",
+    "category": "Soup",
+    "servings": 4,
+    "image": "🍲",
+    "description": "Tart and refreshing native chicken soup infused with young tamarind leaves, ginger, and sitaw.",
+    "tags": [
+      "Soup",
+      "Chicken",
+      "Regional"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Whole Dressed Chicken",
+        "quantity": 0.6,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Luya (Ginger)",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sitaw (String Beans)",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kamatis (Tomato)",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas (Onion)",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang (Garlic)",
+        "quantity": 0.03,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Combo: Ginisang Munggo + Pritong Tilapia",
+    "category": "Combos",
+    "servings": 4,
+    "image": "🫘🐟",
+    "description": "The timeless Filipino Friday tandem: hearty sautéed mung beans with fresh kangkong paired with crispy golden tilapia.",
+    "tags": [
+      "Combos",
+      "Budget",
+      "Friday Favorite"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Monggo (Mung Beans)",
+        "quantity": 0.25,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Pork Kasim",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Tilapia",
+        "quantity": 0.5,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kangkong",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "commodityName": "Kamatis",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.03,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Combo: Sinigang na Baboy + Pritong Bangus",
+    "category": "Combos",
+    "servings": 4,
+    "image": "🍲🐟",
+    "description": "Ultimate Pinoy comfort feast: sour tamarind pork rib soup paired with crisp fried milkfish and tomato relish.",
+    "tags": [
+      "Combos",
+      "Soup",
+      "Classic"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Pork Liempo",
+        "quantity": 0.4,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bangus",
+        "quantity": 0.5,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sitaw",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Labanos",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kangkong",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "commodityName": "Kamatis",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Combo: Tinolang Manok + Tortang Talong",
+    "category": "Combos",
+    "servings": 4,
+    "image": "🍗🍆",
+    "description": "Nutritious and comforting: warm ginger chicken broth with green papaya paired with smoky pan-fried eggplant omelet.",
+    "tags": [
+      "Combos",
+      "Healthy",
+      "Soup"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Whole Dressed Chicken",
+        "quantity": 0.8,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sayote",
+        "quantity": 0.3,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Luya",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Talong",
+        "quantity": 0.25,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Chicken Egg",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.03,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Combo: Pinakbet + Inihaw na Liempo",
+    "category": "Combos",
+    "servings": 4,
+    "image": "🥦🥩",
+    "description": "Central Luzon fiesta favorite: medley of native vegetables (kalabasa, sitaw, talong, ampalaya) paired with savory charred grilled pork belly.",
+    "tags": [
+      "Combos",
+      "Vegetables",
+      "Fiesta"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Pork Liempo",
+        "quantity": 0.4,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kalabasa",
+        "quantity": 0.25,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sitaw",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Talong",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Ampalaya",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kamatis",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Combo: Adobong Manok + Ensaladang Talong at Itlog na Maalat",
+    "category": "Combos",
+    "servings": 4,
+    "image": "🍗🥚",
+    "description": "Perfect flavor balance: savory garlicky chicken adobo served alongside smoky grilled eggplant salad with salted egg and ripe tomatoes.",
+    "tags": [
+      "Combos",
+      "Main Dish",
+      "Classic"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Chicken Leg Quarter",
+        "quantity": 0.7,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Talong",
+        "quantity": 0.3,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Salted Duck Egg (Itlog na Maalat)",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "commodityName": "Kamatis",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Combo: Ginataang Kalabasa at Sitaw + Pritong Galunggong",
+    "category": "Combos",
+    "servings": 4,
+    "image": "🥥🐟",
+    "description": "Velvety sweet squash and tender yardlong beans in rich coconut cream paired with crunchy fried local round scad.",
+    "tags": [
+      "Combos",
+      "Vegetables",
+      "Seafood"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Kalabasa",
+        "quantity": 0.35,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sitaw",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Galunggong",
+        "quantity": 0.5,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.03,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Luya",
+        "quantity": 0.03,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Combo: Batutay ng Cabanatuan + Sinangag at Itlog",
+    "category": "Combos",
+    "servings": 4,
+    "image": "🥩🍳",
+    "description": "The proud signature of Cabanatuan City: garlicky, sweet-savory beef/pork batutay longganisa served with fragrant garlic fried rice and sunny-side eggs.",
+    "tags": [
+      "Combos",
+      "Nueva Ecija Specialty",
+      "Breakfast/Ulam"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Pork Giniling",
+        "quantity": 0.4,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Chicken Egg",
+        "quantity": 4,
+        "unit": "pcs"
+      },
+      {
+        "commodityName": "Well-Milled Local Rice (Sinandomeng)",
+        "quantity": 0.5,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.06,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Combo: Paksiw na Bangus + Tortang Giniling",
+    "category": "Combos",
+    "servings": 4,
+    "image": "🐟🍳",
+    "description": "Tangy native vinegar and ginger milkfish stew balanced by a thick, hearty pan-fried minced pork and potato egg torta.",
+    "tags": [
+      "Combos",
+      "Seafood",
+      "Budget"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Bangus",
+        "quantity": 0.5,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Pork Giniling",
+        "quantity": 0.2,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Chicken Egg",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "commodityName": "Talong",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Ampalaya",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Patatas",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.04,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Luya",
+        "quantity": 0.04,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Combo: Ginisang Sayote na may Giniling + Pritong Galunggong",
+    "category": "Combos",
+    "servings": 4,
+    "image": "🥒🐟",
+    "description": "Budget champion weekday combo: tender chayote sautéed with ground pork and tomatoes, accompanied by crispy fried galunggong.",
+    "tags": [
+      "Combos",
+      "Budget",
+      "Healthy"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Sayote",
+        "quantity": 0.4,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Pork Giniling",
+        "quantity": 0.2,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Galunggong",
+        "quantity": 0.4,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kamatis",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.03,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Combo: Inihaw na Tilapia + Ensaladang Talbos ng Kamote at Kamatis",
+    "category": "Combos",
+    "servings": 4,
+    "image": "🐟🥗",
+    "description": "Fresh palengke grill: char-grilled live tilapia stuffed with tomatoes and onions, served with blanched sweet potato greens and calamansi-bagoong dip.",
+    "tags": [
+      "Combos",
+      "Healthy",
+      "Seafood"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Tilapia",
+        "quantity": 0.7,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kamatis",
+        "quantity": 0.2,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Talbos ng Kamote",
+        "quantity": 2,
+        "unit": "bundles"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Combo: Beef Bulalo + Pritong Isda at Patis-Calamansi",
+    "category": "Combos",
+    "servings": 5,
+    "image": "🥩🐟",
+    "description": "Sunday family feast: rich bone marrow beef shank soup with tender cabbage and potatoes, paired with crispy fried fish and chili-calamansi dip.",
+    "tags": [
+      "Combos",
+      "Soup",
+      "Weekend Special"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Beef Shank (Bulalo Bone-in)",
+        "quantity": 0.75,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Tilapia",
+        "quantity": 0.4,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Repolyo",
+        "quantity": 0.3,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Patatas",
+        "quantity": 0.25,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.08,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Combo: Pork Pochero + Steamed Kangkong at Bagoong",
+    "category": "Combos",
+    "servings": 4,
+    "image": "🍲🥬",
+    "description": "Sweet, savory, and rich pork stew cooked with ripe saba bananas, chickpeas, and fresh pechay, served with crisp steamed water spinach.",
+    "tags": [
+      "Combos",
+      "Main Dish",
+      "Comfort Food"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Pork Kasim",
+        "quantity": 0.5,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Patatas",
+        "quantity": 0.2,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Pechay Tagalog",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "commodityName": "Kangkong",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "commodityName": "Kamatis",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Combo: Pork Menudo + Ensaladang Pipino at Kamatis",
+    "category": "Combos",
+    "servings": 4,
+    "image": "🥘🥗",
+    "description": "Festive pork and liver stew in tomato sauce studded with diced potatoes and carrots, paired with refreshing crisp cucumber-tomato salad.",
+    "tags": [
+      "Combos",
+      "Main Dish",
+      "Classic"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Pork Kasim",
+        "quantity": 0.45,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Patatas",
+        "quantity": 0.25,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Carrots",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kamatis",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.03,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Combo: Chicken Inasal + Atcharang Papaya",
+    "category": "Combos",
+    "servings": 4,
+    "image": "🍗🥕",
+    "description": "Charcoal-grilled chicken quarters marinated in calamansi, ginger, and garlic, brushed with annatto oil and served with sweet tangy pickled green papaya.",
+    "tags": [
+      "Combos",
+      "Chicken",
+      "Grill"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Chicken Leg Quarter",
+        "quantity": 0.8,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Papaya (Green)",
+        "quantity": 0.3,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Carrots",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Luya",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Kalderetang Baka (Nueva Ecija Fiesta Style)",
+    "category": "Main Dish",
+    "servings": 5,
+    "image": "🥘",
+    "description": "Slow-simmered tender beef brisket in spiced tomato liver sauce with fried potatoes, carrots, and sweet bell peppers.",
+    "tags": [
+      "Main Dish",
+      "Beef",
+      "Fiesta"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Beef Brisket (Punta y Pecho)",
+        "quantity": 0.6,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Patatas",
+        "quantity": 0.25,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Carrots",
+        "quantity": 0.2,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.08,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.04,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kamatis",
+        "quantity": 0.1,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Beef Mechado",
+    "category": "Main Dish",
+    "servings": 4,
+    "image": "🥩",
+    "description": "Classic tender beef stew simmered in citrusy tomato sauce with chunky potatoes and carrots.",
+    "tags": [
+      "Main Dish",
+      "Beef",
+      "Classic"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Beef Rump (Tapadera)",
+        "quantity": 0.5,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Patatas",
+        "quantity": 0.25,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Carrots",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.06,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.04,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Chicken Sopas (Creamy Vegetable Macaroni)",
+    "category": "Soup",
+    "servings": 4,
+    "image": "🥣",
+    "description": "Cozy rainy-day milk-infused chicken macaroni soup loaded with crisp Baguio cabbage, carrots, and shredded chicken.",
+    "tags": [
+      "Soup",
+      "Chicken",
+      "Comfort Food"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Chicken Breast",
+        "quantity": 0.35,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Repolyo",
+        "quantity": 0.25,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Carrots",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.03,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Sinigang na Ulo ng Bangus sa Miso",
+    "category": "Soup",
+    "servings": 4,
+    "image": "🐟",
+    "description": "Savory fermented soybean miso soup with milkfish head and belly, soured with tamarind and filled with fresh mustard greens and radish.",
+    "tags": [
+      "Soup",
+      "Seafood",
+      "Traditional"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Bangus",
+        "quantity": 0.6,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Labanos",
+        "quantity": 0.2,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kamatis",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Pechay Tagalog",
+        "quantity": 1,
+        "unit": "bundle"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Luya",
+        "quantity": 0.04,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Ginisang Pechay at Tokwa",
+    "category": "Vegetables",
+    "servings": 4,
+    "image": "🥬",
+    "description": "Nutritious, high-protein budget stir-fry of fresh green native pechay and golden fried bean curd seasoned with garlic and onion.",
+    "tags": [
+      "Vegetables",
+      "Budget",
+      "Healthy"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Pechay Tagalog",
+        "quantity": 2,
+        "unit": "bundles"
+      },
+      {
+        "commodityName": "Kamatis",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.04,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Ginisang Repolyo at Karot na may Giniling",
+    "category": "Vegetables",
+    "servings": 4,
+    "image": "🥗",
+    "description": "Crunchy sweet Baguio cabbage and carrots quickly stir-fried with ground pork and fragrant garlic — ready in 15 minutes!",
+    "tags": [
+      "Vegetables",
+      "Quick Cook",
+      "Budget"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Repolyo",
+        "quantity": 0.35,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Carrots",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Pork Giniling",
+        "quantity": 0.2,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.03,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Lumpiang Shanghai (Budget Family Pack)",
+    "category": "Main Dish",
+    "servings": 6,
+    "image": "🥢",
+    "description": "Crowd-pleaser golden fried spring rolls filled with seasoned ground pork, finely minced carrots, onions, and egg.",
+    "tags": [
+      "Main Dish",
+      "Pork",
+      "Party"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Pork Giniling",
+        "quantity": 0.5,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Carrots",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.08,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.04,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Chicken Egg",
+        "quantity": 2,
+        "unit": "pcs"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Paksiw na Pata",
+    "category": "Main Dish",
+    "servings": 5,
+    "image": "🍖",
+    "description": "Slow-braised pork hock in sweet tangy native vinegar sauce with dried banana blossoms, peppercorns, and caramelized garlic.",
+    "tags": [
+      "Main Dish",
+      "Pork",
+      "Comfort Food"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Pork Pata (Pork Hock / Knuckle)",
+        "quantity": 0.8,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.08,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.06,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Pork Sisig with Calamansi & Sili",
+    "category": "Main Dish",
+    "servings": 4,
+    "image": "🍳",
+    "description": "Sizzling minced grilled pork face and belly seasoned with native red onions, green finger chilies, liver spread, and freshly squeezed calamansi.",
+    "tags": [
+      "Main Dish",
+      "Pork",
+      "Spicy"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Pork Maskara & Tenga (For Sisig)",
+        "quantity": 0.5,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.12,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Chicken Egg",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.04,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Pesang Tilapia sa Luya at Pechay",
+    "category": "Soup",
+    "servings": 4,
+    "image": "🍲",
+    "description": "Light and cleansing freshwater ginger broth with live tilapia and tender native pechay, served with savory fermented soybean dip.",
+    "tags": [
+      "Soup",
+      "Seafood",
+      "Healthy"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Tilapia",
+        "quantity": 0.6,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Pechay Tagalog",
+        "quantity": 2,
+        "unit": "bundles"
+      },
+      {
+        "commodityName": "Luya",
+        "quantity": 0.06,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.03,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Sweet and Sour Tilapia",
+    "category": "Seafood",
+    "servings": 4,
+    "image": "🐟",
+    "description": "Crisp-fried whole tilapia smothered in vibrant sweet and sour tomato sauce with bell peppers, onions, and carrots.",
+    "tags": [
+      "Seafood",
+      "Classic",
+      "Main Dish"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Tilapia",
+        "quantity": 0.65,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Carrots",
+        "quantity": 0.12,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kamatis",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.06,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.03,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Ginisang Baguio Beans na may Baboy",
+    "category": "Vegetables",
+    "servings": 4,
+    "image": "🌱",
+    "description": "Snap-fresh Baguio green beans quickly sautéed with tender pork strips, tomatoes, and garlic.",
+    "tags": [
+      "Vegetables",
+      "Quick Cook",
+      "Healthy"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Baguio Beans",
+        "quantity": 0.35,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Pork Kasim",
+        "quantity": 0.2,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Kamatis",
+        "quantity": 0.1,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.03,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Pancit Bihon at Canton Guisado",
+    "category": "Rice Dish",
+    "servings": 6,
+    "image": "🍜",
+    "description": "Party favorite festive noodle combination loaded with sliced pork, Baguio cabbage, carrots, and savory soy broth.",
+    "tags": [
+      "Rice Dish",
+      "Noodles",
+      "Party"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Pork Kasim",
+        "quantity": 0.3,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Repolyo",
+        "quantity": 0.25,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Carrots",
+        "quantity": 0.15,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.04,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.06,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Ginataang Tilapia sa Dahon ng Mustasa",
+    "category": "Seafood",
+    "servings": 4,
+    "image": "🥥🐟",
+    "description": "Fresh tilapia simmered in thick coconut milk with spicy finger chilies, ginger, and piquant mustard greens.",
+    "tags": [
+      "Seafood",
+      "Coconut",
+      "Spicy"
+    ],
+    "ingredients": [
+      {
+        "commodityName": "Tilapia",
+        "quantity": 0.6,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Luya",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Bawang",
+        "quantity": 0.04,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Sibuyas",
+        "quantity": 0.05,
+        "unit": "kg"
+      },
+      {
+        "commodityName": "Pechay Tagalog",
+        "quantity": 1,
+        "unit": "bundle"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Combo: Laing na may Tinapa + Pritong Bangus",
+    "description": "Bicolano-style gabi leaves simmered in creamy coconut milk with flaked smoked fish, paired with crispy golden fried bangus.",
+    "category": "Combos",
+    "servings": 4,
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 35,
+    "totalBudgetEst": 275,
+    "budgetPerServingEst": 68.75,
+    "difficulty": "Easy",
+    "isBudgetFriendly": true,
+    "tags": [
+      "Gulay",
+      "Isda",
+      "Gata",
+      "Combos"
+    ],
+    "ingredients": [
+      {
+        "name": "Dahon ng Gabi (Tuyo)",
+        "quantity": 100,
+        "unit": "g",
+        "estimatedPrice": 40
+      },
+      {
+        "name": "Kakang Gata & Gata",
+        "quantity": 400,
+        "unit": "ml",
+        "estimatedPrice": 50
+      },
+      {
+        "name": "Bangus (Medium)",
+        "quantity": 400,
+        "unit": "g",
+        "estimatedPrice": 110
+      },
+      {
+        "name": "Tinapa flakes / Luya / Bawang / Siling Haba",
+        "quantity": 1,
+        "unit": "set",
+        "estimatedPrice": 45
+      },
+      {
+        "name": "Mantika at Asin",
+        "quantity": 1,
+        "unit": "serv",
+        "estimatedPrice": 30
+      }
+    ],
+    "instructions": [
+      "Gisa ang luya, sibuyas, bawang, at siling labuyo.",
+      "Ibuhos ang pangalawang piga ng gata at pakuluin nang mahinang apoy nang hindi hinahalo.",
+      "Ilagay ang tuyong dahon ng gabi. Huwag haluin sa unang 10 minuto para hindi kumati.",
+      "Ibuhos ang kakang gata at patuyuin nang bahagya hanggang lumabas ang langis.",
+      "Sa hiwalay na kawali, iprito ang bangus hanggang malutong at ihain nang magkasama."
+    ],
+    "nutritionEstimate": {
+      "calories": 520,
+      "protein": "34g",
+      "fat": "38g",
+      "carbs": "14g"
+    }
+  },
+  {
+    "id": 56,
+    "name": "Combo: Sinigang na Bangus + Tortang Talong",
+    "description": "Maasim at mainit na sabaw ng bangus sa sampalok na may kangkong at labanos, kapares ang malambot at malasang tortang talong.",
+    "category": "Combos",
+    "servings": 4,
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "totalBudgetEst": 260,
+    "budgetPerServingEst": 65,
+    "difficulty": "Easy",
+    "isBudgetFriendly": true,
+    "tags": [
+      "Isda",
+      "Gulay",
+      "Sabaw",
+      "Combos"
+    ],
+    "ingredients": [
+      {
+        "name": "Bangus (Slices)",
+        "quantity": 500,
+        "unit": "g",
+        "estimatedPrice": 130
+      },
+      {
+        "name": "Sinigang Mix sa Sampalok",
+        "quantity": 1,
+        "unit": "pack",
+        "estimatedPrice": 18
+      },
+      {
+        "name": "Kangkong, Labanos, Sitaw",
+        "quantity": 1,
+        "unit": "tali",
+        "estimatedPrice": 40
+      },
+      {
+        "name": "Talong (Malalaki)",
+        "quantity": 3,
+        "unit": "pcs",
+        "estimatedPrice": 35
+      },
+      {
+        "name": "Itlog",
+        "quantity": 2,
+        "unit": "pcs",
+        "estimatedPrice": 18
+      },
+      {
+        "name": "Mantika at Panimpla",
+        "quantity": 1,
+        "unit": "serv",
+        "estimatedPrice": 19
+      }
+    ],
+    "instructions": [
+      "Pakuluin ang tubig na may kamatis at sibuyas. Ilagay ang labanos at sitaw.",
+      "Ilagay ang hiwa ng bangus at sinigang mix. Hayaang maluto nang 7 minuto.",
+      "Idagdag ang kangkong at patayin ang apoy.",
+      "Ihawin ang mga talong, balatan, pisaing bahagya at isawsaw sa binating itlog na may asin.",
+      "Prituhin ang tortang talong hanggang mag-golden brown. Ihain kasama ang mainit na sinigang."
+    ],
+    "nutritionEstimate": {
+      "calories": 380,
+      "protein": "32g",
+      "fat": "20g",
+      "carbs": "16g"
+    }
+  },
+  {
+    "id": 57,
+    "name": "Combo: Bicol Express + Pritong Galunggong",
+    "description": "Maanghang at creamy na baboy sa gata at alamang na tinambalan ng malulutong na pritong galunggong para balanse ang alat at anghang.",
+    "category": "Combos",
+    "servings": 4,
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "totalBudgetEst": 295,
+    "budgetPerServingEst": 73.75,
+    "difficulty": "Medium",
+    "isBudgetFriendly": true,
+    "tags": [
+      "Baboy",
+      "Gata",
+      "Maanghang",
+      "Combos"
+    ],
+    "ingredients": [
+      {
+        "name": "Kasim o Liempo ng Baboy",
+        "quantity": 350,
+        "unit": "g",
+        "estimatedPrice": 125
+      },
+      {
+        "name": "Gata ng Niyog",
+        "quantity": 400,
+        "unit": "ml",
+        "estimatedPrice": 50
+      },
+      {
+        "name": "Bagoong Alamang",
+        "quantity": 2,
+        "unit": "tbsp",
+        "estimatedPrice": 20
+      },
+      {
+        "name": "Siling Haba at Siling Labuyo",
+        "quantity": 1,
+        "unit": "cup",
+        "estimatedPrice": 30
+      },
+      {
+        "name": "Galunggong",
+        "quantity": 400,
+        "unit": "g",
+        "estimatedPrice": 90
+      },
+      {
+        "name": "Mantika at Bawang/Sibuyas",
+        "quantity": 1,
+        "unit": "serv",
+        "estimatedPrice": 25
+      }
+    ],
+    "instructions": [
+      "Gisahin ang bawang, sibuyas, luya at bagoong alamang.",
+      "Ilagay ang hiwa ng baboy at lutuin hanggang mamuti.",
+      "Ibuhos ang gata at pakuluin nang mahina hanggang lumambot ang baboy.",
+      "Ilagay ang sangkaterbang siling haba at pakuluin hanggang mag-langis ang gata.",
+      "Iprito ang sariwang galunggong hanggang crispy. Ihain sabay sa maanghang na Bicol Express."
+    ],
+    "nutritionEstimate": {
+      "calories": 590,
+      "protein": "38g",
+      "fat": "45g",
+      "carbs": "9g"
+    }
+  },
+  {
+    "id": 58,
+    "name": "Combo: Nilagang Baka + Ensaladang Mangga at Bagoong",
+    "description": "Malinamnam at malambot na baka na may repolyo at patatas, sinasabayan ng maasim-asim na hilaw na mangga na may bagoong alamang.",
+    "category": "Combos",
+    "servings": 4,
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 60,
+    "totalBudgetEst": 370,
+    "budgetPerServingEst": 92.5,
+    "difficulty": "Medium",
+    "isBudgetFriendly": false,
+    "tags": [
+      "Baka",
+      "Sabaw",
+      "Ensalada",
+      "Combos"
+    ],
+    "ingredients": [
+      {
+        "name": "Puntay o Baka Pang-Nilaga",
+        "quantity": 500,
+        "unit": "g",
+        "estimatedPrice": 230
+      },
+      {
+        "name": "Repolyo at Pechay Baguio",
+        "quantity": 1,
+        "unit": "set",
+        "estimatedPrice": 40
+      },
+      {
+        "name": "Patatas at Mais",
+        "quantity": 2,
+        "unit": "pcs",
+        "estimatedPrice": 40
+      },
+      {
+        "name": "Hilaw na Mangga (Carabao/Indian)",
+        "quantity": 2,
+        "unit": "pcs",
+        "estimatedPrice": 35
+      },
+      {
+        "name": "Ginisang Bagoong Alamang",
+        "quantity": 2,
+        "unit": "tbsp",
+        "estimatedPrice": 25
+      }
+    ],
+    "instructions": [
+      "Pakuluin ang baka sa tubig na may sibuyas at buong paminta hanggang maging malambot (mga 50-60 minuto).",
+      "Ilagay ang mais at patatas hanggang lumambot.",
+      "Timplahan ng patis at ihagis ang repolyo at pechay. Patayin ang apoy.",
+      "Hiwain ang hilaw na mangga at ihalo sa bagoong alamang.",
+      "Ihain ang umuusok na nilaga kasama ang nakakaganang ensaladang mangga."
+    ],
+    "nutritionEstimate": {
+      "calories": 440,
+      "protein": "36g",
+      "fat": "22g",
+      "carbs": "26g"
+    }
+  },
+  {
+    "id": 59,
+    "name": "Combo: Kare-Kareng Gulay at Baboy + Bagoong Alamang",
+    "description": "Tradisyunal na sarsang mani na may tuwalya o liempo ng baboy, pechay, sitaw, at talong, tinatambalan ng espesyal na ginisang alamang.",
+    "category": "Combos",
+    "servings": 4,
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 45,
+    "totalBudgetEst": 340,
+    "budgetPerServingEst": 85,
+    "difficulty": "Medium",
+    "isBudgetFriendly": false,
+    "tags": [
+      "Baboy",
+      "Gulay",
+      "Mani",
+      "Combos"
+    ],
+    "ingredients": [
+      {
+        "name": "Liempo o Pata ng Baboy",
+        "quantity": 450,
+        "unit": "g",
+        "estimatedPrice": 165
+      },
+      {
+        "name": "Peanut Butter (Unsweetened)",
+        "quantity": 1,
+        "unit": "cup",
+        "estimatedPrice": 50
+      },
+      {
+        "name": "Achuete (Pampakulay)",
+        "quantity": 1,
+        "unit": "pack",
+        "estimatedPrice": 15
+      },
+      {
+        "name": "Talong, Sitaw, Puso ng Saging, Pechay",
+        "quantity": 1,
+        "unit": "set",
+        "estimatedPrice": 65
+      },
+      {
+        "name": "Ginisang Bagoong Alamang",
+        "quantity": 3,
+        "unit": "tbsp",
+        "estimatedPrice": 30
+      },
+      {
+        "name": "Bigas na sangag at giling (Pampalapot)",
+        "quantity": 2,
+        "unit": "tbsp",
+        "estimatedPrice": 15
+      }
+    ],
+    "instructions": [
+      "Pakuluan ang baboy hanggang lumambot. Itabi ang sabaw.",
+      "Gisahin ang bawang at sibuyas. Idagdag ang katas ng achuete para sa matingkad na kulay.",
+      "Ihalo ang peanut butter at sabaw ng baboy. Haluin nang mabuti hanggang lumapot ang sarsa.",
+      "Ihalo ang pinakuluang baboy at mga gulay (talong, sitaw, puso ng saging, pechay).",
+      "Ihain nang mainit kapares ang malinamnam na ginisang bagoong alamang."
+    ],
+    "nutritionEstimate": {
+      "calories": 570,
+      "protein": "33g",
+      "fat": "42g",
+      "carbs": "18g"
+    }
+  },
+  {
+    "id": 60,
+    "name": "Combo: Dinuguan + Pritong Tokwa at Puto",
+    "description": "Malinamnam at maasim-asim na dinuguan ng baboy na may siling haba, sinasabayan ng malutong na tokwa at puto.",
+    "category": "Combos",
+    "servings": 4,
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 40,
+    "totalBudgetEst": 270,
+    "budgetPerServingEst": 67.5,
+    "difficulty": "Medium",
+    "isBudgetFriendly": true,
+    "tags": [
+      "Baboy",
+      "Classic",
+      "Combos"
+    ],
+    "ingredients": [
+      {
+        "name": "Laman at Taba ng Baboy",
+        "quantity": 400,
+        "unit": "g",
+        "estimatedPrice": 140
+      },
+      {
+        "name": "Dugo ng Baboy",
+        "quantity": 1.5,
+        "unit": "cup",
+        "estimatedPrice": 35
+      },
+      {
+        "name": "Suka at Bawang/Sibuyas/Luya",
+        "quantity": 1,
+        "unit": "set",
+        "estimatedPrice": 25
+      },
+      {
+        "name": "Siling Haba",
+        "quantity": 3,
+        "unit": "pcs",
+        "estimatedPrice": 15
+      },
+      {
+        "name": "Tokwa (Firm Tofu)",
+        "quantity": 2,
+        "unit": "blocks",
+        "estimatedPrice": 30
+      },
+      {
+        "name": "Mantika at Panimpla",
+        "quantity": 1,
+        "unit": "serv",
+        "estimatedPrice": 25
+      }
+    ],
+    "instructions": [
+      "Gisahin ang bawang, luya at sibuyas. Ilagay ang hiwa ng baboy at lutuin hanggang magmantika.",
+      "Ibuhos ang suka nang hindi hinahalo. Pakuluin nang 5 minuto.",
+      "Ibuhos ang sinalang dugo ng baboy habang patuloy na hinahalo upang hindi mamuo.",
+      "Ilagay ang siling haba, timplahan ng asin at paminta, at hayaang lumapot ang sarsa.",
+      "Prituhin ang hiwa-hiwang tokwa hanggang crispy. Ihain kasama ang dinuguan at puto o kanin."
+    ],
+    "nutritionEstimate": {
+      "calories": 480,
+      "protein": "37g",
+      "fat": "31g",
+      "carbs": "15g"
+    }
+  }
+]

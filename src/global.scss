@@ -26,12 +26,228 @@
 @import "@ionic/angular/css/flex-utils.css";
 
 /**
- * Ionic Dark Mode
+ * Ionic Dark Mode (Disabled: App uses clean white/light theme)
  * -----------------------------------------------------
- * For more info, please see:
- * https://ionicframework.com/docs/theming/dark-mode
  */
-
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
-@import "@ionic/angular/css/palettes/dark.system.css";
+/* @import "@ionic/angular/css/palettes/dark.system.css"; */
+
+/*
+ * PALENGKE PRICE WATCH - Custom Global Styles
+ * -------------------------------------------------
+ * IMPORTANT: Leaflet's CSS must be imported here (globally)
+ * because Leaflet injects map DOM elements outside of any
+ * Angular component, so component-scoped SCSS won't reach them.
+ */
+
+/* Import Leaflet's required CSS for map tiles and UI controls */
+@import "leaflet/dist/leaflet.css";
+@import "leaflet.markercluster/dist/MarkerCluster.css";
+@import "leaflet.markercluster/dist/MarkerCluster.Default.css";
+
+/* ---- Global App Tokens (Clean White Palette) ---- */
+:root {
+  --ion-font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --ion-background-color: #ffffff;
+  --ion-background-color-rgb: 255, 255, 255;
+  --ion-text-color: #1a1a1a;
+  --ion-text-color-rgb: 26, 26, 26;
+
+  --ion-card-background: #ffffff;
+  --ion-item-background: #ffffff;
+  --ion-tab-bar-background: #ffffff;
+  --ion-tab-bar-height: 56px;
+  --ion-toolbar-background: #2e7d32;
+}
+
+html, body, ion-app, ion-content {
+  --background: #f8faf8 !important;
+  background-color: #f8faf8 !important;
+  color: #1a1a1a !important;
+}
+
+ion-card {
+  --background: #ffffff !important;
+  background: #ffffff !important;
+  color: #1a1a1a !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07) !important;
+  border: 1px solid #eef2ee;
+}
+
+ion-item {
+  --background: #ffffff !important;
+  --color: #1a1a1a !important;
+}
+
+/* ---- Universal Mobile-Optimized Tab Bar (Zero Cut-Off / Responsive Fit) ---- */
+ion-tab-bar {
+  --background: #ffffff !important;
+  border-top: 1px solid #e2e8e2 !important;
+  height: calc(56px + env(safe-area-inset-bottom, 0px)) !important;
+  padding-bottom: max(4px, env(safe-area-inset-bottom, 0px)) !important;
+  padding-left: max(2px, env(safe-area-inset-left, 0px)) !important;
+  padding-right: max(2px, env(safe-area-inset-right, 0px)) !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  width: 100% !important;
+  max-width: 100vw !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  scrollbar-width: none !important;
+  -webkit-overflow-scrolling: touch !important;
+
+  &::-webkit-scrollbar {
+    display: none !important;
+  }
+}
+
+ion-tab-button {
+  --color: #64748b !important;
+  --color-selected: #166534 !important;
+  --padding-top: 4px !important;
+  --padding-bottom: 2px !important;
+  --padding-start: 1px !important;
+  --padding-end: 1px !important;
+  flex: 1 1 0 !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+
+  ion-icon {
+    font-size: 1.25rem !important;
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+  }
+
+  ion-label {
+    font-size: 0.63rem !important;
+    font-weight: 600 !important;
+    letter-spacing: -0.3px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    line-height: 1.15 !important;
+    max-width: 100% !important;
+    display: block !important;
+  }
+
+  &.tab-selected {
+    --color-selected: #166534 !important;
+    ion-label {
+      font-weight: 800 !important;
+      color: #166534 !important;
+    }
+    ion-icon {
+      color: #166534 !important;
+      transform: scale(1.08);
+      transition: transform 0.15s ease-out;
+    }
+  }
+}
+
+/* Extra small mobile screen protection (under 375px wide) */
+@media (max-width: 375px) {
+  ion-tab-button {
+    ion-icon {
+      font-size: 1.15rem !important;
+    }
+    ion-label {
+      font-size: 0.56rem !important;
+      letter-spacing: -0.4px !important;
+    }
+  }
+}
+
+/* ---- Leaflet z-index fix inside Ionic ---- */
+/* Ionic uses high z-index values for modals/toasts;
+   Leaflet panes need to stay below them */
+.leaflet-pane {
+  z-index: 400 !important;
+}
+
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 500 !important;
+}
+
+/* Leaflet attribution link fix for Ionic dark mode */
+.leaflet-control-attribution a {
+  color: var(--ion-color-primary);
+}
+
+/* Ensure Leaflet container handles gestures smoothly without browser interference */
+.leaflet-container {
+  touch-action: pan-x pan-y !important;
+  cursor: grab;
+}
+.leaflet-container:active {
+  cursor: grabbing;
+}
+
+/* Ensure all buttons, chips, and interactive elements receive clicks cleanly */
+ion-button, ion-chip, ion-tab-button {
+  cursor: pointer;
+  pointer-events: auto !important;
+}
+
+/* Prevent any stuck focus-trap caret or backdrop from blocking interactions */
+.focus-trap {
+  display: none !important;
+  pointer-events: none !important;
+}
+
+/* Ensure active ion-page receives all pointer events */
+.ion-page:not(.ion-page-hidden) {
+  pointer-events: auto !important;
+}
+
+/* Ensure router outlet containers never block clicks to their pages */
+ion-router-outlet {
+  pointer-events: none !important;
+}
+ion-router-outlet > .ion-page {
+  pointer-events: auto !important;
+}
+
+/* ---- Global Toolbar Searchbar White Styling ---- */
+.search-toolbar ion-searchbar {
+  --background: #ffffff !important;
+  --color: #1a1a1a !important;
+  --placeholder-color: #64748b !important;
+  --icon-color: #2e7d32 !important;
+  --clear-button-color: #64748b !important;
+  --border-radius: 10px !important;
+}
+
+.search-toolbar ion-searchbar .searchbar-input-container,
+.search-toolbar ion-searchbar input.searchbar-input {
+  background: #ffffff !important;
+  color: #1a1a1a !important;
+}
+
+/* ---- Global Header Title Layout (KILATIS Branding) ---- */
+.header-title {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+
+  span {
+    font-weight: 800;
+    letter-spacing: 0.3px;
+  }
+
+  small {
+    font-size: 0.65rem;
+    opacity: 0.88;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+}
+
+

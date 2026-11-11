@@ -1,0 +1,508 @@
+<!-- ============================================================
+  src/app/pages/dashboard/dashboard.page.html
+  Template for the Prices / Dashboard tab.
+
+  Layout sections:
+  1. ion-header  - App title and date
+  2. ion-content - Search bar, category chips, commodity cards
+     a. Skeleton loaders (shown while data loads)
+     b. Category filter chips
+     c. Commodity price cards using *ngFor
+============================================================ -->
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary">
+    <ion-title>
+      <div class="header-title">
+        <span>🛒 KILATIS</span>
+        <small>Price Guide</small>
+      </div>
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="openDtiHotlineModal()" fill="clear" title="Bantay Presyo & DTI Hotline">
+        <ion-icon slot="icon-only" name="shield-checkmark-outline"></ion-icon>
+      </ion-button>
+      <ion-button (click)="syncOnlinePrices()" fill="clear" title="Sync live web prices">
+        <ion-icon slot="icon-only" name="cloud-download-outline"></ion-icon>
+      </ion-button>
+      <ion-button routerLink="/landing" fill="clear" title="About & Landing Page">
+        <ion-icon slot="icon-only" name="help-circle-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+  <!-- Search bar bound to onSearchChange() via the ionInput event -->
+  <ion-toolbar color="primary" class="search-toolbar">
+    <ion-searchbar
+      [(ngModel)]="searchTerm"
+      placeholder="Search commodity or market (e.g. rice, Gapan, Bambang)"
+      [debounce]="200"
+      (ionInput)="onSearchChange($event)"
+      (ionClear)="onSearchChange($event)"
+      [animated]="false">
+    </ion-searchbar>
+  </ion-toolbar>
+
+  <!-- Location Hub: Hybrid Near Me (GPS) + Aking Palengke (Home Market) -->
+  <div class="location-hub-bar">
+    <div class="location-hub-top">
+      <!-- Near Me GPS Button -->
+      <button type="button" class="loc-btn near-me-btn" (click)="locateNearMe()" [disabled]="isLocating">
+        <ion-icon [name]="isLocating ? 'refresh-outline' : 'navigate-circle-outline'" [class.spin]="isLocating"></ion-icon>
+        <span>{{ isLocating ? 'Hinahanap...' : (isGpsActive ? '📍 Malapit sa Akin' : '📍 Gamitin ang GPS') }}</span>
+      </button>
+
+      <!-- Aking Palengke Selector Button -->
+      <button type="button" class="loc-btn home-market-btn" (click)="openMarketSelector()">
+        <ion-icon name="storefront-outline"></ion-icon>
+        <div class="market-label-box">
+          <small>Aking Palengke:</small>
+          <strong>{{ activeDisplayMarket ? activeDisplayMarket.name : 'Pumili ng Palengke' }}</strong>
+        </div>
+        <ion-icon name="chevron-down-outline" class="chevron-icon"></ion-icon>
+      </button>
+
+      <button *ngIf="activeDisplayMarket" type="button" class="clear-loc-btn" (click)="clearMarketFilter()" title="Alisin ang filter">
+        <ion-icon name="close-circle"></ion-icon>
+      </button>
+    </div>
+
+    <!-- Quick Location Chips -->
+    <div class="quick-locations-scroll">
+      <span class="quick-loc-label">Mabilis na piliin:</span>
+      <button
+        *ngFor="let loc of popularLocations"
+        type="button"
+        class="quick-loc-chip"
+        [class.active-loc]="activeDisplayMarket && (loc.city && activeDisplayMarket.name.toLowerCase().includes(loc.city.toLowerCase()))"
+        (click)="selectQuickLocation(loc)">
+        {{ loc.label }}
+      </button>
+    </div>
+  </div>
+</ion-header>
+
+<ion-content class="dashboard-content">
+
+  <ion-refresher slot="fixed" (ionRefresh)="handleRefresh($event)">
+    <ion-refresher-content pullingIcon="chevron-down-circle-outline" refreshingSpinner="circles">
+    </ion-refresher-content>
+  </ion-refresher>
+
+  <!-- ============================================================
+    SECTION A: Skeleton Loading Placeholders
+    *ngIf shows these placeholder cards while isLoading is true,
+    giving the user visual feedback that data is on its way.
+  ============================================================ -->
+  <div *ngIf="isLoading">
+    <!-- Repeat the skeleton card 5 times using a dummy array -->
+    <ion-card *ngFor="let i of [1,2,3,4,5]" class="commodity-card">
+      <ion-card-content>
+        <ion-skeleton-text [animated]="true" style="width: 60%; height: 20px; margin-bottom: 8px;"></ion-skeleton-text>
+        <ion-skeleton-text [animated]="true" style="width: 40%; height: 16px; margin-bottom: 12px;"></ion-skeleton-text>
+        <ion-skeleton-text [animated]="true" style="width: 80%; height: 24px;"></ion-skeleton-text>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <!-- ============================================================
+    SECTION B: Main Content (shown after data loads)
+  ============================================================ -->
+  <div *ngIf="!isLoading">
+
+    <!-- Bagsakan Hours & Trading Phase Advisor Banner -->
+    <div class="bagsakan-banner" [ngClass]="'phase-' + bagsakanInfo.phase" (click)="toggleBagsakanDetails()">
+      <div class="banner-main-row">
+        <div class="banner-title-box">
+          <span class="banner-headline">{{ bagsakanInfo.title }}</span>
+          <ion-badge [color]="bagsakanInfo.color" class="banner-badge">{{ bagsakanInfo.badge }}</ion-badge>
+        </div>
+        <ion-button fill="clear" size="small" class="banner-info-btn">
+          <ion-icon [name]="showBagsakanDetails ? 'chevron-up-outline' : 'information-circle-outline'"></ion-icon>
+        </ion-button>
+      </div>
+
+      <div class="banner-details" *ngIf="showBagsakanDetails">
+        <p class="banner-desc">{{ bagsakanInfo.description }}</p>
+        <div class="banner-tip">
+          <ion-icon name="bulb-outline"></ion-icon>
+          <span><strong>Payo sa Pamimili:</strong> {{ bagsakanInfo.tip }}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Category Filter Chips (scrollable horizontal row) -->
+    <div class="chip-container">
+      <ion-chip
+        *ngFor="let cat of categories"
+        [color]="selectedCategory === cat ? 'primary' : 'medium'"
+        (click)="filterByCategory(cat)"
+        [outline]="selectedCategory !== cat">
+        {{ cat }}
+      </ion-chip>
+    </div>
+
+    <!-- Results count label -->
+    <p class="results-count">
+      Showing {{ filteredCommodities.length }} of {{ allCommodities.length }} items
+    </p>
+
+    <!-- ============================================================
+      SECTION C: Commodity Price Cards
+      *ngFor iterates over filteredCommodities to render one card
+      per commodity. The card is color-coded: red if the lowest
+      price exceeds the government SRP, green otherwise.
+    ============================================================ -->
+    <ion-card
+      *ngFor="let commodity of filteredCommodities | slice:0:displayLimit; trackBy: trackByCommodityId"
+      class="commodity-card"
+      [ngClass]="{'over-srp': isOverSRP(commodity)}">
+
+      <ion-card-header>
+        <ion-card-title>
+          <!-- Dynamic icon from the commodity data -->
+          <ion-icon [name]="commodity.icon" color="primary"></ion-icon>
+          {{ commodity.name }}
+        </ion-card-title>
+        <ion-card-subtitle class="subtitle-flex">
+          <span>{{ commodity.category }} &bull; per {{ commodity.unit }}</span>
+          <ion-badge *ngIf="checkCommodityOverpricing(commodity).isOverpriced" color="danger" class="overprice-badge">
+            ⚠️ Overpriced (+{{ checkCommodityOverpricing(commodity).percent }}%)
+          </ion-badge>
+        </ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+
+        <!-- Price Range Row -->
+        <div class="price-row" [class.has-active-market]="!!activeDisplayMarket">
+          <div class="price-block target-market" *ngIf="activeDisplayMarket">
+            <span class="price-label">At {{ activeDisplayMarket.name }}</span>
+            <span class="price-value target-val">₱{{ getMarketSpecificPrice(commodity).price | number:'1.2-2' }}</span>
+          </div>
+          <div class="price-block lowest">
+            <span class="price-label">Best Price</span>
+            <!-- toFixed(2) formats the number to 2 decimal places -->
+            <span class="price-value">₱{{ getLowestPrice(commodity) | number:'1.2-2' }}</span>
+          </div>
+          <div class="price-block highest" *ngIf="!activeDisplayMarket">
+            <span class="price-label">Highest</span>
+            <span class="price-value muted">₱{{ getHighestPrice(commodity) | number:'1.2-2' }}</span>
+          </div>
+          <div class="price-block srp">
+            <span class="price-label">SRP</span>
+            <span class="price-value srp-val">₱{{ commodity.suggestedRetailPrice | number:'1.2-2' }}</span>
+          </div>
+        </div>
+
+        <!-- SRP Warning Badge: only shown if the lowest price exceeds SRP -->
+        <ion-badge color="danger" *ngIf="isOverSRP(commodity)" class="srp-badge">
+          <ion-icon name="warning-outline"></ion-icon> Above SRP
+        </ion-badge>
+
+        <!-- Divider line -->
+        <ion-item lines="none" class="market-prices-header">
+          <ion-label>
+            <strong>Presyo sa Malalapit na Palengke:</strong>
+          </ion-label>
+        </ion-item>
+
+        <!-- Individual Market Price Rows -->
+        <ion-item
+          *ngFor="let marketPrice of getDisplayMarketPrices(commodity)"
+          lines="none"
+          class="market-price-item"
+          [class.highlighted-market]="marketPrice.isHighlighted">
+          <ion-label>
+            <div class="market-name-row">
+              <ion-icon
+                [name]="marketPrice.isHome ? 'home' : 'storefront-outline'"
+                [color]="marketPrice.isHome ? 'success' : 'medium'"
+                class="market-icon">
+              </ion-icon>
+              <span class="market-name-text">{{ marketPrice.marketName }}</span>
+              <span *ngIf="marketPrice.distanceText" class="distance-pill" [class.is-home-pill]="marketPrice.isHome">
+                {{ marketPrice.isHome ? '🏠 ' + marketPrice.distanceText : '📍 ' + marketPrice.distanceText }}
+              </span>
+            </div>
+            <small class="updated-date">Updated: {{ marketPrice.lastUpdated }}</small>
+          </ion-label>
+          <span slot="end" class="market-price-val" [class.highlighted-val]="marketPrice.isHighlighted">
+            ₱{{ marketPrice.price | number:'1.2-2' }}
+          </span>
+        </ion-item>
+
+        <!-- Expand / Collapse More Nearby Markets Button -->
+        <div class="expand-markets-wrap" *ngIf="nearbyMarketsCache.length > 4">
+          <button type="button" class="expand-markets-btn" (click)="toggleExpandMarkets(commodity.id)">
+            <ion-icon [name]="isMarketCardExpanded(commodity.id) ? 'chevron-up-circle-outline' : 'chevron-down-circle-outline'"></ion-icon>
+            <span>{{ isMarketCardExpanded(commodity.id) ? 'Itago ang iba pang palengke' : 'Ipakita ang iba pang kalapit na palengke (+4)' }}</span>
+          </button>
+        </div>
+
+      </ion-card-content>
+
+      <!-- Card Action Footer: Bookmark, Add to Basket, & Report Price -->
+      <div class="card-footer">
+        <ion-button
+          fill="clear"
+          size="small"
+          (click)="toggleWatchlist(commodity)">
+          <!-- Show filled bookmark icon if already watched, outline if not -->
+          <ion-icon
+            slot="start"
+            [name]="isWatched(commodity) ? 'bookmark' : 'bookmark-outline'"
+            [color]="isWatched(commodity) ? 'primary' : 'medium'">
+          </ion-icon>
+          {{ isWatched(commodity) ? 'Watching' : 'Watchlist' }}
+        </ion-button>
+
+        <ion-button
+          fill="solid"
+          size="small"
+          [color]="getBasketCount(commodity.id) > 0 ? 'success' : 'primary'"
+          (click)="addToBasket(commodity)">
+          <ion-icon slot="start" [name]="getBasketCount(commodity.id) > 0 ? 'checkmark-circle' : 'cart-outline'"></ion-icon>
+          {{ getBasketCount(commodity.id) > 0 ? '✓ Sa Basket (' + getBasketCount(commodity.id) + ')' : '+ Basket' }}
+        </ion-button>
+
+        <ion-button
+          fill="outline"
+          size="small"
+          color="secondary"
+          (click)="openReportPriceModal(commodity)">
+          <ion-icon slot="start" name="megaphone-outline"></ion-icon>
+          Report
+        </ion-button>
+
+        <ion-button
+          *ngIf="checkCommodityOverpricing(commodity).isOverpriced"
+          fill="clear"
+          size="small"
+          color="danger"
+          (click)="openDtiHotlineModal(commodity)"
+          title="Report overpricing to DTI">
+          <ion-icon slot="start" name="shield-alert-outline"></ion-icon>
+          DTI
+        </ion-button>
+      </div>
+
+    </ion-card>
+
+    <!-- Infinite Scroll for smooth 60fps lazy DOM rendering -->
+    <ion-infinite-scroll (ionInfinite)="loadMoreCommodities($event)" [disabled]="displayLimit >= filteredCommodities.length">
+      <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="Naglo-load ng iba pang bilihin sa Nueva Ecija..."></ion-infinite-scroll-content>
+    </ion-infinite-scroll>
+
+    <!-- Empty State: shown when filters produce no results -->
+    <div *ngIf="filteredCommodities.length === 0" class="empty-state">
+      <ion-icon name="search-outline" size="large"></ion-icon>
+      <p>No commodities found for "{{ searchTerm }}"</p>
+    </div>
+
+  </div>
+
+  <!-- BANTAY OVERPRICING & CAMERA EVIDENCE REPORT MODAL -->
+  <div class="report-modal-backdrop" *ngIf="showReportModal" (click)="closeReportModal()">
+    <div class="report-modal-card" (click)="$event.stopPropagation()">
+
+      <!-- Modal Header -->
+      <div class="report-modal-header">
+        <div class="report-icon-badge">
+          <ion-icon name="camera"></ion-icon>
+        </div>
+        <div class="report-header-text">
+          <h2 class="report-modal-title">Bantay Overpricing Report</h2>
+          <span class="report-modal-sub">Ebidensya ng Aktwal na Presyo</span>
+        </div>
+        <button class="modal-close-icon-btn" (click)="closeReportModal()" title="Isara">
+          <ion-icon name="close"></ion-icon>
+        </button>
+      </div>
+
+      <div class="report-modal-body">
+        <!-- Target Commodity Box -->
+        <div class="target-commodity-box" *ngIf="reportingCommodity">
+          <div class="tc-name">{{ reportingCommodity.name }}</div>
+          <div class="tc-srp">
+            DA SRP: <strong>₱{{ reportingCommodity.suggestedRetailPrice | number:'1.2-2' }}</strong> / {{ reportingCommodity.unit }}
+          </div>
+        </div>
+
+        <!-- CAMERA / EVIDENCE SECTION -->
+        <div class="camera-section">
+          <div class="camera-section-title">
+            <ion-icon name="camera-outline"></ion-icon>
+            <span>Kuhanan ng Litrato ang Resibo o Tindahan</span>
+          </div>
+
+          <!-- If NO photo yet -->
+          <div class="camera-empty-state" *ngIf="!reportPhoto">
+            <p class="camera-desc">
+              Gamit ang Camera, picturan ang resibo, price tag, o karatula ng tindahan bilang matibay na ebidensya ng overpricing.
+            </p>
+
+            <div class="camera-actions-row">
+              <button type="button" class="camera-btn primary-camera-btn" (click)="takePhoto()">
+                <ion-icon name="camera"></ion-icon>
+                <span>Buksan ang Camera</span>
+              </button>
+              <button type="button" class="camera-btn gallery-btn" (click)="triggerFileInput()">
+                <ion-icon name="images-outline"></ion-icon>
+                <span>Gallery / File</span>
+              </button>
+            </div>
+
+            <!-- Hidden input for file selection fallback -->
+            <input
+              #cameraFileInput
+              type="file"
+              accept="image/*"
+              capture="environment"
+              (change)="onPhotoFileSelected($event)"
+              style="display: none;" />
+          </div>
+
+          <!-- If photo is captured -->
+          <div class="camera-captured-state" *ngIf="reportPhoto">
+            <div class="photo-container">
+              <img [src]="reportPhoto" alt="Kuhang ebidensya ng presyo" class="captured-preview-img" />
+              <div class="evidence-pill">
+                <ion-icon name="shield-checkmark"></ion-icon>
+                <span>Ebidensya Naka-attach</span>
+              </div>
+            </div>
+
+            <div class="photo-controls">
+              <button type="button" class="control-btn retake-btn" (click)="takePhoto()">
+                <ion-icon name="camera-reverse-outline"></ion-icon>
+                Kuhanan Ulit
+              </button>
+              <button type="button" class="control-btn delete-btn" (click)="removePhoto()">
+                <ion-icon name="trash-outline"></ion-icon>
+                Tanggalin
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- FORM INPUTS -->
+        <div class="report-form-group">
+          <label class="form-label">Palengke / Pamilihan</label>
+          <div class="input-box">
+            <ion-icon name="storefront-outline"></ion-icon>
+            <input
+              type="text"
+              [(ngModel)]="reportMarketName"
+              placeholder="Pangalan ng palengke (hal. Gapan, Bambang)"
+              class="field-input" />
+          </div>
+        </div>
+
+        <div class="report-form-group">
+          <label class="form-label">
+            Aktwal na Presyo sa Palengke (₱ bawat {{ reportingCommodity?.unit }})
+          </label>
+          <div class="input-box">
+            <span class="currency-tag">₱</span>
+            <input
+              type="number"
+              [(ngModel)]="reportObservedPrice"
+              placeholder="0.00"
+              min="1"
+              class="field-input" />
+          </div>
+        </div>
+
+        <!-- Overpricing Calculation Indicator -->
+        <div class="overprice-calc-indicator" *ngIf="getReportOverpriceStatus() as status">
+          <div class="calc-tag warning-tag" *ngIf="status.isOverpriced">
+            <ion-icon name="alert-circle"></ion-icon>
+            <div>
+              <strong>Overpricing Alerto!</strong>
+              <span>Lampas ng <strong>{{ status.percent }}%</strong> (+₱{{ status.diff | number:'1.2-2' }}) sa DA SRP.</span>
+            </div>
+          </div>
+          <div class="calc-tag fair-tag" *ngIf="!status.isOverpriced && reportObservedPrice && reportObservedPrice > 0">
+            <ion-icon name="checkmark-circle"></ion-icon>
+            <div>
+              <strong>Patas na Presyo:</strong>
+              <span>Pasok sa itinakdang SRP ng gobyerno.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="report-form-group">
+          <label class="form-label">Stall No. o Pangalan ng Tindahan (Opsyonal)</label>
+          <div class="input-box">
+            <ion-icon name="pricetag-outline"></ion-icon>
+            <input
+              type="text"
+              [(ngModel)]="reportStallInfo"
+              placeholder="hal. Stall #12 Meat Section"
+              class="field-input" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="report-modal-footer">
+        <button type="button" class="footer-btn cancel-btn" (click)="closeReportModal()">
+          Kanselahin
+        </button>
+        <button type="button" class="footer-btn submit-btn" (click)="submitPriceReport()">
+          <ion-icon name="paper-plane-outline"></ion-icon>
+          I-sumite ang Report
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ============================================================
+    MARKET SELECTOR MODAL (Aking Palengke)
+  ============================================================ -->
+  <ion-modal [isOpen]="showMarketPickerModal" (didDismiss)="closeMarketSelector()" class="market-picker-modal">
+    <ng-template>
+      <ion-header>
+        <ion-toolbar color="primary">
+          <ion-title>🏬 Aking Palengke</ion-title>
+          <ion-buttons slot="end">
+            <ion-button (click)="closeMarketSelector()">
+              <ion-icon slot="icon-only" name="close-outline"></ion-icon>
+            </ion-button>
+          </ion-buttons>
+        </ion-toolbar>
+        <ion-toolbar color="primary">
+          <ion-searchbar
+            [(ngModel)]="marketPickerSearch"
+            placeholder="Maghanap ng palengke o bayan..."
+            (ionInput)="onMarketPickerSearch($event)"
+            [debounce]="150">
+          </ion-searchbar>
+        </ion-toolbar>
+      </ion-header>
+
+      <ion-content class="market-picker-content">
+        <div class="market-picker-helper">
+          <ion-icon name="information-circle-outline"></ion-icon>
+          <span>Piliin ang palengke na madalas mong puntahan upang makita agad ang presyo at layo mula rito.</span>
+        </div>
+
+        <ion-list lines="inset">
+          <ion-item button *ngFor="let m of marketPickerResults" (click)="selectHomeMarket(m)" detail="false" class="market-picker-item">
+            <ion-icon slot="start" name="storefront-outline" color="primary"></ion-icon>
+            <ion-label>
+              <h2>{{ m.name }}</h2>
+              <p>{{ m.address || 'Public Wet & Dry Market' }}</p>
+            </ion-label>
+            <ion-badge *ngIf="activeDisplayMarket?.id === m.id" color="success" slot="end">
+              Active
+            </ion-badge>
+          </ion-item>
+        </ion-list>
+      </ion-content>
+    </ng-template>
+  </ion-modal>
+
+</ion-content>
+

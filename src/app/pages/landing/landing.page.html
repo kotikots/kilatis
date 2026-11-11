@@ -1,0 +1,224 @@
+<ion-header class="ion-no-border landing-header">
+  <ion-toolbar color="primary">
+    <ion-title>
+      <div class="brand-bar">
+        <ion-icon name="storefront-outline" class="brand-icon"></ion-icon>
+        <span class="brand-name">KILATIS</span>
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="landing-content">
+  <!-- HERO SECTION: Full-width container -->
+  <section class="hero-section">
+    <div class="hero-inner">
+      <div class="hero-badge">
+        <span class="badge-flag">🇵🇭</span>
+        <span>Bantay Presyo &bull; Consumer Guide</span>
+      </div>
+
+      <div class="hero-logo-wrapper">
+        <div class="hero-logo-circle">
+          <ion-icon name="cart-outline" class="hero-icon"></ion-icon>
+        </div>
+      </div>
+
+      <h1 class="hero-title">KILATIS</h1>
+      <p class="hero-tagline">
+        Matalinong pamimili para sa pamilyang Pilipino. Subaybayan ang presyo ng bigas, karne, gulay, at isda sa mga palengke sa Nueva Ecija.
+      </p>
+
+      @if (todayDate) {
+        <div class="hero-date">
+          <ion-icon name="calendar-outline"></ion-icon>
+          <span>Daily Guide &bull; {{ todayDate }}</span>
+        </div>
+      }
+
+      <!-- PRIMARY ACTION BUTTONS -->
+      <div class="hero-actions">
+        <ion-button (click)="enterSystem('/tabs/dashboard')" expand="block" color="secondary" class="main-cta-btn">
+          <ion-icon slot="start" name="pricetag-outline"></ion-icon>
+          <strong>Enter Price Watch</strong>
+          <ion-icon slot="end" name="arrow-forward-outline"></ion-icon>
+        </ion-button>
+
+        <ion-button (click)="enterSystem('/tabs/map')" expand="block" fill="outline" color="light" class="secondary-cta-btn">
+          <ion-icon slot="start" name="map-outline"></ion-icon>
+          <span>Find Wet Markets</span>
+        </ion-button>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT CONTAINER: Centered below hero -->
+  <div class="landing-container">
+    
+    <!-- LIVE STATS STRIP -->
+    <section class="stats-strip">
+      <div class="stat-card" (click)="enterSystem('/tabs/dashboard')">
+        <div class="stat-number">{{ commoditiesCount }}+</div>
+        <div class="stat-label">Commodities Tracked</div>
+      </div>
+      <div class="stat-card" (click)="enterSystem('/tabs/map')">
+        <div class="stat-number">{{ marketsCount }}</div>
+        <div class="stat-label">Public Markets Mapped</div>
+      </div>
+      <div class="stat-card" (click)="enterSystem('/tabs/watchlist')">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">Consumer Focused</div>
+      </div>
+    </section>
+
+    <!-- FEATURED PREVIEW / TODAY'S SNAPSHOT -->
+    @if (featuredCommodities.length > 0) {
+      <section class="section preview-section">
+        <div class="section-header">
+          <div class="section-pill">LIVE PREVIEW</div>
+          <h2>Today's Market Staples</h2>
+          <p>Preview prevailing market prices against official SRP guidelines</p>
+        </div>
+
+        <div class="preview-cards">
+          @for (item of featuredCommodities; track item.id) {
+            <div class="preview-card" (click)="enterSystem('/tabs/dashboard')">
+              <div class="preview-card-header">
+                <div class="commodity-meta">
+                  <span class="preview-name">{{ item.name }}</span>
+                  <span class="preview-category">{{ item.category }} &bull; per {{ item.unit }}</span>
+                </div>
+                <ion-badge [color]="dataService.isOverSRP(item) ? 'danger' : 'success'" class="preview-badge">
+                  {{ dataService.isOverSRP(item) ? 'Above SRP' : 'Fair Price' }}
+                </ion-badge>
+              </div>
+              <div class="preview-prices">
+                <div class="price-col">
+                  <span class="price-label">Lowest Market</span>
+                  <span class="price-value best-price">₱{{ dataService.getLowestPrice(item).toFixed(2) }}</span>
+                </div>
+                <div class="price-col">
+                  <span class="price-label">Suggested (SRP)</span>
+                  <span class="price-value srp-price">₱{{ item.suggestedRetailPrice.toFixed(2) }}</span>
+                </div>
+              </div>
+            </div>
+          }
+        </div>
+
+        <div class="section-footer-link">
+          <ion-button fill="clear" color="primary" (click)="enterSystem('/tabs/dashboard')">
+            <span>See all {{ commoditiesCount }} commodities in the system</span>
+            <ion-icon slot="end" name="chevron-forward-outline"></ion-icon>
+          </ion-button>
+        </div>
+      </section>
+    }
+
+    <!-- CORE FEATURES GRID -->
+    <section class="section features-section">
+      <div class="section-header">
+        <div class="section-pill">SYSTEM CAPABILITIES</div>
+        <h2>What You Can Do</h2>
+        <p>Designed for market shoppers, household budgeters, and consumer advocates</p>
+      </div>
+
+      <div class="feature-grid">
+        <div class="feature-card" (click)="enterSystem('/tabs/dashboard')">
+          <div class="feature-icon-box green">
+            <ion-icon name="pricetags-outline"></ion-icon>
+          </div>
+          <h3>Daily Price Monitoring</h3>
+          <p>Instant access to updated prices across multiple wet markets with clear DTI SRP indicators.</p>
+        </div>
+
+        <div class="feature-card" (click)="enterSystem('/tabs/map')">
+          <div class="feature-icon-box amber">
+            <ion-icon name="location-outline"></ion-icon>
+          </div>
+          <h3>Interactive Market Map</h3>
+          <p>Find public markets near you, view operating hours, and plan your shopping routes with GPS directions.</p>
+        </div>
+
+        <div class="feature-card" (click)="enterSystem('/tabs/watchlist')">
+          <div class="feature-icon-box blue">
+            <ion-icon name="notifications-outline"></ion-icon>
+          </div>
+          <h3>Personal Watchlist</h3>
+          <p>Set customized target prices for your staple groceries and get deal alerts when prices drop.</p>
+        </div>
+
+        <div class="feature-card" (click)="enterSystem('/tabs/dashboard')">
+          <div class="feature-icon-box purple">
+            <ion-icon name="shield-checkmark-outline"></ion-icon>
+          </div>
+          <h3>Fair Trade Protection</h3>
+          <p>Protect your household budget against artificial markups and make every peso count at the palengke.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section workflow-section">
+      <div class="section-header">
+        <div class="section-pill">QUICK GUIDE</div>
+        <h2>How to Use KILATIS</h2>
+        <p>Three simple steps before heading to your local wet market</p>
+      </div>
+
+      <div class="workflow-steps">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <h4>Check Prices &amp; Search</h4>
+            <p>Search for specific items like chicken, rice, or veggies, or filter by category.</p>
+          </div>
+        </div>
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <h4>Compare Local Markets</h4>
+            <p>See price differences between Hagonoy, Malolos, and Balagtas public markets.</p>
+          </div>
+        </div>
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <h4>Save to Your Watchlist</h4>
+            <p>Bookmark items with your target price and shop with full consumer confidence.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CALL TO ACTION -->
+    <section class="section cta-banner-section">
+      <div class="cta-banner">
+        <ion-icon name="bag-handle-outline" class="cta-banner-icon"></ion-icon>
+        <h2>Handa ka na bang mamalengke?</h2>
+        <p>Access the full price watch database, interactive maps, and watchlist tools right now.</p>
+        <ion-button (click)="enterSystem('/tabs/dashboard')" expand="block" color="secondary" size="large" class="enter-all-btn">
+          <strong>Pumasok sa KILATIS</strong>
+          <ion-icon slot="end" name="arrow-forward-outline"></ion-icon>
+        </ion-button>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="landing-footer">
+      <p class="footer-brand">🛒 KILATIS &bull; Consumer Price Guide</p>
+      <p class="footer-note">Serving Filipino families with transparent wet market intelligence.</p>
+      <div class="footer-links">
+        <a (click)="enterSystem('/tabs/dashboard')">Prices</a>
+        <span>&bull;</span>
+        <a (click)="enterSystem('/tabs/map')">Markets</a>
+        <span>&bull;</span>
+        <a (click)="enterSystem('/tabs/watchlist')">Watchlist</a>
+        <span>&bull;</span>
+        <a (click)="enterSystem('/tabs/database')">Database</a>
+      </div>
+    </footer>
+
+  </div>
+</ion-content>
+

@@ -1,0 +1,332 @@
+[
+  {
+    "id": 1,
+    "name": "Gapan City Public Market",
+    "address": "Tinio Street, San Vicente, Gapan City, Nueva Ecija",
+    "lat": 15.3110432,
+    "lng": 120.9487059,
+    "operatingHours": "4:00 AM - 7:00 PM",
+    "description": "Major southern trading and bagsakan terminal of Nueva Ecija.",
+    "isOpen": true
+  },
+  {
+    "id": 2,
+    "name": "Cabanatuan City Public Market",
+    "address": "Paco Roman St, Cabanatuan City, Nueva Ecija",
+    "lat": 15.4874281,
+    "lng": 120.9631248,
+    "operatingHours": "4:00 AM - 8:00 PM",
+    "description": "Largest central commercial trading post and bagsakan in Nueva Ecija.",
+    "isOpen": true
+  },
+  {
+    "id": 3,
+    "name": "Sangitan Public Market",
+    "address": "General Tinio Extension, Cabanatuan City, Nueva Ecija",
+    "lat": 15.4887646,
+    "lng": 120.9766173,
+    "operatingHours": "3:00 AM - 8:00 PM",
+    "description": "Famous major bagsakan wholesale market for meat, fish, and vegetables in Cabanatuan.",
+    "isOpen": true
+  },
+  {
+    "id": 4,
+    "name": "San Jose City Public Market",
+    "address": "Maharlika Highway, San Jose City, Nueva Ecija",
+    "lat": 15.7939861,
+    "lng": 120.9905696,
+    "operatingHours": "4:00 AM - 7:00 PM",
+    "description": "Northern gateway commercial center and wholesale trading hub.",
+    "isOpen": true
+  },
+  {
+    "id": 5,
+    "name": "Muñoz City Public Market",
+    "address": "Science City of Muñoz, Nueva Ecija",
+    "lat": 15.7122428,
+    "lng": 120.9040284,
+    "operatingHours": "5:00 AM - 7:00 PM",
+    "description": "Central public market of the Science City of Muñoz.",
+    "isOpen": true
+  },
+  {
+    "id": 6,
+    "name": "Pamilihang Bayan ng Talavera",
+    "address": "Maharlika Highway, Talavera, Nueva Ecija",
+    "lat": 15.5834921,
+    "lng": 120.9218661,
+    "operatingHours": "5:00 AM - 7:00 PM",
+    "description": "Active agricultural hub and wet and dry market of Talavera.",
+    "isOpen": true
+  },
+  {
+    "id": 7,
+    "name": "Guimba Public Market",
+    "address": "Afan Salvador St, Guimba, Nueva Ecija",
+    "lat": 15.6603299,
+    "lng": 120.7649769,
+    "operatingHours": "4:30 AM - 7:00 PM",
+    "description": "Western Nueva Ecija premier commercial trading terminal.",
+    "isOpen": true
+  },
+  {
+    "id": 8,
+    "name": "San Leonardo Public Market",
+    "address": "Maharlika Highway, San Leonardo, Nueva Ecija",
+    "lat": 15.3640049,
+    "lng": 120.9412228,
+    "operatingHours": "5:00 AM - 7:00 PM",
+    "description": "Thriving agricultural wet and dry market along Maharlika Highway.",
+    "isOpen": true
+  },
+  {
+    "id": 9,
+    "name": "Santa Rosa Public Market",
+    "address": "Maharlika Highway, Santa Rosa, Nueva Ecija",
+    "lat": 15.4247271,
+    "lng": 120.9388592,
+    "operatingHours": "5:00 AM - 7:00 PM",
+    "description": "Key commercial center connecting Cabanatuan and southern towns.",
+    "isOpen": true
+  },
+  {
+    "id": 10,
+    "name": "Bongabon Public Market",
+    "address": "Poblacion, Bongabon, Nueva Ecija",
+    "lat": 15.6310444,
+    "lng": 121.1441894,
+    "operatingHours": "4:00 AM - 7:00 PM",
+    "description": "World-renowned Onion Capital trading post and municipal market.",
+    "isOpen": true
+  },
+  {
+    "id": 11,
+    "name": "Palayan City Public Market",
+    "address": "Atate, Palayan City, Nueva Ecija",
+    "lat": 15.5452266,
+    "lng": 121.086239,
+    "operatingHours": "5:00 AM - 7:00 PM",
+    "description": "Government capital city commercial public market.",
+    "isOpen": true
+  },
+  {
+    "id": 12,
+    "name": "Zaragoza Public Market",
+    "address": "La Paz - Zaragoza Road, Zaragoza, Nueva Ecija",
+    "lat": 15.4489955,
+    "lng": 120.7961798,
+    "operatingHours": "5:00 AM - 6:30 PM",
+    "description": "Municipal market connecting Tarlac and Nueva Ecija commerce.",
+    "isOpen": true
+  },
+  {
+    "id": 13,
+    "name": "Jaen Public Market",
+    "address": "Poblacion, Jaen, Nueva Ecija",
+    "lat": 15.3380991,
+    "lng": 120.9117871,
+    "operatingHours": "5:00 AM - 7:00 PM",
+    "description": "Rich agricultural market specialized in rice, corn, and fresh produce.",
+    "isOpen": true
+  },
+  {
+    "id": 14,
+    "name": "San Isidro Public Market",
+    "address": "Poblacion, San Isidro, Nueva Ecija",
+    "lat": 15.3079696,
+    "lng": 120.9072369,
+    "operatingHours": "5:00 AM - 6:30 PM",
+    "description": "Historic heritage trading post near Pampanga border.",
+    "isOpen": true
+  },
+  {
+    "id": 15,
+    "name": "San Antonio Public Market",
+    "address": "Poblacion, San Antonio, Nueva Ecija",
+    "lat": 15.3065056,
+    "lng": 120.8573415,
+    "operatingHours": "5:00 AM - 7:00 PM",
+    "description": "Vibrant municipal trading center for vegetables and poultry.",
+    "isOpen": true
+  },
+  {
+    "id": 16,
+    "name": "Cabiao Public Market",
+    "address": "Jose Abad Santos Ave, Cabiao, Nueva Ecija",
+    "lat": 15.2377951,
+    "lng": 120.846445,
+    "operatingHours": "5:00 AM - 7:00 PM",
+    "description": "Southernmost major trading hub on the border of Pampanga.",
+    "isOpen": true
+  },
+  {
+    "id": 17,
+    "name": "Aliaga Public Market",
+    "address": "Poblacion East, Aliaga, Nueva Ecija",
+    "lat": 15.4987399,
+    "lng": 120.840975,
+    "operatingHours": "5:00 AM - 6:30 PM",
+    "description": "Central rice granary market of Aliaga.",
+    "isOpen": true
+  },
+  {
+    "id": 18,
+    "name": "General Tinio Public Market",
+    "address": "Papaya, General Tinio, Nueva Ecija",
+    "lat": 15.3482459,
+    "lng": 121.0458167,
+    "operatingHours": "5:00 AM - 6:30 PM",
+    "description": "Foothill trading center for upland vegetables, root crops, and livestock.",
+    "isOpen": true
+  },
+  {
+    "id": 19,
+    "name": "Peñaranda Public Market",
+    "address": "Poblacion, Peñaranda, Nueva Ecija",
+    "lat": 15.352467,
+    "lng": 120.995123,
+    "operatingHours": "5:00 AM - 6:30 PM",
+    "description": "Municipal wet and dry market serving Penaranda communities.",
+    "isOpen": true
+  },
+  {
+    "id": 20,
+    "name": "Rizal Public Market",
+    "address": "Poblacion, Rizal, Nueva Ecija",
+    "lat": 15.7046809,
+    "lng": 121.1007058,
+    "operatingHours": "5:00 AM - 6:30 PM",
+    "description": "Northeastern agrarian trading post near Pantabangan basin.",
+    "isOpen": true
+  },
+  {
+    "id": 21,
+    "name": "Llanera Public Market",
+    "address": "Victoria, Llanera, Nueva Ecija",
+    "lat": 15.6638976,
+    "lng": 121.0174613,
+    "operatingHours": "5:00 AM - 6:30 PM",
+    "description": "Central municipal trading post for rice and vegetables.",
+    "isOpen": true
+  },
+  {
+    "id": 22,
+    "name": "Cuyapo Public Market",
+    "address": "Poblacion, Cuyapo, Nueva Ecija",
+    "lat": 15.7777926,
+    "lng": 120.6660035,
+    "operatingHours": "4:30 AM - 7:00 PM",
+    "description": "Northwestern crossroad market connecting Pangasinan and Tarlac.",
+    "isOpen": true
+  },
+  {
+    "id": 23,
+    "name": "Nampicuan Public Market",
+    "address": "Poblacion, Nampicuan, Nueva Ecija",
+    "lat": 15.7337751,
+    "lng": 120.6361276,
+    "operatingHours": "5:00 AM - 6:00 PM",
+    "description": "Cozy municipal trading hub for local farm produce.",
+    "isOpen": true
+  },
+  {
+    "id": 24,
+    "name": "Talugtug Public Market",
+    "address": "Poblacion, Talugtug, Nueva Ecija",
+    "lat": 15.7781831,
+    "lng": 120.810068,
+    "operatingHours": "5:00 AM - 6:00 PM",
+    "description": "Hillside municipal trading post in north-central Nueva Ecija.",
+    "isOpen": true
+  },
+  {
+    "id": 25,
+    "name": "Pamilihang Bayan ng Lupao",
+    "address": "Poblacion, Lupao, Nueva Ecija",
+    "lat": 15.8795981,
+    "lng": 120.8995398,
+    "operatingHours": "5:00 AM - 6:30 PM",
+    "description": "Northern gateway market at the boundary of Nueva Vizcaya.",
+    "isOpen": true
+  },
+  {
+    "id": 26,
+    "name": "Carranglan Public Market",
+    "address": "Poblacion, Carranglan, Nueva Ecija",
+    "lat": 15.9601917,
+    "lng": 121.0636003,
+    "operatingHours": "5:00 AM - 6:00 PM",
+    "description": "Mountain passage trading stop along Maharlika Highway.",
+    "isOpen": true
+  },
+  {
+    "id": 27,
+    "name": "Pantabangan Public Market",
+    "address": "East Poblacion, Pantabangan, Nueva Ecija",
+    "lat": 15.824123,
+    "lng": 121.148912,
+    "operatingHours": "5:00 AM - 6:00 PM",
+    "description": "Lakeside freshwater fish and upland produce trading center.",
+    "isOpen": true
+  },
+  {
+    "id": 28,
+    "name": "Gabaldon Public Market",
+    "address": "South Poblacion, Gabaldon, Nueva Ecija",
+    "lat": 15.4513495,
+    "lng": 121.34032,
+    "operatingHours": "5:00 AM - 6:30 PM",
+    "description": "Sierra Madre valley trading hub for fresh vegetables and timber crops.",
+    "isOpen": true
+  },
+  {
+    "id": 29,
+    "name": "Laur Public Market",
+    "address": "Poblacion, Laur, Nueva Ecija",
+    "lat": 15.586123,
+    "lng": 121.189542,
+    "operatingHours": "5:00 AM - 6:00 PM",
+    "description": "Eastern agricultural basin market for onions, garlic, and grains.",
+    "isOpen": true
+  },
+  {
+    "id": 30,
+    "name": "General Mamerto Natividad Public Market",
+    "address": "Poblacion, Gen. Natividad, Nueva Ecija",
+    "lat": 15.602341,
+    "lng": 121.051234,
+    "operatingHours": "5:00 AM - 6:00 PM",
+    "description": "Lush agricultural center for palay and high-value crops.",
+    "isOpen": true
+  },
+  {
+    "id": 31,
+    "name": "Licab Public Market",
+    "address": "Poblacion Sur, Licab, Nueva Ecija",
+    "lat": 15.556213,
+    "lng": 120.761234,
+    "operatingHours": "5:00 AM - 6:00 PM",
+    "description": "Municipal agricultural market known for freshwater fish and organic rice.",
+    "isOpen": true
+  },
+  {
+    "id": 32,
+    "name": "Quezon Public Market",
+    "address": "Poblacion, Quezon, Nueva Ecija",
+    "lat": 15.568432,
+    "lng": 120.812345,
+    "operatingHours": "5:00 AM - 6:30 PM",
+    "description": "Central plains farming town trading center.",
+    "isOpen": true
+  },
+  {
+    "id": 33,
+    "name": "Santo Domingo Public Market",
+    "address": "Poblacion, Santo Domingo, Nueva Ecija",
+    "lat": 15.582314,
+    "lng": 120.871234,
+    "operatingHours": "5:00 AM - 6:30 PM",
+    "description": "Key commercial market between Guimba and Talavera.",
+    "isOpen": true
+  }
+]

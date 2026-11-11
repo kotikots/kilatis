@@ -1,0 +1,187 @@
+/* ============================================================
+   src/app/pages/watchlist/watchlist.page.scss
+   Styles for the Watchlist tab.
+============================================================ */
+
+/* ---- Empty State ---- */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 28px;
+  text-align: center;
+  color: var(--ion-color-medium);
+
+  ion-icon {
+    font-size: 4rem;
+    margin-bottom: 16px;
+    color: var(--ion-color-primary-tint);
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: var(--ion-color-dark);
+  }
+
+  p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+}
+
+/* ---- Summary Bar ---- */
+.summary-bar {
+  --padding-start: 16px;
+  font-size: 0.85rem;
+  color: var(--ion-color-medium);
+  margin-bottom: 4px;
+}
+
+/* ---- Watchlist Card ---- */
+.watchlist-card {
+  margin: 8px 12px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+
+  ion-card-title {
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+}
+
+/* Green left border when a deal is found */
+.watchlist-card.deal-found {
+  border-left: 4px solid var(--ion-color-success);
+}
+
+/* ---- Deal Banner ---- */
+.deal-banner {
+  background: #166534;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  letter-spacing: 0.2px;
+  box-shadow: 0 2px 6px rgba(22, 101, 52, 0.25);
+}
+
+/* ---- Price Comparison Row ---- */
+.price-comparison {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 0 14px;
+  padding: 12px;
+  background: var(--ion-color-light);
+  border-radius: 10px;
+}
+
+.price-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .col-label {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    color: var(--ion-color-medium);
+    margin-bottom: 4px;
+    letter-spacing: 0.5px;
+  }
+
+  .col-value {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  .target {
+    color: var(--ion-color-primary);
+  }
+
+  .good-price {
+    color: #166534;
+  }
+
+  .bad-price {
+    color: var(--ion-color-danger);
+  }
+}
+
+.arrow-icon {
+  font-size: 1.2rem;
+  color: var(--ion-color-medium);
+}
+
+/* ---- Market Price Pills ---- */
+.market-label {
+  font-size: 0.75rem;
+  color: var(--ion-color-medium);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.market-price-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.market-price-pill {
+  background: var(--ion-color-light);
+  color: var(--ion-color-dark);
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid var(--ion-color-light-shade);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+
+  ion-icon {
+    font-size: 0.85rem;
+    color: var(--ion-color-primary);
+  }
+
+  /* Green pill when this market's price is at/below target */
+  &.below-target {
+    background: #ecfdf5;
+    color: #065f46;
+    border-color: #059669;
+    font-weight: 700;
+
+    ion-icon {
+      color: #059669;
+    }
+  }
+}
+
+/* ---- Saved Date ---- */
+.saved-date {
+  font-size: 0.72rem;
+  color: var(--ion-color-medium);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+}
+
+/* ---- Card Footer ---- */
+.card-footer {
+  padding: 0 8px 4px;
+  border-top: 1px solid var(--ion-color-light);
+}
+
