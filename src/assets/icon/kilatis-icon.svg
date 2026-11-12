@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Gold Accent Gradient -->
+    <linearGradient id="iconGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff59d"/>
+      <stop offset="50%" stop-color="#fbc02d"/>
+      <stop offset="100%" stop-color="#f57f17"/>
+    </linearGradient>
+
+    <!-- Shield Inset Gradient -->
+    <linearGradient id="iconShield" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2e7d32"/>
+      <stop offset="100%" stop-color="#145214"/>
+    </linearGradient>
+
+    <filter id="iconShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#1b5e20" flood-opacity="0.22"/>
+    </filter>
+    <filter id="baseShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="18" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Clean White Squircle App Base -->
+  <rect width="512" height="512" rx="115" fill="#ffffff" stroke="#e0e0e0" stroke-width="4" filter="url(#baseShadow)"/>
+
+  <!-- Subtle Radial Sheen Overlay -->
+  <circle cx="256" cy="120" r="190" fill="#e8f5e9" opacity="0.6"/>
+  <circle cx="430" cy="430" r="140" fill="#fffde7" opacity="0.7"/>
+
+  <!-- Central Shield & Emblem Group -->
+  <g transform="translate(68, 48)" filter="url(#iconShadow)">
+    <!-- Outer Consumer Protection Shield -->
+    <path d="M 188 15 
+             Q 288 15 338 55 
+             Q 338 215 188 345 
+             Q 38 215 38 55 
+             Q 88 15 188 15 Z" 
+          fill="url(#iconShield)" 
+          stroke="url(#iconGold)" 
+          stroke-width="10" 
+          stroke-linejoin="round"/>
+
+    <!-- Inner Golden Border Accent -->
+    <path d="M 188 32 
+             Q 270 32 312 66 
+             Q 312 202 188 312 
+             Q 64 202 64 66 
+             Q 106 32 188 32 Z" 
+          fill="none" 
+          stroke="#ffffff" 
+          stroke-width="2.5" 
+          opacity="0.4"/>
+
+    <!-- Timbangan ng Bayan (Fair Scale) Geometry -->
+    <!-- Scale Center Post -->
+    <rect x="182" y="80" width="12" height="150" rx="6" fill="url(#iconGold)"/>
+    <ellipse cx="188" cy="235" rx="44" ry="14" fill="url(#iconGold)"/>
+    <!-- Top Finial Ring -->
+    <circle cx="188" cy="75" r="15" fill="none" stroke="url(#iconGold)" stroke-width="7"/>
+
+    <!-- Balance Crossbeam -->
+    <path d="M 90 108 Q 188 96 286 108" fill="none" stroke="url(#iconGold)" stroke-width="9" stroke-linecap="round"/>
+
+    <!-- Left Pan (Fresh Harvest / Leaf) -->
+    <line x1="102" y1="110" x2="78" y2="168" stroke="#ffffff" stroke-width="3.5" opacity="0.9"/>
+    <line x1="102" y1="110" x2="126" y2="168" stroke="#ffffff" stroke-width="3.5" opacity="0.9"/>
+    <path d="M 66 168 Q 102 192 138 168 Z" fill="url(#iconGold)"/>
+    <!-- Fresh Leaf -->
+    <path d="M 102 142 Q 86 158 102 165 Q 118 158 102 142 Z" fill="#69f0ae"/>
+
+    <!-- Right Pan (Peso / Fair Price) -->
+    <line x1="274" y1="110" x2="250" y2="168" stroke="#ffffff" stroke-width="3.5" opacity="0.9"/>
+    <line x1="274" y1="110" x2="298" y2="168" stroke="#ffffff" stroke-width="3.5" opacity="0.9"/>
+    <path d="M 238 168 Q 274 192 310 168 Z" fill="url(#iconGold)"/>
+    <!-- Peso Coin -->
+    <circle cx="274" cy="154" r="14" fill="#ffe082"/>
+    <text x="274" y="161" font-family="'Arial Black', Arial, sans-serif" font-weight="900" font-size="17" fill="#e65100" text-anchor="middle">₱</text>
+
+    <!-- Kilatis Loupe / Scrutiny Eye Circle -->
+    <circle cx="188" cy="160" r="42" fill="#1b5e20" stroke="url(#iconGold)" stroke-width="7"/>
+    <!-- Verification Checkmark inside Loupe -->
+    <path d="M 168 160 L 182 174 L 210 146" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Wordmark at Bottom in Deep Emerald Green -->
+  <text x="256" y="445" 
+        font-family="'Montserrat', 'Arial Black', 'Trebuchet MS', sans-serif" 
+        font-weight="900" 
+        font-size="46" 
+        fill="#1b5e20" 
+        text-anchor="middle" 
+        letter-spacing="5">
+    KILATIS
+  </text>
+  <text x="256" y="475" 
+        font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" 
+        font-weight="800" 
+        font-size="14" 
+        fill="#2e7d32" 
+        text-anchor="middle" 
+        letter-spacing="3">
+    BANTAY PRESYO SA PALENGKE
+  </text>
+</svg>

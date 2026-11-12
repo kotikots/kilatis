@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="100%">
+  <defs>
+    <!-- Gold Accent Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff59d"/>
+      <stop offset="50%" stop-color="#fbc02d"/>
+      <stop offset="100%" stop-color="#f57f17"/>
+    </linearGradient>
+
+    <!-- Shield Gradient -->
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2e7d32"/>
+      <stop offset="100%" stop-color="#145214"/>
+    </linearGradient>
+
+    <!-- Drop Shadow for Shield -->
+    <filter id="dropShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#1b5e20" flood-opacity="0.25"/>
+    </filter>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- Clean White Background with subtle rounded border -->
+  <rect width="800" height="240" rx="28" fill="#ffffff" stroke="#e0e0e0" stroke-width="1.5" filter="url(#cardShadow)"/>
+
+  <!-- Subtle Decorative Light Background Elements -->
+  <circle cx="740" cy="40" r="130" fill="#e8f5e9" opacity="0.6"/>
+  <circle cx="680" cy="220" r="90" fill="#f1f8e9" opacity="0.7"/>
+  <circle cx="120" cy="120" r="105" fill="#fffde7" opacity="0.8"/>
+
+  <!-- ==================== LOGO EMBLEM / ICON ==================== -->
+  <g transform="translate(45, 25)" filter="url(#dropShadow)">
+    <!-- Outer Shield / Badge -->
+    <path d="M 95 10 
+             Q 145 10 170 30 
+             Q 170 110 95 175 
+             Q 20 110 20 30 
+             Q 45 10 95 10 Z" 
+          fill="url(#shieldGrad)" 
+          stroke="url(#goldGrad)" 
+          stroke-width="5" 
+          stroke-linejoin="round"/>
+
+    <!-- Inner Shield Inset Ring -->
+    <path d="M 95 20 
+             Q 135 20 156 37 
+             Q 156 102 95 158 
+             Q 34 102 34 37 
+             Q 55 20 95 20 Z" 
+          fill="none" 
+          stroke="#ffffff" 
+          stroke-width="1.5" 
+          opacity="0.4"/>
+
+    <!-- Market Balance Scale (Timbangan ng Bayan) -->
+    <!-- Scale Center Post -->
+    <rect x="92" y="48" width="6" height="78" rx="3" fill="url(#goldGrad)"/>
+    <ellipse cx="95" cy="126" rx="22" ry="7" fill="url(#goldGrad)"/>
+    <!-- Top Finial / Ring -->
+    <circle cx="95" cy="46" r="8" fill="none" stroke="url(#goldGrad)" stroke-width="4"/>
+
+    <!-- Scale Crossbeam (Balance) -->
+    <path d="M 46 62 Q 95 56 144 62" fill="none" stroke="url(#goldGrad)" stroke-width="4.5" stroke-linecap="round"/>
+
+    <!-- Left Pan (Produce / Agri) -->
+    <line x1="52" y1="63" x2="40" y2="92" stroke="#ffffff" stroke-width="2" opacity="0.9"/>
+    <line x1="52" y1="63" x2="64" y2="92" stroke="#ffffff" stroke-width="2" opacity="0.9"/>
+    <path d="M 34 92 Q 52 104 70 92 Z" fill="url(#goldGrad)"/>
+    <!-- Leaf in Left Pan -->
+    <path d="M 52 78 Q 44 86 52 90 Q 60 86 52 78 Z" fill="#69f0ae"/>
+
+    <!-- Right Pan (Peso / Price) -->
+    <line x1="138" y1="63" x2="126" y2="92" stroke="#ffffff" stroke-width="2" opacity="0.9"/>
+    <line x1="138" y1="63" x2="150" y2="92" stroke="#ffffff" stroke-width="2" opacity="0.9"/>
+    <path d="M 120 92 Q 138 104 156 92 Z" fill="url(#goldGrad)"/>
+    <!-- Peso Coin in Right Pan -->
+    <circle cx="138" cy="85" r="7" fill="#ffe082"/>
+    <text x="138" y="89" font-family="Arial, sans-serif" font-weight="900" font-size="9" fill="#e65100" text-anchor="middle">₱</text>
+
+    <!-- Kilatis Inspecting Loupe / Checkmark Ring (Scrutiny) -->
+    <circle cx="95" cy="88" r="21" fill="#1b5e20" stroke="url(#goldGrad)" stroke-width="3.5"/>
+    <!-- Verification Checkmark inside Loupe -->
+    <path d="M 85 88 L 92 95 L 106 81" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- ==================== TYPOGRAPHY & BRANDING (DARK ON LIGHT) ==================== -->
+  <g transform="translate(255, 0)">
+    <!-- Top Category Pill / Flag -->
+    <g transform="translate(0, 40)">
+      <rect x="0" y="0" width="225" height="28" rx="14" fill="#e8f5e9" stroke="#c8e6c9" stroke-width="1"/>
+      <text x="14" y="19" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#1b5e20" letter-spacing="1.5">
+        🇵🇭 BANTAY PRESYO
+      </text>
+      <rect x="168" y="5" width="46" height="18" rx="9" fill="#2e7d32"/>
+      <text x="191" y="18" font-family="Arial" font-size="10.5" font-weight="800" fill="#ffffff" letter-spacing="1" text-anchor="middle">SRP</text>
+    </g>
+
+    <!-- Main Wordmark: KILATIS in Deep Emerald Green -->
+    <text x="0" y="128" 
+          font-family="'Montserrat', 'Arial Black', 'Trebuchet MS', sans-serif" 
+          font-weight="900" 
+          font-size="64" 
+          fill="#1b5e20" 
+          letter-spacing="4">
+      KILATIS
+    </text>
+
+    <!-- Gold Accent Underline -->
+    <rect x="2" y="142" width="160" height="5" rx="2.5" fill="url(#goldGrad)"/>
+    <rect x="170" y="142" width="24" height="5" rx="2.5" fill="#2e7d32" opacity="0.4"/>
+
+    <!-- English Subtitle in Forest Green -->
+    <text x="2" y="176" 
+          font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" 
+          font-weight="800" 
+          font-size="16.5" 
+          fill="#2e7d32" 
+          letter-spacing="2">
+      PALENGKE PRICE WATCH &amp; CONSUMER GUIDE
+    </text>
+
+    <!-- Regional Scope & Tagline in Slate Charcoal -->
+    <text x="2" y="202" 
+          font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" 
+          font-weight="500" 
+          font-size="13" 
+          fill="#555555" 
+          letter-spacing="0.8">
+      Matalinong Pamimili &bull; Tapat na Timbang &bull; Nueva Ecija
+    </text>
+  </g>
+</svg>
